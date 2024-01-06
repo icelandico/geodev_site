@@ -1,2 +1,3 @@
-<h1>Welcome to SvelteKit</h1>
-<p>__HELLO__</p>
+<h1 class="text-3xl font-bold underline">
+  Hello my new website!
+</h1>
