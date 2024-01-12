@@ -20,8 +20,11 @@ const config = {
 			precompress: false,
 			strict: true,
 			edge: false,
-			split: false,
-		})
+			split: false
+		}),
+		alias: {
+			$components: 'src/lib/components'
+		}
 	}
 };
 
