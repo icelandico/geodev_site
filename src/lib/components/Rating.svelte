@@ -1,22 +1,21 @@
 <script lang="ts">
-	export let rating: number = 0;
+	export let rating: string;
 	export let style: string = '';
-	export let isHovered: boolean;
+	export let isHovered: boolean = false;
 
 	enum RatingValue {
 		FULL = 'FULL',
 		HALF = 'HALF'
 	}
 
-	const hasHalf = rating % 1 !== 0;
-	const fullRating = Math.floor(rating);
 	const ratingArray = [...new Array(5)].map((value, index) => {
-		if (index + 1 <= rating) return RatingValue.FULL;
-		if ((index + 1) % rating === 0.5) return RatingValue.HALF;
+		const rateParsed = parseFloat(rating);
+		if (index + 1 <= rateParsed) return RatingValue.FULL;
+		if ((index + 1) % rateParsed === 0.5) return RatingValue.HALF;
 	});
 </script>
 
-<div class={`flex gap-3 ${style} items-center justify-end`}>
+<div class={`flex gap-3  items-center ${style}`}>
 	{#each ratingArray as rate}
 		{#if rate === RatingValue.FULL}
 			<span class={`w-6 h-6 rounded-full bg-primaryBlack ${isHovered ? 'bg-primaryBlue' : ''}`} />
