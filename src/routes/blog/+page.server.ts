@@ -1,8 +1,8 @@
-import { books } from '$lib/server/books';
+import { posts } from '$lib/server/blogPosts';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async () => {
 	return {
-		books
+		posts
 	};
 };

@@ -28,7 +28,7 @@ export interface Book {
 }
 
 export const books = Object.entries(
-	import.meta.glob<GlobEntry>('/content/books/**/*.md', { eager: true })
+	import.meta.glob<GlobEntry>('./../content/books/**/*.md', { eager: true })
 )
 	.map(([filepath, globEntry]) => {
 		return {
@@ -37,9 +37,4 @@ export const books = Object.entries(
 			slug: parse(filepath).name
 		};
 	})
-	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-	.map((post, index, allBooks) => ({
-		...post,
-		next: allBooks[index - 1] || 0,
-		previous: allBooks[index + 1] || 0
-	}));
+	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());

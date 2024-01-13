@@ -10,12 +10,14 @@
 <div class="flex justify-center">
 	<div class="w-3/6 pt-8">
 		{#each data.books as book}
-			<BookItem
-				title={book.title}
-				author={book.author}
-				date={formatDate(book.date)}
-				rating={book.rating}
-			/>
+			<a href={`books/${book.slug}`} role="button">
+				<BookItem
+					title={book.title}
+					author={book.author}
+					date={formatDate(book.date)}
+					rating={book.rating}
+				/>
+			</a>
 		{/each}
 	</div>
 </div>
