@@ -4,9 +4,12 @@
 	export let date: string = '';
 	export let author: string = '';
 	export let rating: string = '';
+
+  $: isHovered = false;
+
 </script>
 
-<div class="flex mb-12 cursor-pointer group">
+<div class="flex mb-12 cursor-pointer group" on:mouseenter={() => isHovered = true} on:mouseleave={() => isHovered = false}>
 	<div class="basis-10/12">
 		<h3 class="text-3xl text-primaryBlack font-bold italic group-hover:text-primaryBlue">
 			{title}
@@ -14,5 +17,5 @@
 		<h2 class="text-2xl text-primaryBlack font-bold my-4 group-hover:text-primaryBlue">{author}</h2>
 		<h2 class="text-2xl text-primaryBlack group-hover:text-primaryBlue">{date}</h2>
 	</div>
-	<Rating rating={parseFloat(rating)} style="grow" />
+	<Rating rating={parseFloat(rating)} style="grow" isHovered={isHovered} />
 </div>
