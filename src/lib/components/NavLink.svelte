@@ -8,4 +8,4 @@
   $: active = route === $page.url.pathname;
 </script>
 
-<a class={`text-xl ${active ? 'text-primaryBlue' : ''} ${styles}`} href={route}>{text}</a>
+<a class={`text-xl font-semibold ${active ? 'text-primaryBlue' : ''} ${styles}`} href={route}>{text}</a>
