@@ -1,7 +1,21 @@
 import { parse } from 'path';
 
-type GlobEntry = {
+interface Tag {
+	name: string;
+}
+
+interface GroupedPost {
+	year: number;
+	posts: Post[];
+}
+
+type PostData = {
 	metadata: Post;
+	default: unknown;
+};
+
+type TagData = {
+	metadata: Tag;
 	default: unknown;
 };
 
@@ -14,13 +28,8 @@ export interface Post {
 	tag: string[];
 }
 
-interface GroupedPost {
-	year: number;
-	posts: Post[];
-}
-
 export const posts = Object.entries(
-	import.meta.glob<GlobEntry>('./../content/blog/**/*.md', { eager: true })
+	import.meta.glob<PostData>('./../content/blog/**/*.md', { eager: true })
 )
 	.map(([filepath, globEntry]) => {
 		return {
@@ -42,3 +51,9 @@ export const posts = Object.entries(
 		return groupedPosts;
 	}, [])
 	.sort((a, b) => b.year - a.year);
+
+export const tags = Object.entries(
+	import.meta.glob<TagData>('./../content/tags/**/*.md', { eager: true })
+)
+	.map(([filepath, globEntry]) => globEntry.metadata)
+	.sort((a, b) => a.name - b.name);
