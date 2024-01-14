@@ -18,10 +18,7 @@ export const posts = Object.entries(
 		return {
 			...globEntry.metadata,
 
-			// generate the slug from the file path
 			slug: parse(filepath).name
 		};
 	})
-	// sort by date
 	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-// add references to the next/previous post
