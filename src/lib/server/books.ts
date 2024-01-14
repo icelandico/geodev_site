@@ -5,7 +5,7 @@ type GlobEntry = {
 	default: unknown;
 };
 
-type BookStatsReturnType = {
+interface BookStatsReturnType {
 	year: number;
 	books: number;
 	pages: number;

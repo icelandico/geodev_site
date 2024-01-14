@@ -6,9 +6,17 @@ type GlobEntry = {
 };
 
 export interface Post {
+	templateKey: string;
 	title: string;
-	description: string;
+	slug: string;
 	date: string;
+	category: string;
+	tag: string[];
+}
+
+interface GroupedPost {
+	year: number;
+	posts: Post[];
 }
 
 export const posts = Object.entries(
@@ -17,8 +25,20 @@ export const posts = Object.entries(
 	.map(([filepath, globEntry]) => {
 		return {
 			...globEntry.metadata,
-
 			slug: parse(filepath).name
 		};
 	})
-	.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+	.reduce((groupedPosts: GroupedPost[], post: Post) => {
+		const year = new Date(post.date).getFullYear();
+
+		const existingYearIndex = groupedPosts.findIndex((group) => group.year === year);
+
+		if (existingYearIndex !== -1) {
+			groupedPosts[existingYearIndex].posts.push(post);
+		} else {
+			groupedPosts.push({ year, posts: [post] });
+		}
+
+		return groupedPosts;
+	}, [])
+	.sort((a, b) => b.year - a.year);

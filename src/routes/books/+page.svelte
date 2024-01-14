@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex items-center justify-center mt-12 w-5/6 bg-primaryBlue h-16">
-	<h1 class="text-white">READING</h1>
+	<h1 class="text-white text-3xl">READING</h1>
 </div>
 <div class="flex justify-center">
 	<div class="w-3/6 pt-8">
