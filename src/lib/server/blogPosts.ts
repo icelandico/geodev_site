@@ -4,7 +4,7 @@ interface Tag {
 	name: string;
 }
 
-interface GroupedPost {
+export interface GroupedPost {
 	year: number;
 	posts: Post[];
 }
@@ -45,11 +45,18 @@ export const posts = Object.entries(
 		if (existingYearIndex !== -1) {
 			groupedPosts[existingYearIndex].posts.push(post);
 		} else {
-			groupedPosts.push({ year, posts: [post] });
+			groupedPosts.push({
+				year,
+				posts: [post]
+			});
 		}
 
 		return groupedPosts;
 	}, [])
+	.map((yearGroup) => ({
+		...yearGroup,
+		posts: yearGroup.posts.sort((a, b) => (new Date(b.date) > new Date(a.date) ? 1 : -1))
+	}))
 	.sort((a, b) => b.year - a.year);
 
 export const tags = Object.entries(
