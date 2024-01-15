@@ -9,6 +9,7 @@
 </script>
 
 <div
+	role="button"
 	class="flex mb-12 cursor-pointer group"
 	on:mouseenter={() => (isHovered = true)}
 	on:mouseleave={() => (isHovered = false)}

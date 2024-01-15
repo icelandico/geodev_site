@@ -36,10 +36,16 @@ html {
 
 .dynamic-content p {
 	font-size: 18px;
+	line-height: 30px;
 	margin: 1rem 0;
 }
 
 .dynamic-content a {
 	color: theme('colors.primaryBlue');
 	text-decoration: underline;
+}
+
+.dynamic-content ul {
+	list-style-type: disc;
+	padding-left: 32px;
 }
