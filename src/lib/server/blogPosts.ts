@@ -56,4 +56,4 @@ export const tags = Object.entries(
 	import.meta.glob<TagData>('./../content/tags/**/*.md', { eager: true })
 )
 	.map(([filepath, globEntry]) => globEntry.metadata)
-	.sort((a, b) => a.name - b.name);
+	.sort();
