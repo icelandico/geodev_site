@@ -1,12 +1,20 @@
 <script>
-	export let data;
+	import { formatDate } from '$utils/formatDate';
 
-	console.log('POST', data);
+	export let data;
 </script>
 
-<h1>{data.meta.title}</h1>
 <div class="w-2/5 m-auto">
-	<article>
+	<h1 class="mt-3 mb-2 text-5xl">{data.meta.title}</h1>
+	<div class="my-4 flex justify-between items-center">
+		<p>{formatDate(data.meta.date)}</p>
+		<div class="flex gap-3">
+			{#each data.meta.tag as tag}
+				<div class="p-1 border-2 border-secondaryBlue">{tag}</div>
+			{/each}
+		</div>
+	</div>
+	<article class="pt-8 border-t-2 border-b-secondaryBlue">
 		<div class="dynamic-content">
 			<svelte:component this={data.content} />
 		</div>
