@@ -10,6 +10,7 @@
 
 <div
 	role="button"
+	tabindex="0"
 	class="flex mb-12 cursor-pointer group"
 	on:mouseenter={() => (isHovered = true)}
 	on:mouseleave={() => (isHovered = false)}

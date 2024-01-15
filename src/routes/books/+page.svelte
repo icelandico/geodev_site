@@ -1,12 +1,11 @@
 <script lang="ts">
 	import BookItem from '$components/BookItem.svelte';
+	import TitleBar from '$components/TitleBar.svelte';
 	import { formatDate } from '$utils/formatDate';
 	export let data;
 </script>
 
-<div class="flex items-center justify-center mt-12 w-5/6 bg-primaryBlue h-16">
-	<h1 class="text-white text-3xl">READING</h1>
-</div>
+<TitleBar title="Reading" />
 <div class="flex justify-center">
 	<div class="w-3/6 pt-8">
 		<div class="flex items-center gap-8 mb-8">
