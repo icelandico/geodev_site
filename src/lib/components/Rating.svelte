@@ -2,21 +2,30 @@
 	export let rating: string;
 	export let style: string = '';
 	export let isHovered: boolean = false;
+	const RATING_ARRAY = getRating();
 
 	enum RatingValue {
 		FULL = 'FULL',
 		HALF = 'HALF'
 	}
 
-	const ratingArray = [...new Array(5)].map((value, index) => {
+	function getRating() {
 		const rateParsed = parseFloat(rating);
-		if (index + 1 <= rateParsed) return RatingValue.FULL;
-		if ((index + 1) % rateParsed === 0.5) return RatingValue.HALF;
-	});
+		const fullCount = Math.floor(rateParsed);
+		const halfCount = rateParsed % 1 === 0.5 ? 1 : 0;
+		const undefinedCount = Math.max(0, 5 - fullCount - halfCount);
+
+		const resultArray = Array(fullCount)
+			.fill(RatingValue.FULL)
+			.concat(Array(halfCount).fill(RatingValue.HALF))
+			.concat(Array(undefinedCount).fill(undefined));
+
+		return resultArray;
+	}
 </script>
 
 <div class={`flex gap-3  items-center ${style}`}>
-	{#each ratingArray as rate}
+	{#each RATING_ARRAY as rate}
 		{#if rate === RatingValue.FULL}
 			<span class={`w-6 h-6 rounded-full bg-primaryBlack ${isHovered ? 'bg-primaryBlue' : ''}`} />
 		{/if}
