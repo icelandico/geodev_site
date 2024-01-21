@@ -4,6 +4,7 @@
 	import Code from '$components/icons/code.svelte';
 	import ProjectCard from '$components/ProjectCard.svelte';
 	import Globe from '$components/icons/globe.svelte';
+
 	export let data;
 </script>
 
@@ -15,9 +16,10 @@
 			<div class="my-4 flex justify-center">
 				<Globe width={44} />
 			</div>
-
 			{#each data.mapProjects as project}
-				<ProjectCard data={project} />
+				<a href={`/projects/${project.slug}`}>
+					<ProjectCard data={project} />
+				</a>
 			{/each}
 		</div>
 
@@ -26,7 +28,9 @@
 				<Code width={44} height={44} />
 			</div>
 			{#each data.programmingProjects as project}
-				<ProjectCard data={project} />
+				<a href={`/projects/${project.slug}`}>
+					<ProjectCard data={project} />
+				</a>
 			{/each}
 		</div>
 	</div>
