@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex justify-center">
-	<div class={`flex w-3/6 pt-8 ${contentStyle}`}>
+	<div class={`flex w-full md:w-3/6 max-md:px-4 pt-8 ${contentStyle}`}>
 		<slot />
 	</div>
 </div>
