@@ -45,7 +45,7 @@
 			<button
 				on:click={() => handleClickTag(tag.name)}
 				class={`p-1 border-2 border-secondaryBlue rounded cursor-pointer hover:border-primaryBlue ${
-					activeTags.includes(tag.name) ? 'border-primaryBlue bg-secondaryBlue' : ''
+					activeTags.includes(tag.name) ? 'border-primaryBlue bg-secondaryBlue text-white' : ''
 				}`}
 			>
 				{tag.name}
