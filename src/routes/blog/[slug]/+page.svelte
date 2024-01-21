@@ -14,7 +14,7 @@
 			{/each}
 		</div>
 	</div>
-	<article class="pt-8 border-t-2 border-b-secondaryBlue">
+	<article class="pt-8 border-t-2 border-t-secondaryBlue">
 		<div class="dynamic-content">
 			<svelte:component this={data.content} />
 		</div>

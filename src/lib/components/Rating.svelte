@@ -23,7 +23,7 @@
 		{#if rate === RatingValue.HALF}
 			<div
 				class={`w-6 h-6 overflow-hidden relative inset-0 rounded-full bg-secondaryBlack ${
-					isHovered ? 'bg-secondaryBlue' : ''
+					isHovered ? 'bg-tertiaryBlue' : ''
 				}`}
 			>
 				<div class="absolute top-0 left-0 h-full w-1/2"></div>
@@ -36,7 +36,7 @@
 		{/if}
 		{#if !rate}
 			<span
-				class={`w-6 h-6 rounded-full bg-secondaryBlack ${isHovered ? 'bg-secondaryBlue' : ''}`}
+				class={`w-6 h-6 rounded-full bg-secondaryBlack ${isHovered ? 'bg-tertiaryBlue' : ''}`}
 			/>
 		{/if}
 	{/each}
