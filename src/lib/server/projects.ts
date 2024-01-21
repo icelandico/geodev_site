@@ -1,6 +1,6 @@
 import { parse } from 'path';
 
-interface Project {
+export interface Project {
 	title: string;
 	templateKey: string;
 	image: string;
