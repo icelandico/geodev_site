@@ -69,7 +69,7 @@
 						<a class="text-xl font-semibold hover:text-primaryBlue" href={`blog/${post.slug}`}>
 							{post.title}
 						</a>
-						<time class="text-sm text-right basis-3/12 ml-auto italic">{formatDate(post.date)}</time
+						<time class="text-sm text-right basis-3/12 ml-auto italic">{formatDate(post.date, false)}</time
 						>
 					</div>
 				{/each}
