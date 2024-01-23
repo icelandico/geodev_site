@@ -13,7 +13,7 @@
 <Wrapper>
 	<div class="flex flex-col md:flex-row justify-between w-full gap-6">
 		<div class="flex flex-1 flex-col">
-			<div class="my-4 flex justify-center">
+			<div class="my-4 flex justify-center" title="Cartography">
 				<Globe width={44} />
 			</div>
 			{#each data.mapProjects as project}
@@ -23,7 +23,7 @@
 			{/each}
 		</div>
 
-		<div class="flex flex-1 flex-col">
+		<div class="flex flex-1 flex-col" title="Programming">
 			<div class="my-4 flex justify-center">
 				<Code width={44} height={44} />
 			</div>
