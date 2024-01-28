@@ -4,7 +4,6 @@
 	import theme from '$lib/store/theme';
 	import DarkmodeOff from './icons/darkmodeOff.svelte';
 	$: isLightTheme = $theme === 'light';
-	console.log('Theme', $theme);
 
 	const handleToggleTheme = () => {
 		isLightTheme ? theme.set('dark') : theme.set('light');
