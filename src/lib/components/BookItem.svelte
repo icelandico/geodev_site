@@ -16,11 +16,21 @@
 	on:mouseleave={() => (isHovered = false)}
 >
 	<div class="basis-10/12">
-		<h3 class="text-3xl text-primaryBlack font-bold italic group-hover:text-primaryBlue">
+		<h3
+			class="text-3xl text-primaryBlack dark:text-white font-bold italic group-hover:text-primaryBlue group-hover:dark:text-secondaryBlue"
+		>
 			{title}
 		</h3>
-		<h2 class="text-2xl text-primaryBlack font-bold my-4 group-hover:text-primaryBlue">{author}</h2>
-		<h2 class="text-2xl text-primaryBlack group-hover:text-primaryBlue">{date}</h2>
+		<h2
+			class="text-2xl text-primaryBlack dark:text-white font-bold my-4 group-hover:text-primaryBlue group-hover:dark:text-secondaryBlue"
+		>
+			{author}
+		</h2>
+		<h2
+			class="text-2xl text-primaryBlack dark:text-white group-hover:text-primaryBlue group-hover:dark:text-secondaryBlue"
+		>
+			{date}
+		</h2>
 	</div>
 	<Rating {rating} style="grow justify-end" {isHovered} />
 </div>

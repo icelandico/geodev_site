@@ -27,17 +27,21 @@
 <div class={`flex gap-3  items-center ${style}`}>
 	{#each RATING_ARRAY as rate}
 		{#if rate === RatingValue.FULL}
-			<span class={`w-6 h-6 rounded-full bg-primaryBlack ${isHovered ? 'bg-primaryBlue' : ''}`} />
+			<span
+				class={`w-6 h-6 rounded-full bg-primaryBlack dark:bg-secondaryBlue ${
+					isHovered ? 'bg-primaryBlue' : ''
+				}`}
+			/>
 		{/if}
 		{#if rate === RatingValue.HALF}
 			<div
-				class={`w-6 h-6 overflow-hidden relative inset-0 rounded-full bg-secondaryBlack ${
+				class={`w-6 h-6 overflow-hidden relative inset-0 rounded-full bg-secondaryBlack dark:bg-secondaryBlack ${
 					isHovered ? 'bg-tertiaryBlue' : ''
 				}`}
 			>
 				<div class="absolute top-0 left-0 h-full w-1/2"></div>
 				<div
-					class={`absolute top-0 left-0 h-full bg-primaryBlack w-1/2 ${
+					class={`absolute top-0 left-0 h-full bg-primaryBlack dark:bg-secondaryBlue w-1/2 ${
 						isHovered ? 'bg-primaryBlue' : ''
 					}`}
 				></div>
@@ -45,7 +49,9 @@
 		{/if}
 		{#if !rate}
 			<span
-				class={`w-6 h-6 rounded-full bg-secondaryBlack ${isHovered ? 'bg-tertiaryBlue' : ''}`}
+				class={`w-6 h-6 rounded-full bg-secondaryBlack ${
+					isHovered ? 'bg-tertiaryBlue' : ''
+				}`}
 			/>
 		{/if}
 	{/each}
