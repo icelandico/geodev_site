@@ -68,3 +68,7 @@ html {
 	color: white;
 	background-color: theme('colors.secondaryBlue');
 }
+
+.dark .dynamic-content li {
+	color: white;
+}

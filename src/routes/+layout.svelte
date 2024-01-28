@@ -7,7 +7,7 @@
 	import DarkmodeIcon from '$components/DarkmodeIcon.svelte';
 </script>
 
-<div class="flex flex-col min-h-screen">
+<div class="flex flex-col min-h-screen dark:bg-primaryDark">
 	<header>
 		<nav class="hidden md:block">
 			<div class="flex flex-wrap items-center gap-4 px-6 h-16">
@@ -16,7 +16,6 @@
 				<NavLink text="writing" route="/blog" />
 				<NavLink text="reading" route="/books" />
 				<DarkmodeIcon styles="ml-auto" />
-				<!-- <NavLink text="about" route="/about" styles="ml-auto" /> -->
 			</div>
 		</nav>
 
@@ -31,7 +30,7 @@
 		</nav>
 	</header>
 
-	<main class="mt-12">
+	<main class="mt-4">
 		<slot />
 	</main>
 	<Footer />
