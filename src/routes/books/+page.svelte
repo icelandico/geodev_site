@@ -12,9 +12,9 @@
 			{#each data.booksStats as stat}
 				<div class="flex flex-col items-center gap-2">
 					<div class="w-4 h-4 bg-primaryBlue rounded-full" />
-					<p class="font-bold">{stat.year}</p>
-					<p>Pages: {stat.pages}</p>
-					<p>Books: {stat.books}</p>
+					<p class="font-bold dark:text-white">{stat.year}</p>
+					<p class="dark:text-white">Pages: {stat.pages}</p>
+					<p class="dark:text-white">Books: {stat.books}</p>
 				</div>
 			{/each}
 		</div>

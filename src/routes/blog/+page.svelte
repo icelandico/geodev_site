@@ -44,7 +44,7 @@
 		{#each data.tags as tag}
 			<button
 				on:click={() => handleClickTag(tag.name)}
-				class={`p-1 border-2 border-secondaryBlue rounded cursor-pointer hover:border-primaryBlue ${
+				class={`p-1 border-2 dark:text-white border-secondaryBlue rounded cursor-pointer hover:border-primaryBlue ${
 					activeTags.includes(tag.name) ? 'border-primaryBlue bg-secondaryBlue text-white' : ''
 				}`}
 			>
@@ -55,8 +55,8 @@
 	{#each filteredPosts as yearGroup}
 		<section class="mb-6 w-full">
 			<div class="flex justify-between border-b-2 border-secondaryBlue">
-				<h2 class="text-3xl">{yearGroup.year}</h2>
-				<p class="text-sm">
+				<h2 class="text-3xl dark:text-white">{yearGroup.year}</h2>
+				<p class="text-sm dark:text-white">
 					{yearGroup.posts.length}
 					{`${yearGroup.posts.length === 1 ? 'post' : 'posts'}`}
 				</p>
@@ -64,12 +64,16 @@
 			<div class="flex flex-col mt-4 gap-2">
 				{#each yearGroup.posts as post}
 					<div
-						class="flex gap-4 sjustify-between items-center hover:outline-1 hover:outline-secondaryBlue hover:outline-dashed py-3"
+						class="flex gap-4 dark:text-white justify-between items-center hover:outline-1 hover:outline-secondaryBlue hover:outline-dashed py-3"
 					>
-						<a class="text-xl font-semibold hover:text-primaryBlue" href={`blog/${post.slug}`}>
+						<a
+							class="text-xl font-semibold hover:dark:text-secondaryBlue hover:text-primaryBlue"
+							href={`blog/${post.slug}`}
+						>
 							{post.title}
 						</a>
-						<time class="text-sm text-right basis-3/12 ml-auto italic">{formatDate(post.date, false)}</time
+						<time class="text-sm text-right basis-3/12 ml-auto italic"
+							>{formatDate(post.date, false)}</time
 						>
 					</div>
 				{/each}

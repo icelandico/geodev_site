@@ -1,12 +1,11 @@
 <svg
 	xmlns="http://www.w3.org/2000/svg"
-	width="48"
-	height="48"
+	width="38"
+	height="38"
 	viewBox="0 0 24 24"
-	stroke="#2329D6"
+	stroke="#3E3E3E"
 	stroke-linecap="square"
-	fill="none"
-	color="#2329D6"
+	class="stroke-primaryBlack fill-none"
 >
 	<circle cx="12" cy="12" r="4" />
 	<path

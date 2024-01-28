@@ -14,6 +14,6 @@
 	stroke-width="1"
 	stroke-linecap="round"
 	stroke-linejoin="round"
-	class="feather feather-code"
+	class="stroke-primaryBlack dark:stroke-white"
 	><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg
 >

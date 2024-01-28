@@ -10,22 +10,33 @@
 <TitleBar title={data.meta.title} />
 
 <Wrapper contentStyle="md:w-4/6">
-	<div class="grid grid-cols-2 gap-8 w-full">
-    <article>
-      <div class="dynamic-content">
-        <svelte:component this={data.content} />
-      </div>
-    </article>
-    <div>
-      <img src={data.meta.image} alt="project image" class="grayscale" />
-      <div class="mt-6 flex flex-col gap-4">
-        {#if data.meta.url}
-          <a class="underline hover:decoration-primaryBlue hover:decoration-2" target="_blank" href={data.meta.url}>Project</a>
-        {/if}
-        {#if data.meta.repoUrl}
-          <a class="underline hover:decoration-primaryBlue hover:decoration-2" target="_blank" href={data.meta.repoUrl}>Repository</a>
-        {/if}
-      </div>
-    </div>
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+		<article>
+			<div class="dynamic-content">
+				<svelte:component this={data.content} />
+			</div>
+		</article>
+		<div class="flex flex-col">
+			<a href={data.meta.image} target="_blank" class="block mb-2 h-3/6">
+				<img src={data.meta.image} alt="project" class="grayscale h-full" />
+			</a>
+			<span class="text-sm italic dark:text-white">Click to open in full size</span>
+			<div class="mt-6 flex gap-6">
+				{#if data.meta.url}
+					<a
+						class="dark:text-white inline-block underline hover:decoration-primaryBlue hover:decoration-2"
+						target="_blank"
+						href={data.meta.url}>Project</a
+					>
+				{/if}
+				{#if data.meta.repoUrl}
+					<a
+						class="dark:text-white inline-block underline hover:decoration-primaryBlue hover:decoration-2"
+						target="_blank"
+						href={data.meta.repoUrl}>Repository</a
+					>
+				{/if}
+			</div>
+		</div>
 	</div>
 </Wrapper>
