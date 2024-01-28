@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: icelandico/geodev_site
+  branch: main
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
