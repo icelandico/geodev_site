@@ -38,6 +38,7 @@ html {
 	font-size: 18px;
 	line-height: 30px;
 	margin: 1rem 0;
+	font-weight: 400;
 }
 
 .dynamic-content a {
@@ -45,7 +46,25 @@ html {
 	text-decoration: underline;
 }
 
+.dynamic-content a:hover {
+	color: white;
+	background-color: theme('colors.primaryBlue');
+}
+
 .dynamic-content ul {
 	list-style-type: disc;
 	padding-left: 32px;
+}
+
+.dark .dynamic-content :is(h1, h2, h3, h4, h5, h6, h7, p) {
+	color: theme('colors.white');
+}
+
+.dark .dynamic-content a {
+	color: theme('colors.secondaryBlue');
+}
+
+.dark .dynamic-content a:hover {
+	color: white;
+	background-color: theme('colors.secondaryBlue');
 }
