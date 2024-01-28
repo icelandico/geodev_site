@@ -12,72 +12,102 @@ media_folder: static/assets
 public_folder: /assets
 show_preview_links: true
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: 'Pages'
+    name: 'pages'
     files:
-      - label: "Home Page"
-        name: "home"
-        file: "content/pages/index.md"
+      - label: 'Home Page'
+        name: 'home'
+        file: 'src/lib/content/pages/index.md'
         fields:
           - { label: Header, name: homeHeader, widget: string }
-          - { label: Works, name: worksHeader, widget: string }
+          - { label: projects, name: worksHeader, widget: string }
           - { label: Blog, name: blogHeader, widget: string }
           - { label: Email, name: emailAddress, widget: string }
-  - label: "Works"
-    name: "works"
+  - label: 'Projects'
+    name: 'projects'
     create: true
-    folder: "content/works"
-    slug: "{{title}}"
+    folder: 'src/lib/content/projects'
+    slug: '{{title}}'
     fields:
-      - { label: Template Key, name: "templateKey", widget: "hidden", default: "work-item" }
+      - { label: Template Key, name: 'templateKey', widget: 'hidden', default: 'work-item' }
       - { label: Title, name: title, widget: string }
       - { label: Photo, name: image, widget: image, required: false }
       - { label: Description, name: description, widget: text }
       - { label: URL, name: url, widget: string, required: false }
       - { label: Repo URL, name: repoUrl, widget: string, required: false }
-      - { label: Work Type, name: type, widget: select, options: ["map", "code"], default: ["map"] }
-      - { label: Body, name: "body", widget: "markdown" }
-  - label: "Blog"
-    name: "blog"
-    folder: "content/blog"
+      - { label: Work Type, name: type, widget: select, options: ['map', 'code'], default: ['map'] }
+      - { label: Body, name: 'body', widget: 'markdown' }
+  - label: 'Blog'
+    name: 'blog'
+    folder: 'src/lib/content/blog'
     create: true
-    slug: "{{fields.slug}}"
+    slug: '{{fields.slug}}'
     fields:
-      - { label: Template Key, name: "templateKey", widget: "hidden", default: "blog-post"}
-      - { label: Title, name: "title", widget: "string" }
-      - { label: Slug, name: "slug", widget: "string" }
-      - { label: Publish Date, name: "date", widget: "datetime" }
-      - { label: Description, name: "description", widget: "text", required: false }
-      - { label: Featured Image, name: "featuredimage", widget: image, required: false }
-      - { label: Body, name: "body", widget: "markdown", options: { linkAttrs: { target: _blank, rel: noreferrer noopener } } }
-      - { label: Category, name: "category", widget: "relation", collection: "categories", valueField: "title", searchFields: ["title", "icon"] }
-      - { label: Tags, name: "tag", widget: "relation", multiple: true, collection: "tags", valueField: "name", searchFields: ["name"] }
-  - label: "Books"
-    name: "books"
-    folder: "content/books"
+      - { label: Template Key, name: 'templateKey', widget: 'hidden', default: 'blog-post' }
+      - { label: Title, name: 'title', widget: 'string' }
+      - { label: Slug, name: 'slug', widget: 'string' }
+      - { label: Publish Date, name: 'date', widget: 'datetime' }
+      - { label: Description, name: 'description', widget: 'text', required: false }
+      - { label: Featured Image, name: 'featuredimage', widget: image, required: false }
+      - {
+          label: Body,
+          name: 'body',
+          widget: 'markdown',
+          options: { linkAttrs: { target: _blank, rel: noreferrer noopener } }
+        }
+      - {
+          label: Category,
+          name: 'category',
+          widget: 'relation',
+          collection: 'categories',
+          valueField: 'title',
+          searchFields: ['title', 'icon']
+        }
+      - {
+          label: Tags,
+          name: 'tag',
+          widget: 'relation',
+          multiple: true,
+          collection: 'tags',
+          valueField: 'name',
+          searchFields: ['name']
+        }
+  - label: 'Books'
+    name: 'books'
+    folder: 'src/lib/content/books'
     create: true
-    slug: "{{fields.slug}}"
+    slug: '{{fields.slug}}'
     fields:
-      - { label: Template Key, name: "templateKey", widget: "hidden", default: "book-item" }
-      - { label: Title, name: "title", widget: "string" }
-      - { label: Author, name: "author", widget: "string" }
-      - { label: Slug, name: "slug", widget: "string" }
-      - { label: Read, name: "date", widget: "datetime" }
-      - { label: Review, name: "body", widget: "markdown", options: { linkAttrs: { target: _blank, rel: noreferrer noopener } } }
-      - { label: Link, name: "link", widget: "string" }
-      - { label: Rating, name: "rating", widget: "select", select, options: ["1", "1.5", "2", "2.5", "3", "3.5", "4", "4.5", "5"] }
-      - { label: Pages, name: "pages", widget: "number" }
-  - label: "Categories"
-    name: "categories"
+      - { label: Template Key, name: 'templateKey', widget: 'hidden', default: 'book-item' }
+      - { label: Title, name: 'title', widget: 'string' }
+      - { label: Author, name: 'author', widget: 'string' }
+      - { label: Slug, name: 'slug', widget: 'string' }
+      - { label: Read, name: 'date', widget: 'datetime' }
+      - {
+          label: Review,
+          name: 'body',
+          widget: 'markdown',
+          options: { linkAttrs: { target: _blank, rel: noreferrer noopener } }
+        }
+      - { label: Link, name: 'link', widget: 'string' }
+      - {
+          label: Rating,
+          name: 'rating',
+          widget: 'select',
+          select,
+          options: ['1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5']
+        }
+      - { label: Pages, name: 'pages', widget: 'number' }
+  - label: 'Categories'
+    name: 'categories'
     create: true
-    folder: "content/categories"
+    folder: 'src/lib/content/categories'
     fields:
-      - { label: Title, name: "title", widget: string }
-      - { label: Icon, name: "icon", widget: image }
-  - label: "Tags"
-    name: "tags"
+      - { label: Title, name: 'title', widget: string }
+      - { label: Icon, name: 'icon', widget: image }
+  - label: 'Tags'
+    name: 'tags'
     create: true
-    folder: "content/tags"
+    folder: 'src/lib/content/tags'
     fields:
-      - { label: Name, name: "name", widget: string }
-
+      - { label: Name, name: 'name', widget: string }
