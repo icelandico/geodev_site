@@ -4,6 +4,7 @@
 	import type { GroupedPost, Post } from '$lib/server/blogPosts';
 	import TitleBar from '$components/TitleBar.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
+	import PostItem from '$components/PostItem.svelte';
 	export let data;
 	let activeTags: string[] = [];
 	$: filteredPosts = filterByTags(data.posts, activeTags);
@@ -63,19 +64,7 @@
 			</div>
 			<div class="flex flex-col mt-4 gap-2">
 				{#each yearGroup.posts as post}
-					<div
-						class="flex gap-4 dark:text-white justify-between items-center hover:outline-1 hover:outline-secondaryBlue hover:outline-dashed py-3"
-					>
-						<a
-							class="text-xl font-semibold hover:dark:text-secondaryBlue hover:text-primaryBlue"
-							href={`blog/${post.slug}`}
-						>
-							{post.title}
-						</a>
-						<time class="text-sm text-right basis-3/12 ml-auto italic"
-							>{formatDate(post.date, false)}</time
-						>
-					</div>
+					<PostItem {post} />
 				{/each}
 			</div>
 		</section>
