@@ -5,7 +5,7 @@
 	import Mastodon from './icons/mastodon.svelte';
 </script>
 
-<footer class="flex flex-col px-4 py-8 mt-auto">
+<footer class="flex flex-col px-4 pt-8 pb-24 md:pb-8 mt-auto">
 	<div class="flex justify-center items-center gap-8">
 		<a href="https://github.com/icelandico" target="_blank">
 			<Github />

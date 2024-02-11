@@ -9,12 +9,10 @@
 </script>
 
 <a
-	class={`relative text-sm font-semibold ${
-		active
-			? 'text-primaryBlue after:absolute after:border-b-4 after:border-b-primaryBlue after:right-0 after:left-0 after:-bottom-2'
-			: ''
-	} ${styles}`}
+	class={`flex text-lg px-2 font-semibold z-10 h-full items-center justify-center
+	${active ? 'text-white bg-primaryBlue w-full top-0 bottom-0 left-0 rounded' : ''}
+	${styles}`}
 	href={route}
 >
-	{text}
+	<span>{text}</span>
 </a>

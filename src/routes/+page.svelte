@@ -15,7 +15,7 @@
 	<div class="mt-4">
 		<p class="text-primaryBlue dark:text-white">programming & cartography</p>
 	</div>
-	<div class="mt-16">
+	<div class="mt-16 md:w-3/6 max-md:px-4">
 		<h2 class="text-primaryBlack dark:text-white text-4xl">Recent posts</h2>
 		<div class="mt-8">
 			{#each data.posts as post}
