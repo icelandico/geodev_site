@@ -1,6 +1,6 @@
 <script>
 	import PostItem from '$components/PostItem.svelte';
-import Globe from '$components/icons/globe.svelte';
+	import Globe from '$components/icons/globe.svelte';
 	export let data;
 </script>
 
@@ -8,7 +8,7 @@ import Globe from '$components/icons/globe.svelte';
 	<div class="flex items-center">
 		<h1 class="text-primaryBlue dark:text-white text-5xl">GEO</h1>
 		<div class="mx-4">
-			<Globe width={120} stroke={'#2563EB'} />
+			<Globe width={120} style="stroke-primaryBlue dark:stroke-white" />
 		</div>
 		<h1 class="text-primaryBlue dark:text-white text-5xl">DEV</h1>
 	</div>
@@ -17,10 +17,10 @@ import Globe from '$components/icons/globe.svelte';
 	</div>
 	<div class="mt-16">
 		<h2 class="text-primaryBlack dark:text-white text-4xl">Recent posts</h2>
-    <div class="mt-8">
-      {#each data.posts as post}
-        <PostItem post={post} withYear />
-      {/each}
-    </div>
+		<div class="mt-8">
+			{#each data.posts as post}
+				<PostItem {post} withYear />
+			{/each}
+		</div>
 	</div>
 </div>

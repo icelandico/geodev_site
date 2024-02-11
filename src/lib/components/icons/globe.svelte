@@ -1,7 +1,7 @@
 <script>
 	export let width = 24;
-	export let stroke = '#000';
 	export let strokeWidth = 1;
+	export let style = '';
 </script>
 
 <svg
@@ -10,11 +10,10 @@
 	{width}
 	height={width}
 	fill="none"
-	{stroke}
 	stroke-width={strokeWidth}
 	stroke-linecap="round"
 	stroke-linejoin="round"
-	class="stroke-primaryBlue dark:stroke-white"
+	class={`dark:stroke-white ${style}`}
 	><circle cx="12" cy="12" r="10" /><path
 		d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
 	/></svg

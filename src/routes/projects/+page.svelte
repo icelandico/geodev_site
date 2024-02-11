@@ -14,7 +14,7 @@
 	<div class="flex flex-col md:flex-row justify-between w-full gap-6">
 		<div class="flex flex-1 flex-col">
 			<div class="my-4 flex justify-center" title="Cartography">
-				<Globe width={44} />
+				<Globe width={44} style={'stroke-primaryBlack dark:stroke-white'} />
 			</div>
 			{#each data.mapProjects as project}
 				<a href={`/projects/${project.slug}`}>
