@@ -25,7 +25,6 @@
 				<NavLinklMobile text="projects" route="/projects" />
 				<NavLinklMobile text="writing" route="/blog" />
 				<NavLinklMobile text="reading" route="/books" />
-				<NavLinklMobile text="about" route="/about" />
 			</div>
 		</nav>
 	</header>
