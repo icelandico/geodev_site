@@ -45,8 +45,10 @@
 		{#each data.tags as tag}
 			<button
 				on:click={() => handleClickTag(tag.name)}
-				class={`p-1 border-2 dark:text-white border-secondaryBlue rounded cursor-pointer hover:border-primaryBlue ${
-					activeTags.includes(tag.name) ? 'border-primaryBlue bg-secondaryBlue text-white' : ''
+				class={`p-1 border-2 dark:text-white border-secondaryBlack rounded cursor-pointer hover:border-primaryBlue dark:hover:border-primaryOrange ${
+					activeTags.includes(tag.name)
+						? 'border-primaryBlue bg-secondaryBlack dark:bg-white dark:border-none text-primaryDark dark:text-primaryDark'
+						: ''
 				}`}
 			>
 				{tag.name}
@@ -55,7 +57,7 @@
 	</div>
 	{#each filteredPosts as yearGroup}
 		<section class="mb-6 w-full">
-			<div class="flex justify-between border-b-2 border-secondaryBlue">
+			<div class="flex justify-between border-b-2 border-primaryBlue dark:border-primaryOrange">
 				<h2 class="text-3xl dark:text-white">{yearGroup.year}</h2>
 				<p class="text-sm dark:text-white">
 					{yearGroup.posts.length}

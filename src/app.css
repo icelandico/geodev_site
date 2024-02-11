@@ -8,6 +8,11 @@ html {
 	color: theme('colors.primaryBlack');
 }
 
+.dark ::selection {
+	color: theme('colors.white');
+	background: theme('colors.primaryOrange');
+}
+
 .dynamic-content :is(h1, h2, h3, h4, h5, h6, h7, p) {
 	color: theme('colors.primaryBlack');
 }
@@ -61,12 +66,12 @@ html {
 }
 
 .dark .dynamic-content a {
-	color: theme('colors.secondaryBlue');
+	color: theme('colors.primaryOrange');
 }
 
 .dark .dynamic-content a:hover {
 	color: white;
-	background-color: theme('colors.secondaryBlue');
+	background-color: theme('colors.primaryOrange');
 }
 
 .dark .dynamic-content li {

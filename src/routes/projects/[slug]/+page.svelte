@@ -1,10 +1,8 @@
 <script>
 	import TitleBar from '$components/TitleBar.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
-	import { formatDate } from '$utils/formatDate';
 
 	export let data;
-	console.log('DATA', data);
 </script>
 
 <TitleBar title={data.meta.title} />
@@ -16,7 +14,7 @@
 				<svelte:component this={data.content} />
 			</div>
 		</article>
-		<div class="flex flex-col">
+		<div class="flex flex-col mb-auto">
 			<a href={data.meta.image} target="_blank" class="block mb-2 h-3/6">
 				<img src={data.meta.image} alt="project" class="grayscale h-full" />
 			</a>

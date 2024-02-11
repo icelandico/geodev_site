@@ -6,8 +6,8 @@
 </script>
 
 <a
-	class="flex justify-between items-center group gap-4 dark:text-white hover:outline-1 hover:outline-secondaryBlue hover:outline-dashed py-3 cursor-pointer
-  gap-4 text-xl font-semibold hover:dark:text-secondaryBlue hover:text-primaryBlue"
+	class="flex justify-between items-center group gap-4 dark:text-white hover:outline-1 hover:outline-primaryBlue hover:dark:outline-primaryOrange hover:outline-dashed py-3 cursor-pointer
+  gap-4 text-xl font-semibold hover:dark:text-primaryOrange hover:text-primaryBlue"
 	href={`blog/${post.slug}`}
 >
 	{post.title}
