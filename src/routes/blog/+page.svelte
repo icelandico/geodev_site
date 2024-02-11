@@ -45,10 +45,10 @@
 		{#each data.tags as tag}
 			<button
 				on:click={() => handleClickTag(tag.name)}
-				class={`p-1 border-2 dark:text-white border-secondaryBlack rounded cursor-pointer hover:border-primaryBlue dark:hover:border-primaryOrange ${
+				class={`p-1 border-2 border-secondaryBlack rounded cursor-pointer hover:border-primaryBlue dark:hover:border-primaryOrange ${
 					activeTags.includes(tag.name)
-						? 'border-primaryBlue dark:border-white bg-secondaryBlack dark:bg-white text-primaryBlack dark:text-black'
-						: ''
+						? 'text-primaryBlack dark:text-black border-primaryBlue dark:border-white bg-secondaryBlack dark:bg-white'
+						: 'dark:text-white'
 				}`}
 			>
 				{tag.name}
