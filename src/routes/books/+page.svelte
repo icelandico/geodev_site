@@ -7,7 +7,7 @@
 
 <TitleBar title="Reading" />
 <div class="flex justify-center">
-	<div class="w-3/6 pt-8">
+	<div class="w-3/6 pt-8 w-full md:w-3/6 max-md:px-4 pt-4">
 		<div class="flex items-center gap-8 mb-8">
 			{#each data.booksStats as stat}
 				<div class="flex flex-col items-center gap-2">

@@ -7,7 +7,7 @@
 	export let data: PageData;
 </script>
 
-<div class="w-2/5 m-auto">
+<div class="w-full md:w-3/6 max-md:px-4 pt-4">
 	<article>
 		<div class="mb-12">
 			<h1 class="mt-3 mb-2 text-3xl dark:text-white">{data.meta.title}</h1>
