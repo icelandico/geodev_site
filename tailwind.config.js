@@ -9,7 +9,6 @@ export default {
 				primaryBlack: '#3E3E3E',
 				secondaryBlack: '#D8D8D8',
 				primaryDark: '#192734',
-				secondaryWhite: '#ecf0f1',
 				primaryOrange: '#e67e22'
 			}
 		}
