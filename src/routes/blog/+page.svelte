@@ -47,7 +47,7 @@
 				on:click={() => handleClickTag(tag.name)}
 				class={`p-1 border-2 dark:text-white border-secondaryBlack rounded cursor-pointer hover:border-primaryBlue dark:hover:border-primaryOrange ${
 					activeTags.includes(tag.name)
-						? 'border-primaryBlue bg-secondaryBlack dark:bg-white dark:border-none text-primaryBlack dark:text-primaryDark'
+						? 'border-primaryBlue dark:border-white bg-secondaryBlack dark:bg-white text-primaryBlack dark:text-primaryDark'
 						: ''
 				}`}
 			>
