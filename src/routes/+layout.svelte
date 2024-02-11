@@ -19,8 +19,10 @@
 			</div>
 		</nav>
 
-		<nav class="md:hidden fixed inset-x-0 bottom-0 z-20 mx-auto mb-4 flex justify-center h-14 px-2">
-			<div class="flex items-center justify-center px-4 py-1 border-2 bg-secondaryBlack">
+		<nav class="md:hidden fixed inset-x-0 bottom-0 z-20 mx-auto mb-4 flex justify-center h-14">
+			<div
+				class="flex items-center justify-center px-4 py-1 border-2 bg-secondaryBlack w-full mx-4"
+			>
 				<NavLinklMobile text="home" route="/" />
 				<NavLinklMobile text="projects" route="/projects" />
 				<NavLinklMobile text="writing" route="/blog" />
