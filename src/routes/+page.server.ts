@@ -1,9 +1,8 @@
-import { groupedPosts, tags } from '$lib/server/blogPosts';
+import { posts } from '$lib/server/blogPosts';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async () => {
 	return {
-		posts: groupedPosts,
-		tags
+		posts: posts.slice(0, 6)
 	};
 };

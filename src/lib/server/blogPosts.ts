@@ -28,6 +28,7 @@ export interface Post {
 	tag: string[];
 }
 
+
 export const posts = Object.entries(
 	import.meta.glob<PostData>('./../content/blog/**/*.md', { eager: true })
 )
@@ -37,6 +38,8 @@ export const posts = Object.entries(
 			slug: parse(filepath).name
 		};
 	})
+
+export const groupedPosts = posts
 	.reduce((groupedPosts: GroupedPost[], post: Post) => {
 		const year = new Date(post.date).getFullYear();
 
