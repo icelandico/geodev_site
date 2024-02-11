@@ -14,6 +14,6 @@
 	{#if isLightTheme}
 		<DarkmodeOff />
 	{:else}
-		<DarkmodeOn style="dark:fill-primaryBlack" />
+		<DarkmodeOn style="dark:fill-primaryBlack md:dark:fill-white" />
 	{/if}
 </button>

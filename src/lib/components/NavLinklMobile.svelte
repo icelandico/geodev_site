@@ -9,7 +9,7 @@
 </script>
 
 <a
-	class={`flex text-md px-2 font-semibold z-10 h-full items-center justify-center
+	class={`flex basis-1 text-md px-2 font-semibold z-10 h-3/4 items-center justify-center
 	${
 		active
 			? 'text-white bg-primaryBlue dark:bg-primaryOrange dark:text-primaryDark w-full top-0 bottom-0 left-0 rounded'
