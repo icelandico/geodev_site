@@ -1,5 +1,6 @@
 <script>
-	import Globe from '$components/icons/globe.svelte';
+	import PostItem from '$components/PostItem.svelte';
+import Globe from '$components/icons/globe.svelte';
 	export let data;
 </script>
 
@@ -14,7 +15,12 @@
 	<div class="mt-4">
 		<p class="text-primaryBlue dark:text-white">programming & cartography</p>
 	</div>
-	<div class="mt-12">
+	<div class="mt-16">
 		<h2 class="text-primaryBlack dark:text-white text-4xl">Recent posts</h2>
+    <div class="mt-8">
+      {#each data.posts as post}
+        <PostItem post={post} withYear />
+      {/each}
+    </div>
 	</div>
 </div>
