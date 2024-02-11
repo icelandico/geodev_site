@@ -10,7 +10,11 @@
 
 <a
 	class={`flex text-lg px-2 font-semibold z-10 h-full items-center justify-center
-	${active ? 'text-white bg-primaryBlue w-full top-0 bottom-0 left-0 rounded' : ''}
+	${
+		active
+			? 'text-white bg-primaryBlue dark:bg-primaryOrange dark:text-primaryDark w-full top-0 bottom-0 left-0 rounded'
+			: ''
+	}
 	${styles}`}
 	href={route}
 >

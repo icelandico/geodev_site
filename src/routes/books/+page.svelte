@@ -11,7 +11,7 @@
 		<div class="flex items-center gap-8 mb-8">
 			{#each data.booksStats as stat}
 				<div class="flex flex-col items-center gap-2">
-					<div class="w-4 h-4 bg-primaryBlue rounded-full" />
+					<div class="w-4 h-4 bg-primaryBlue dark:bg-primaryOrange rounded-full" />
 					<p class="font-bold dark:text-white">{stat.year}</p>
 					<p class="dark:text-white">Pages: {stat.pages}</p>
 					<p class="dark:text-white">Books: {stat.books}</p>

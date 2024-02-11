@@ -25,6 +25,7 @@
 				<NavLinklMobile text="projects" route="/projects" />
 				<NavLinklMobile text="writing" route="/blog" />
 				<NavLinklMobile text="reading" route="/books" />
+				<DarkmodeIcon styles="ml-4" />
 			</div>
 		</nav>
 	</header>
