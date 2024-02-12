@@ -10,7 +10,12 @@
 	};
 </script>
 
-<button class={`${styles}`} on:click={handleToggleTheme}>
+<button
+	class={`${styles}`}
+	on:click={handleToggleTheme}
+	name="theme change"
+	aria-label="theme change"
+>
 	{#if isLightTheme}
 		<DarkmodeOff />
 	{:else}

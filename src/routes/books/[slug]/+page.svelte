@@ -14,7 +14,7 @@
 			<h2 class="mt-3 mb-2 text-2xl dark:text-white">by: {data.meta.author}</h2>
 			<div class="flex gap-6">
 				<h3 class="my-1 text-1xl dark:text-white">{formatDate(data.meta.date)}</h3>
-				<a href={data.meta.link} class="flex">
+				<a href={data.meta.link} class="flex" aria-label="Goodreads">
 					<Goodreads />
 				</a>
 			</div>
