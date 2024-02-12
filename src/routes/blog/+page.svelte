@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { beforeUpdate, afterUpdate } from 'svelte';
-	import { formatDate } from '$utils/formatDate.js';
+	import { afterUpdate } from 'svelte';
 	import type { GroupedPost, Post } from '$lib/server/blogPosts';
 	import TitleBar from '$components/TitleBar.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
