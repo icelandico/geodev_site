@@ -5,6 +5,7 @@ export async function load({ params }) {
 		const book = await import(`../../../lib/content/books/${params.slug}.md`);
 
 		return {
+			title: book.metadata.title,
 			content: book.default,
 			meta: book.metadata
 		};

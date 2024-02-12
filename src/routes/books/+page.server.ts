@@ -3,6 +3,7 @@ import type { PageServerLoad } from '../books/$types';
 
 export const load: PageServerLoad = async () => {
 	return {
+		title: `Reading | Books I've read with rating`,
 		books,
 		booksStats
 	};

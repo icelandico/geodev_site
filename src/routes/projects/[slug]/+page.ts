@@ -5,6 +5,8 @@ export async function load({ params }) {
 		const project = await import(`../../../lib/content/projects/${params.slug}.md`);
 
 		return {
+			title: project.metadata.title,
+			description: project.metadata.description,
 			content: project.default,
 			meta: project.metadata
 		};

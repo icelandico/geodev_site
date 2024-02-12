@@ -1,11 +1,27 @@
-<script>
+<script lang="ts">
 	import '../app.css';
 	import '@fontsource-variable/aleo';
 	import NavLink from '$components/NavLink.svelte';
 	import NavLinklMobile from '$components/NavLinklMobile.svelte';
 	import Footer from '$components/Footer.svelte';
 	import DarkmodeIcon from '$components/DarkmodeIcon.svelte';
+	import { page } from '$app/stores';
+
+	const DEFAULT_DESCRIPTION = 'Programming and Cartography';
 </script>
+
+<svelte:head>
+	<title>{$page.data.title}</title>
+	<meta name="description" content={$page.data.description || DEFAULT_DESCRIPTION} />
+	<meta name="og:title" content={$page.data.title} />
+	<meta name="og:description" content={$page.data.description || DEFAULT_DESCRIPTION} />
+	<meta name="og:type" content="website" />
+	<meta name="og:url" content={$page.url.href} />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content={$page.data.title} />
+	<meta name="twitter:image" content="https://geodev.me/assets/main_icon.png" />
+	<meta name="twitter:description" content={$page.data.description || DEFAULT_DESCRIPTION} />
+</svelte:head>
 
 <div class="flex flex-col min-h-screen dark:bg-primaryDark">
 	<header>
