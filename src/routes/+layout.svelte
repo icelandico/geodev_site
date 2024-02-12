@@ -11,9 +11,9 @@
 </script>
 
 <svelte:head>
-	<title>{$page.data.title}</title>
+	<title>{$page.data.title || DEFAULT_DESCRIPTION}</title>
 	<meta name="description" content={$page.data.description || DEFAULT_DESCRIPTION} />
-	<meta name="og:title" content={$page.data.title} />
+	<meta name="og:title" content={$page.data.title || DEFAULT_DESCRIPTION} />
 	<meta name="og:description" content={$page.data.description || DEFAULT_DESCRIPTION} />
 	<meta name="og:type" content="website" />
 	<meta name="og:url" content={$page.url.href} />
@@ -31,7 +31,7 @@
 				<NavLink text="projects" route="/projects" />
 				<NavLink text="writing" route="/blog" />
 				<NavLink text="reading" route="/books" />
-				<DarkmodeIcon styles="ml-auto" />
+				<DarkmodeIcon styles="ml-auto fixed right-6" />
 			</div>
 		</nav>
 
