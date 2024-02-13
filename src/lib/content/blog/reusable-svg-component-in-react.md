@@ -112,7 +112,6 @@ Before I add any SVG into the project I optimize its code. For now, I can achiev
 
 Wrapping the SVG icon into a separate component is helpful when it comes to unifying the appearance of these elements across your application. Using this component along with the SVGR package or other SVG optimization tool will make your icons easily scalable and editable. This may also increase the performance and speed of your website.
 
-<a href='https://ko-fi.com/W7W266FIL' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 
 

@@ -11,7 +11,6 @@ tag:
   - angular
   - css
 ---
-
 Angular provides a modular design that encourages the developer to create separate components with its own logic and styles. This approach has many advantages, but it can cause some problems to solve. In this post, I'd like to show how to solve a problem with styling inheritance in Angular.
 
 ## The problem
@@ -22,7 +21,7 @@ Let's create few components and apply styles to them.
 
 ```html
 <div class="parent__container">
-	<app-child></app-child>
+  <app-child></app-child>
 </div>
 ```
 
@@ -30,12 +29,12 @@ Let's create few components and apply styles to them.
 
 ```css
 .parent__container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: peru;
-	width: 300px;
-	height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: peru;
+  width: 300px;
+  height: 300px;
 }
 ```
 
@@ -49,9 +48,9 @@ Let's create few components and apply styles to them.
 
 ```css
 .child__container {
-	background-color: green;
-	width: 150px;
-	height: 150px;
+  background-color: green;
+  width: 150px;
+  height: 150px;
 }
 ```
 
@@ -65,16 +64,16 @@ Now, imagine the situation where we want to style the child component basing on 
 
 ```css
 .parent__container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: peru;
-	width: 300px;
-	height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: peru;
+  width: 300px;
+  height: 300px;
 }
 
 .parent__container.alert .child__container {
-	background-color: darkred;
+  background-color: darkred;
 }
 ```
 
@@ -83,8 +82,7 @@ The inner `div` should change the `background-color` property to `darkred` now. 
 ![code snippet](/assets/angular_encapsulation_2.png)
 
 ## The solution
-
-This is when the `encapsulation` of the property comes in. By default, all Angular components styles are encapsulated. This means that they apply **only** to the component itself. If we try to style the css classes that are outside the component, they won't be applied.
+This is when the `encapsulation` of the property comes in. By default, all Angular components styles are encapsulated. This means that they apply **only** to the component itself. If we try to style the css classes that are outside the component, they won't be applied. 
 
 The simplest solution for this problem is to set the `encapsulation` property to `ViewEncapsulation.None` in the component.
 
@@ -114,27 +112,26 @@ However, this solution has a serious downside. The styles from the `parent` comp
 
 ## Using `::ng-deep`
 
-Luckily, there's a better solution to this problem. Angular provides the `::ng-deep` pseudo-class. Using it will disable the encapsulation for **that particular** rule. If we use any selector with this pseudo-class, it will become a global style. But, compared to the previous solution, only the selector and its descendants will be applied in the global scope.
+Luckily, there's a better solution to this problem. Angular provides the `::ng-deep` pseudo-class. Using it will disable the encapsulation for **that particular** rule. If we use any selector with this pseudo-class, it will become a global style. But, compared to the previous solution, only the selector and its descendants will be applied in the global scope. 
 Here's how to use it in our example:
 
 ### `parent.component.css`
-
 ```css
 ::ng-deep .parent__container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: peru;
-	width: 300px;
-	height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: peru;
+  width: 300px;
+  height: 300px;
 }
 
 .parent__container.alert .child__container {
-	background-color: darkred;
+  background-color: darkred;
 }
 ```
 
-That's it. The `::ng-deep` selector will target every element inside the `parent__container` element. Using it along with the BEM css class naming convention in your project should be enough to prevent the styles "leaking" from the outside of the component.
+That's it. The `::ng-deep` selector will target every element inside the `parent__container` element. Using it along with the BEM css class naming convention in your project should be enough to prevent the styles "leaking" from the outside of the component. 
 
 The last solution in our case is to put the styles to `styles.css` file in the `src` directory of the Angular project.
 

@@ -220,8 +220,7 @@ And the result will be:
 This is a very simple modal implementation using React. However, it can be easily enhanced by adding configuration options, handling asynchronous actions inside the modal (useful when creating a form inside the modal), or creating the animations to make it look more dynamic. That's the big advantage of creating your own components or even libraries. You can adjust the code and features to your requirements.
 
 
-
-<a href='https://ko-fi.com/W7W266FIL' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 
 
 

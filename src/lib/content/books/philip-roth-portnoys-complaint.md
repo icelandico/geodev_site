@@ -5,10 +5,9 @@ author: Philip Roth
 slug: philip roth portnoys complaint
 date: 2023-06-04T16:38:10.646Z
 link: https://www.goodreads.com/book/show/43945.Portnoy_s_Complaint?ac=1&from_search=true&qid=56sjrhYdx6&rank=1
-rating: '4.5'
+rating: "3.5"
 pages: 274
 ---
-
 It is not easy for me to write about books as famous, controversial and groundbreaking as this one.
 
 Roth's writing is characterized by its sharp wit, satirical tone, and relentless energy. The narrative is unapologetically explicit and confronts the reader head-on with its frank discussions of sexual taboos and desires. The author fearlessly exposes the contradictions and hypocrisies of society, particularly in relation to sexuality and religion. The novel's audacity lies in its ability to provoke, challenge, and confront readers' own prejudices and preconceived notions.

@@ -222,5 +222,3 @@ This will trigger the callback function passed in props from the parent. It will
 ## Conclusion
 
 In the last two posts, I created the same component using two popular frameworks: Angular and React. Both have a different approaches to the development process. But it's not difficult to get the same result.
-
-<a href='https://ko-fi.com/W7W266FIL' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
