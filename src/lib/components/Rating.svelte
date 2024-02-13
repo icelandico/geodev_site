@@ -49,7 +49,9 @@
 		{/if}
 		{#if !rate}
 			<span
-				class={`w-6 h-6 rounded-full bg-secondaryBlack ${isHovered ? 'bg-primaryOrange' : ''}`}
+				class={`w-6 h-6 rounded-full bg-secondaryBlack dark:bg-white ${
+					isHovered ? 'bg-primaryOrange' : ''
+				}`}
 			/>
 		{/if}
 	{/each}

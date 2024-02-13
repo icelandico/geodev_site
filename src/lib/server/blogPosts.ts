@@ -28,7 +28,6 @@ export interface Post {
 	tag: string[];
 }
 
-
 export const posts = Object.entries(
 	import.meta.glob<PostData>('./../content/blog/**/*.md', { eager: true })
 )
@@ -38,6 +37,7 @@ export const posts = Object.entries(
 			slug: parse(filepath).name
 		};
 	})
+	.sort((a, b) => (new Date(a.date) < new Date(b.date) ? 1 : -1));
 
 export const groupedPosts = posts
 	.reduce((groupedPosts: GroupedPost[], post: Post) => {

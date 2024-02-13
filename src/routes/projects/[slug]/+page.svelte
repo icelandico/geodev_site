@@ -8,15 +8,19 @@
 <TitleBar title={data.meta.title} />
 
 <Wrapper contentStyle="md:w-4/6">
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+	<div class="gap-8 w-full">
 		<article>
 			<div class="dynamic-content">
 				<svelte:component this={data.content} />
 			</div>
 		</article>
 		<div class="flex flex-col mb-auto">
-			<a href={data.meta.image} target="_blank" class="block mb-2 h-3/6">
-				<img src={data.meta.image} alt="project" class="grayscale h-full" />
+			<a href={data.meta.image} target="_blank" class="block mb-4 h-3/6">
+				<img
+					src={data.meta.image}
+					alt="project"
+					class="grayscale mx-auto h-full md:w-4/6 shadow-xl"
+				/>
 			</a>
 			<span class="text-sm italic dark:text-white">Click to open in full size</span>
 			<div class="mt-6 flex gap-6">
