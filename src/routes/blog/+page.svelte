@@ -40,7 +40,7 @@
 
 <TitleBar title="Writing" />
 <Wrapper contentStyle="flex-col items-center">
-	<div class="flex flex-wrap gap-2 w-full mb-8">
+	<div class="flex flex-wrap gap-2 w-full pt-4 mb-8">
 		{#each data.tags as tag}
 			<button
 				on:click={() => handleClickTag(tag.name)}

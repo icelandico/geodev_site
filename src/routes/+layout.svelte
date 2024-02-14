@@ -46,7 +46,7 @@
 		</nav>
 	</header>
 
-	<main class="mt-4">
+	<main class="pt-4">
 		<slot />
 	</main>
 	<Footer />
