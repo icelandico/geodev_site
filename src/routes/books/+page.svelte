@@ -8,14 +8,14 @@
 
 <TitleBar title="Reading" />
 <Wrapper>
-	<div class="flex justify-center">
+	<div class="flex justify-center overflow-hidden">
 		<div class="max-md:px-4 pt-2">
-			<div class="flex items-center gap-8 mb-8">
+			<div class="flex items-center gap-8 mb-8 overflow-y-auto">
 				{#each data.booksStats as stat}
 					<div class="flex flex-col items-center gap-1/2 md:gap-1">
 						<div class="w-4 h-4 bg-primaryBlue dark:bg-primaryOrange rounded-full mb-1" />
 						<p class="font-bold dark:text-white">{stat.year}</p>
-						<p class="dark:text-white">Pages: {stat.pages}</p>
+						<p class="whitespace-nowrap dark:text-white">Pages: {stat.pages}</p>
 						<p class="dark:text-white">Books: {stat.books}</p>
 					</div>
 				{/each}

@@ -16,11 +16,7 @@
 		</article>
 		<div class="flex flex-col mb-auto">
 			<a href={data.meta.image} target="_blank" class="block mb-4 h-3/6">
-				<img
-					src={data.meta.image}
-					alt="project"
-					class="grayscale mx-auto h-full md:w-4/6 shadow-xl"
-				/>
+				<img src={data.meta.image} alt="project" class="grayscale mx-auto md:w-4/6 shadow-xl" />
 			</a>
 			<span class="text-sm italic dark:text-white">Click to open in full size</span>
 			<div class="mt-6 flex gap-6">
