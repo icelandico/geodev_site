@@ -61,7 +61,7 @@ html {
 	padding-left: 32px;
 }
 
-.dark .dynamic-content :is(h1, h2, h3, h4, h5, h6, h7, p) {
+.dark .dynamic-content :is(h1, h2, h3, h4, h5, h6, h7, p, td, th) {
 	color: theme('colors.white');
 }
 
@@ -76,4 +76,16 @@ html {
 
 .dark .dynamic-content li {
 	color: white;
+}
+
+.dynamic-content table {
+	border-collapse: collapse;
+}
+
+.dynamic-content th,
+td {
+	font-size: 1rem;
+	padding: 0.5rem;
+	text-align: left;
+	color: #000;
 }
