@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Snippet: Generate random number"
+title: "Snippet: Generate number with JavaScript random"
 slug: generate random number javascript
 date: 2024-02-17T21:48:41.935Z
 category: JavaScript
