@@ -6,6 +6,7 @@ date: 2024-02-22T12:44:26.928Z
 category: Personal
 tag:
   - various
+  - svelte
 ---
 My previous website, built with Gatsby, served me well for a few years. It was performant, SEO-friendly and had a design I liked. I wanted to build and finish a new project and I decided that creating my website from scratch will be a good idea. My main point was to focus on starting and finishing a project and to learn a new technology.  
 ## Based on SvelteKit
