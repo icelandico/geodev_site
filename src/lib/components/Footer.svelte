@@ -18,7 +18,7 @@
 		</a>
 		<a
 			class="dark:text-white text-primaryBlack"
-			href="https://www.geodev.me/rss"
+			href="https://www.geodev.me/rss.xml"
 			aria-label="RSS feed">RSS</a
 		>
 	</div>
