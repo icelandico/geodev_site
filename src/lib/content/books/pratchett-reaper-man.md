@@ -3,7 +3,7 @@ templateKey: book-item
 title: Reaper Man
 author: Terry Pratchett
 slug: pratchett reaper man
-date: 2024-04-15T19:02:00.000Z
+date: 2024-04-28T21:02:00.000Z
 link: https://www.goodreads.com/book/show/34517.Reaper_Man?ac=1&from_search=true&qid=cBQVujlkF4&rank=1
 rating: "4.5"
 pages: 266
