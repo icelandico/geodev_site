@@ -1,6 +1,8 @@
 <script>
 	import PostItem from '$components/PostItem.svelte';
 	import Globe from '$components/icons/globe.svelte';
+	import BookItem from '$components/BookItem.svelte';
+	import { formatDate } from '$utils/formatDate';
 	export let data;
 </script>
 
@@ -20,6 +22,21 @@
 		<div class="mt-8">
 			{#each data.posts as post}
 				<PostItem {post} withYear />
+			{/each}
+		</div>
+	</div>
+	<div class="mt-14 md:w-5/12">
+		<h2 class="text-primaryBlack dark:text-white text-4xl">Reading</h2>
+		<div class="mt-8">
+			{#each data.books as book}
+				<a href={`books/${book.slug}`} role="button">
+					<BookItem
+						title={book.title}
+						author={book.author}
+						date={formatDate(book.date)}
+						rating={book.rating}
+					/>
+				</a>
 			{/each}
 		</div>
 	</div>

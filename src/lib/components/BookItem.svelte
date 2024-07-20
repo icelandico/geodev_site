@@ -11,23 +11,23 @@
 <div
 	role="button"
 	tabindex="0"
-	class="flex flex-col md:flex-row mb-12 cursor-pointer group"
+	class="flex flex-col md:flex-row mb-8 cursor-pointer group"
 	on:mouseenter={() => (isHovered = true)}
 	on:mouseleave={() => (isHovered = false)}
 >
 	<div class="basis-10/12">
 		<h2
-			class="text-xl md:text-3xl text-primaryBlack dark:text-white font-bold italic group-hover:text-primaryBlue group-hover:dark:text-primaryOrange"
+			class="text-xl md:text-xl text-primaryBlack dark:text-white font-bold italic group-hover:text-primaryBlue group-hover:dark:text-primaryOrange"
 		>
 			{title}
 		</h2>
 		<h3
-			class="text-md md:text-2xl text-primaryBlack dark:text-white font-bold my-2 md:my-4 group-hover:text-primaryBlue group-hover:dark:text-primaryOrange"
+			class="text-md md:text-xl text-primaryBlack dark:text-white my-2 md:my-2 group-hover:text-primaryBlue group-hover:dark:text-primaryOrange"
 		>
 			{author}
 		</h3>
 		<p
-			class="text-md md:text-2xl text-primaryBlack dark:text-white group-hover:text-primaryBlue group-hover:dark:text-primaryOrange"
+			class="text-md md:text-md text-primaryBlack dark:text-white group-hover:text-primaryBlue group-hover:dark:text-primaryOrange"
 		>
 			{date}
 		</p>
