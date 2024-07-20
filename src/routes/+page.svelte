@@ -25,7 +25,7 @@
 			{/each}
 		</div>
 	</div>
-	<div class="mt-14 md:w-5/12">
+	<div class="mt-8 w-full md:w-5/12">
 		<h2 class="text-primaryBlack dark:text-white text-4xl">Reading</h2>
 		<div class="mt-8">
 			{#each data.books as book}
