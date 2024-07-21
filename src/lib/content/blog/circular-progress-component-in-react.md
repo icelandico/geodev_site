@@ -179,7 +179,7 @@ const renderCircle = (
 
 That's the function that takes some props and returns the `circle` svg element. We will use this function twice to generate two elements of the component.
 
-```react
+```typescript
 const radius = (size - 10) / 2 - outerLineStrokeWidth;
 const circumference = radius * 2 * Math.PI;
 const percent = calculatePercent(usedValue, total);
@@ -189,7 +189,7 @@ const offset = circumference * (1 - percent / 100);
 Here are constants inside the component. These just get the values for radius and other data needed to render the `svg` correctly. 
 The example usage of this component and how does it look:
 
-```
+```react
 function App() {
   const usageValues = {
     total: 200,
