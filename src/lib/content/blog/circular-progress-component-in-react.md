@@ -151,7 +151,7 @@ const calculatePercent = (used: number, total: number) =>
 
 These two utility functions could be omitted, since we use it once in this component. But I like to separate concerns and split the code into reusable parts. The `clamp` function takes the minimum, maximum and actual values to prevent the situation where there's a value that's not inside the valid range. For example if you want to show values from 0 to 100 and you accidentally pass a value outside of this range (like -5 or 104, because that's what you get from backend probably) this function will guard this condition. 
 
-```react
+```javascript
 const renderCircle = (
   config: CircularProgressConfig,
   radius: number,
@@ -170,7 +170,7 @@ const renderCircle = (
     cy={config.size / 2}
     transform={
       dashOffset
-        ? `rotate(-90 ${config.size / 2} ${config.size / 2})``
+        ? `rotate(-90 ${config.size / 2} ${config.size / 2})`
         : undefined
     }
   />
@@ -189,7 +189,7 @@ const offset = circumference * (1 - percent / 100);
 Here are constants inside the component. These just get the values for radius and other data needed to render the `svg` correctly. 
 The example usage of this component and how does it look:
 
-```react
+```javascript
 function App() {
   const usageValues = {
     total: 200,
