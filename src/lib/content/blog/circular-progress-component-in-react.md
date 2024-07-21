@@ -21,7 +21,7 @@ In this component I use `svg` instead of `div`. Why? In my opinion for interacti
 
 Here's the whole component:
 
-```react
+```javascript
 import React, { ReactNode } from 'react';
 
 interface CircularProgressConfig {
