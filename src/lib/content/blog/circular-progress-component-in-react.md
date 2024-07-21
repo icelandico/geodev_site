@@ -208,4 +208,4 @@ function App() {
 }
 ```
 
-![Circular Progress](/circular_progress_0.png)
+![Circular progress](/assets/circular_progress_0.png)
