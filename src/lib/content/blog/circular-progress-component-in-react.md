@@ -3,6 +3,7 @@ templateKey: blog-post
 title: Circular Progress component in React
 slug: Circular Progress component in React
 date: 2024-07-21T20:05:00.000Z
+featuredimage: ""
 category: React
 tag:
   - components
@@ -206,3 +207,5 @@ function App() {
   );
 }
 ```
+
+![Circular Progress](/circular_progress_0.png)
