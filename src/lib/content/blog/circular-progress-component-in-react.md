@@ -187,7 +187,7 @@ const offset = circumference * (1 - percent / 100);
 ```
 
 Here are constants inside the component. These just get the values for radius and other data needed to render the `svg` correctly. 
-The example usage of this component and how does it look:
+The final part is how you can use the component.
 
 ```javascript
 function App() {
@@ -207,5 +207,6 @@ function App() {
   );
 }
 ```
+And how does it look like.
 
 ![Circular progress](/assets/circular_progress_0.png)
