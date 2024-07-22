@@ -11,9 +11,9 @@ tag:
 ---
 A common component we see in applications is a component that displays progress, progress. This can be:
 - downloading files,
-- package consumption,
+- package usage,
 - data loading,
-- time remaining on a subscription.
+- remaining subscription period.
 
 In this, of course, you can use one of the many available solutions that you will find in the NPM repository. As always in such cases, I suggest making such a component yourself. In addition to the undoubted educational advantages, we have full access to the component and the freedom to extend and modify it.
 
@@ -187,7 +187,26 @@ const offset = circumference * (1 - percent / 100);
 ```
 
 Here are constants inside the component. These just get the values for radius and other data needed to render the `svg` correctly. 
-The final part is how you can use the component.
+Don't forget about the styles. Note that I used css variables here.
+
+```css
+.circular-progress {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--size);
+  height: var(--size);
+}
+
+.inside-text {
+  position: absolute;
+  width: 75%;
+  font-size: 0.75rem;
+  text-align: center;
+}
+```
+And the final part shows how you can use the component.
 
 ```javascript
 function App() {
