@@ -186,7 +186,7 @@ const percent = calculatePercent(usedValue, total);
 const offset = circumference * (1 - percent / 100);
 ```
 
-Here are constants inside the component. These just get the values for radius and other data needed to render the `svg` correctly. 
+Here are the constants inside the component. They just get the values for radius and other data needed to render the `svg` correctly.
 Don't forget about the styles. Note that I used css variables here.
 
 ```css
