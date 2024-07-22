@@ -226,6 +226,6 @@ function App() {
   );
 }
 ```
-And how does it look like.
+That's our final result in the app.
 
 ![Circular progress](/assets/circular_progress_0.png)
