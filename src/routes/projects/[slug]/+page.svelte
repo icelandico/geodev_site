@@ -22,14 +22,14 @@
 			<div class="mt-6 flex gap-6">
 				{#if data.meta.url}
 					<a
-						class="dark:text-white inline-block underline hover:decoration-primaryBlue hover:decoration-2"
+						class="text-primaryBlue hover:bg-primaryBlue dark:text-primaryOrange dark:hover:text-white hover:text-white inline-block underline hover:decoration-white hover:decoration-2 dark:hover:bg-primaryOrange"
 						target="_blank"
 						href={data.meta.url}>Project</a
 					>
 				{/if}
 				{#if data.meta.repoUrl}
 					<a
-						class="dark:text-white inline-block underline hover:decoration-primaryBlue hover:decoration-2"
+						class="text-primaryBlue hover:bg-primaryBlue dark:text-primaryOrange dark:hover:text-white hover:text-white inline-block underline hover:decoration-white hover:decoration-2 dark:hover:bg-primaryOrange"
 						target="_blank"
 						href={data.meta.repoUrl}>Repository</a
 					>
