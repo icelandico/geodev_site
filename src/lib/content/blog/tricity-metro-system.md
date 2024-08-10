@@ -38,7 +38,7 @@ Tricity consists of 3 cities:
 | Sopot  | 32 276     | 28          |
 | Total  | 761 495    | 1102.51     |
 *Source: Wikipedia, data as of 2023*<br>
-\**According to the new law introduced as of January 1, 2023, the area of administrative units also includes marine areas.* 
+\**According to the new law introduced as of January 1, 2023, the area of administrative units also includes marine areas. * 
 
 The Tricity metropolitan area also include other cities and communities:
 
@@ -56,8 +56,8 @@ Depending on which units we include in the agglomeration, the population of the 
 *Population in the municipalities. For Gdańsk, Gdynia and Sopot, data is presented in the districts.*
 
 The highest densities are in neighborhoods created in the 1960s and 1970s. The majority of structures in these areas consist primarily of tall apartment buildings, ranging from 4 to 12 floors in height.
-![Tricity population density.png](/assets/tricity_density.png)
-*Population density in the municipalities. For Gdańsk, Gdynia and Sopot, data is presented in the districts.*
+(![Tricity population density.png](/assets/tricity_density.png)](/assets/tricity_density.png)
+*Population density in the municipalities. For Gdańsk, Gdynia and Sopot, data is presented in the districts. Click to see full image.*
 
 ## Topography
 
@@ -68,5 +68,5 @@ These two main conditions:
 
 Make it very expensive and difficult to build a subway line in the area.
 
-![Tricity elevation](/assets/tricity_dem.png)
-*Elevation map with marked elevation points of Tricity region*
+[![Tricity elevation](/assets/tricity_dem.png)](/assets/tricity_dem.png)
+*Elevation map with marked elevation points of Tricity region. Click to see full image.*
