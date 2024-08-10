@@ -52,7 +52,7 @@ The Tricity metropolitan area also include other cities and communities:
 
 Depending on which units we include in the agglomeration, the population of the area can be estimated at 1-1.5 million. The most populated neighborhoods are near the center of the cities, and along the main railroad line. The municipalities that surround the Tricity are increasing their population every year. Gdansk, Gdynia and Sopot are cultural and industrial centers for the entire region. For many people in the neighboring municipalities, the Tricity is also a place to work.
 
-![Tricity Population](/assets/tricity_population.png)
+[![Tricity Population](/assets/tricity_population.png)](/assets/tricity_population.png)
 *Population in the municipalities. For Gdańsk, Gdynia and Sopot, data is presented in the districts.*
 
 The highest densities are in neighborhoods created in the 1960s and 1970s. The majority of structures in these areas consist primarily of tall apartment buildings, ranging from 4 to 12 floors in height.
