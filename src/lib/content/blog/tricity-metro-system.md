@@ -37,7 +37,7 @@ Tricity consists of 3 cities:
 | Gdynia | 242 874    | 391.5       |
 | Sopot  | 32 276     | 28          |
 | Total  | 761 495    | 1102.51     |
-*Source: Wikipedia, data as of 2023*</br>
+*Source: Wikipedia, data as of 2023*<br>
 \**According to the new law introduced as of January 1, 2023, the area of administrative units also includes marine areas.* 
 
 The Tricity metropolitan area also include other cities and communities:
