@@ -70,3 +70,5 @@ Make it very expensive and difficult to build a subway line in the area.
 
 [![Tricity elevation](/assets/tricity_dem.png)](/assets/tricity_dem.png)
 *Elevation map with marked elevation points of Tricity region. Click to see full image.*
+
+*All maps are made by me.
