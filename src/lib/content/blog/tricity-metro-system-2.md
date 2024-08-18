@@ -16,8 +16,7 @@ First, the railway network. Most of the traffic between cities and regions to th
 
 As you can see on the attached map, the main axis runs north-south. In addition to the SKM, the PKM (Pomorska Kolej Metropolitalna) extends the reach of Tricity's railway system by connecting Gdańsk and Gdynia with the region’s main airport, Gdańsk Lech Wałęsa Airport. The railway system in the Tricity is further supported by other operators, including long-distance trains run by PolRegio, PKP Intercity, and private carriers, which provide broader connections to cities across Poland and neighboring countries.
 
-
-![[Tricity_Railway.png]]
+[![Tricity Railway](/assets/tricity_railway.png)](/assets/tricity_railway.png)
 
 Currently taking the SKM train is the best option if you want to go from Gdynia to Gdańsk. Travel takes around 35 minutes. During rush hours, they leave every 7-8 minutes. 
 
