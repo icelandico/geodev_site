@@ -8,35 +8,35 @@ tag:
   - geography
   - various
 ---
-That's the second and the last part of my take on creating an imaginary metro system in Tricity. Let's start from showing the current transport system in the Tricity region and how the imaginary metro system would fit into the existing net.
+That's the second and the last part of my take on creating an imaginary metro system in Tricity. Let's start by showing the current transport system in the Tricity region and how the imaginary metro system would fit into the existing net.
 
 ## Railway 
 
-First, the railway network. Most of the traffic between cities and regions to the north (Wejherowo, Reda, Rumia) is handled by the local operator SKM (Szybka Kolej Miejska). It is a crucial transportation network connecting the three major cities of Gdańsk, Sopot, and Gdynia. Established in the 1950s, the SKM provides frequent and reliable service along the coastal corridor, facilitating daily commutes and regional travel for residents and tourists alike. The network is well-integrated with other public transportation options, such as trams and buses, making it an essential part of the Tricity's urban mobility, with key stops near cultural, educational, and commercial hubs. According the data from 2023, nearly 45 million passengers used the services of the SKM that year.
+First, the railway network. Most of the traffic between cities and regions to the north (Wejherowo, Reda, Rumia) is handled by the local operator SKM (Szybka Kolej Miejska). It is a crucial transportation network connecting the three major cities of Gdańsk, Sopot, and Gdynia. Established in the 1950s, the SKM provides frequent and reliable service along the coastal corridor, facilitating daily commutes and regional travel for residents and tourists alike. The network is well-integrated with other public transportation options, such as trams and buses, making it an essential part of the Tricity's urban mobility, with key stops near cultural, educational, and commercial hubs. According to the data from 2023, nearly 45 million passengers used the services of the SKM that year.
 
 As you can see on the attached map, the main axis runs north-south. In addition to the SKM, the PKM (Pomorska Kolej Metropolitalna) extends the reach of Tricity's railway system by connecting Gdańsk and Gdynia with the region’s main airport, Gdańsk Lech Wałęsa Airport. The railway system in the Tricity is further supported by other operators, including long-distance trains run by PolRegio, PKP Intercity, and private carriers, which provide broader connections to cities across Poland and neighboring countries.
 
 
 ![[Tricity_Railway.png]]
 
-Currently taking the SKM train is the best option if you want to go from Gdynia to Gdańsk. Travel takes around 35 minutes. During rush hours they leave every 7-8 minutes. 
+Currently taking the SKM train is the best option if you want to go from Gdynia to Gdańsk. Travel takes around 35 minutes. During rush hours, they leave every 7-8 minutes. 
 
 However, there are some disadvantages that significantly reduce the quality of services:
-- rare frequency outside peak hours (14-17),
+- infrequent services outside peak hours (14:00-17:00),
 - old trains, often without air conditioning,
-- frequent failures that immobilize the operation of the line on certain sections, which then leads to traffic paralysis in Tricity,
-- infrequent services on lines leading to the airport.
+- infrequent failures that immobilize the operation of the line on certain sections, which then leads to traffic paralysis in Tricity,
+- frequent failures that disrupt the operation of the line.
 
 ## Tramways
 
 They operate only in Gdańsk. Today, the tram network is quite extensive, with 14 active lines covering the city's most important areas, including the Old Town, residential districts, and key transport hubs. The network is well-integrated with other forms of public transport, such as buses and trains, making it easy for passengers to switch between different modes of travel. The network has been growing in recent years which is a great thing. Currently, tram lines reach areas quite distant from the city center. 
 Tram transport works great on relatively short distances. If someone wants to travel the length of the entire line - e.g. line 6 going from the seaside district of Jelitkowo to the district of Łostowice - it takes over an hour for a 14 km travel. 
-Tram lines to some districts of Gdańsk will never be built. The reason is the same as in the case of the metro - too large differences in height over a short distance.
+Tram lines to some districts of Gdańsk will never be built. The reason is the same as in the case of the metro, too large differences in height over a short distance.
 
 ![[Tricity_Trams.png]]
 ## Buses
 
-As a supplement, I also provide a map with bus and tram stops against the background of the road network. As you can see, in Gdańsk it plays a complementary role, mainly to transport passengers from hubs and railway stations to more distant areas. In Gdynia bus is the only option because there is no tramway lines. The biggest problem of this transport network is the east-west transport. Districts located on the so-called "Upper terrace" often has only one connection option with the lower parts of the city. Buses stuck in traffic jams are an everyday experience for passengers in Tricity. During many road investments, bus lanes are created, which to some extent are able to ease the traffic flow for urban transport.
+As a supplement, I also provide a map with bus and tram stops against the background of the road network. As you can see, in Gdańsk it plays a complementary role, mainly to transport passengers from hubs and railway stations to more distant areas. In Gdynia bus is the only option because there is no tramway lines. The biggest problem of this transport network is the east-west transport. Districts located on the so-called "Upper Terrace" often have only one connection option with the lower parts of the city. Buses getting stuck in traffic jams are an everyday experience for passengers in Tricity. During many road investments, bus lanes are created, which to some extent are able to ease the traffic flow for urban transport.
 
 ![[Tricity_Transport.png]]
 ## Imaginary metro system
