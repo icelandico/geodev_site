@@ -33,12 +33,12 @@ They operate only in Gdańsk. Today, the tram network is quite extensive, with 1
 Tram transport works great on relatively short distances. If someone wants to travel the length of the entire line - e.g. line 6 going from the seaside district of Jelitkowo to the district of Łostowice - it takes over an hour for a 14 km travel. 
 Tram lines to some districts of Gdańsk will never be built. The reason is the same as in the case of the metro, too large differences in height over a short distance.
 
-![[Tricity_Trams.png]]
+[![Tricity Trams](/assets/tricity_trams.png)](/assets/tricity_trams.png)
 ## Buses
 
 As a supplement, I also provide a map with bus and tram stops against the background of the road network. As you can see, in Gdańsk it plays a complementary role, mainly to transport passengers from hubs and railway stations to more distant areas. In Gdynia bus is the only option because there is no tramway lines. The biggest problem of this transport network is the east-west transport. Districts located on the so-called "Upper Terrace" often have only one connection option with the lower parts of the city. Buses getting stuck in traffic jams are an everyday experience for passengers in Tricity. During many road investments, bus lanes are created, which to some extent are able to ease the traffic flow for urban transport.
 
-![[Tricity_Transport.png]]
+[![Tricity Transport](/assets/tricity_transport.png)](/assets/tricity_transport.png)
 ## Imaginary metro system
 
 I've created my imaginary metro system using <a href="https://metrodreamin.com">metrodreamin.com</a> app. If you like such fun you can try also <a href="https://metromapmaker.com/">metromapmaker.com</a>.
