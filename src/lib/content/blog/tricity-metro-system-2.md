@@ -51,3 +51,5 @@ M4 westerns terminus is Osowa PKP station. It may be a starting point for people
 The last line is M1. This one entirely runs inside the boundaries of Gdynia. It runs from the northern outskirts of the city (Obłuże district) to the Dąbrowa district. It goes through the city centre and for several kilometers it coincides with the existing railway line. This line could be another transportation option for the most populous areas of Gdynia (Chylonia, Pustki Cisowskie, Cisowa) with the rest of Tricity. At the Gdynia Redłowo station it is possible to change to the M3 line. As with the M2 line, this may be a good option for westbound commuters. You can leave your car at the starting station and continue your journey to the center of Tricity by metro.
 
 This is what the Tricity metro network could look like. Unfortunately, it will never be built.
+
+*All maps are made by me.
