@@ -115,7 +115,7 @@ collections:
       - { label: Created, name: 'created', widget: 'datetime' }
       - {
           label: Description,
-          name: 'description',
+          name: 'body',
           widget: 'markdown',
           options: { linkAttrs: { target: _blank, rel: noreferrer noopener } }
         }
