@@ -104,13 +104,14 @@ collections:
           options: ['1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5']
         }
       - { label: Pages, name: 'pages', widget: 'number' }
-  - label: 'Transit Diagrams'
-    name: 'transitDiagrams'
-    folder: 'src/lib/content/transitDiagrams'
+  - label: 'Transit Maps'
+    name: 'transitMaps'
+    folder: 'src/lib/content/transitMaps'
     create: true
-    slug: '{{fields.title}}'
+    slug: '{{fields.slug}}'
     fields:
       - { label: Title, name: 'title', widget: 'string' }
+      - { label: Slug, name: 'slug', widget: 'string' }
       - { label: Created, name: 'created', widget: 'datetime' }
       - {
           label: Description,
