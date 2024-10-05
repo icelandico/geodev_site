@@ -100,22 +100,6 @@ collections:
           options: ['1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5']
         }
       - { label: Pages, name: 'pages', widget: 'number' }
-  - label: 'Transit Diagrams'
-    name: 'transitDiagrams'
-    folder: 'src/lib/content/transitDiagrams'
-    create: true
-    slug: '{{fields.slug}}'
-    fields:
-      - { label: Template Key, name: 'templateKey', widget: 'hidden', default: 'transit-item' }
-      - { label: Title, name: 'title', widget: 'string' }
-      - { label: Created, name: 'created', widget: 'datetime' }
-      - {
-          label: Description,
-          name: 'description',
-          widget: 'markdown',
-          options: { linkAttrs: { target: _blank, rel: noreferrer noopener } }
-        }
-      - { label: Img, name: image, widget: image, required: true }
   - label: 'Categories'
     name: 'categories'
     create: true
