@@ -1,5 +1,5 @@
 ---
-title: Hypotethical tramway system of Grudziadz
+title: Hypotethical tramway system of Kosząlin
 created: 2024-10-05T23:18:00.000Z
 description: >-
   The hypothetical tramway system of Koszalin, a mid-sized city in northern
