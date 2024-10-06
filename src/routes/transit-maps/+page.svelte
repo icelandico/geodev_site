@@ -1,13 +1,19 @@
 <script lang="ts">
+	import SvelteMarkdown from 'svelte-markdown'
 	import TitleBar from '$components/TitleBar.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
 	import { formatDate } from '$utils/formatDate';
 	export let data;
+
+	const source = `<p>${data.introduction.transitDiagrams}</p>`;
 </script>
 
 <TitleBar title="Transit Maps" />
 <Wrapper>
 	<div class="flex flex-col justify-between pt-4 overflow-auto w-full">
+		<div class="dynamic-content">
+			<SvelteMarkdown {source}/>
+		</div>
 		<div>
 			{#each data.maps as map}
 				<a

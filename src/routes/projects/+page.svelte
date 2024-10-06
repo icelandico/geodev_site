@@ -4,7 +4,6 @@
 	import Code from '$components/icons/code.svelte';
 	import ProjectCard from '$components/ProjectCard.svelte';
 	import Globe from '$components/icons/globe.svelte';
-	import { projects } from '$lib/server/projects.js';
 
 	export let data;
 </script>
