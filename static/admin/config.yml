@@ -28,6 +28,7 @@ collections:
           - { label: projects, name: worksHeader, widget: string }
           - { label: Blog, name: blogHeader, widget: string }
           - { label: Email, name: emailAddress, widget: string }
+          - { label: TransitDiagrams, name: transitDiagrams, widget: markdown }
   - label: 'Projects'
     name: 'projects'
     create: true
