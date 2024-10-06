@@ -7,5 +7,5 @@ transitDiagrams: 'Transit diagrams are a thing. There is a large group of people
   of great content on reddit <a
   href="https://www.reddit.com/r/TransitDiagrams/"
   target="_blank">r/TransitDiagrams </a> and <a
-  href="https://transitmap.net/" target="_blank">transitmap.net</a> site. '
+  href="https://transitmap.net/" target="_blank">transitmap.net</a> site.
 ---
