@@ -24,11 +24,7 @@ collections:
         name: 'home'
         file: 'src/lib/content/pages/index.md'
         fields:
-          - { label: Header, name: homeHeader, widget: string }
-          - { label: projects, name: worksHeader, widget: string }
-          - { label: Blog, name: blogHeader, widget: string }
-          - { label: Email, name: emailAddress, widget: string }
-          - { label: TransitDiagrams, name: transitDiagrams, widget: markdown }
+          - { label: TransitDiagrams, name: transitDiagrams, widget: text }
   - label: 'Projects'
     name: 'projects'
     create: true
