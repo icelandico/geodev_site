@@ -6,6 +6,7 @@ export interface Project {
 	image: string;
 	description: string;
 	type: 'map' | 'code';
+	selfUrl?: string;
 }
 
 type GlobEntry = {

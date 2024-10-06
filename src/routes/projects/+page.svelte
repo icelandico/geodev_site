@@ -4,6 +4,7 @@
 	import Code from '$components/icons/code.svelte';
 	import ProjectCard from '$components/ProjectCard.svelte';
 	import Globe from '$components/icons/globe.svelte';
+	import { projects } from '$lib/server/projects.js';
 
 	export let data;
 </script>
@@ -17,7 +18,7 @@
 				<Globe width={44} style={'stroke-primaryBlack dark:stroke-white'} />
 			</div>
 			{#each data.mapProjects as project}
-				<a href={`/projects/${project.slug}`}>
+				<a href={project.selfUrl ? project.selfUrl : `/projects/${project.slug}`}>
 					<ProjectCard data={project} />
 				</a>
 			{/each}
