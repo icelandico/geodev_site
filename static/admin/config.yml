@@ -43,7 +43,7 @@ collections:
       - { label: Repo URL, name: repoUrl, widget: string, required: false }
       - { label: Work Type, name: type, widget: select, options: ['map', 'code'], default: ['map'] }
       - { label: Body, name: 'body', widget: 'markdown' }
-      - { label: Page with own URL, name: selfUrl, widget: boolean, required: false }
+      - { label: Page with own URL, name: selfUrl, widget: string, required: false }
   - label: 'Blog'
     name: 'blog'
     folder: 'src/lib/content/blog'
