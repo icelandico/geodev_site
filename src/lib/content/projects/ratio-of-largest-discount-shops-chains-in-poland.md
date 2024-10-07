@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Ratio of largest discount shops chains in Poland
+date: 2024-08-04T20:04:00.000Z
 image: /assets/markets_pl-01-01.png
 description: Difference in the ratio of the two largest discount shops chains in Poland
 type: map
