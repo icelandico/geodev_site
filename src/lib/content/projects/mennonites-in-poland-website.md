@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Mennonites in Poland website
+date: 2023-12-10T20:14:00.000Z
 image: /assets/mennonites_website.png
 description: An exhibition in the form of a website
 url: https://www.mennoniciwpolsce.pl/
