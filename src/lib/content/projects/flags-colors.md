@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Flags colors
+date: 2024-09-02T20:13:00.000Z
 image: /assets/flags_app.png
 description: Application showing which colours appear on flags and in what percentage
 url: https://icelandico.github.io/flag-colors-front/
