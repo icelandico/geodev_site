@@ -1,6 +1,7 @@
 ---
-title: Map for a historical publication
 templateKey: work-item
+title: Map for a historical publication
+date: 2023-12-24T20:02:00.000Z
 image: /assets/map_insubrica_historica.png
 description: Historical map for Swiss Museum publication
 type: map
