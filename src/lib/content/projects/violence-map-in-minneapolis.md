@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Violence map in Minneapolis
+date: 2023-06-06T20:14:00.000Z
 image: /assets/project-violence-map-screenshot.jpg
 description: Map shows police incidents with heatmap layer generated for each
   year to present spatial distribution of the incidents. Used official
