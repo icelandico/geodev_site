@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Voivodeships centroids
+date: 2024-09-28T19:50:00.000Z
 image: /assets/map_centroids.png
 description: Spatial analysis showing relation between region centroid and capital city
 type: map
