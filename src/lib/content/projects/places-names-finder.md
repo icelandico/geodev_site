@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Places Names Finder
+date: 2024-09-18T20:15:00.000Z
 image: /assets/places_names_finder.png
 description: >
   See how the places in Poland are distributed in terms of nomenclature. Search
