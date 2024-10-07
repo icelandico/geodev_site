@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Points on graticule
+date: 2024-07-27T20:15:00.000Z
 image: /assets/2023-11-16-19_23_24-window.png
 description: Just showing parallels and meridians for a chosen point
 url: https://icelandico.github.io/cities-graticule-front/
