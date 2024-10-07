@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Samo's Empire Map
+date: 2024-05-25T19:50:00.000Z
 image: /assets/map_samos_empire.jpg
 description: Samo's Empire is the historiographical name for the West Slavic
   tribal union established by King Samo aroun AD 650.
