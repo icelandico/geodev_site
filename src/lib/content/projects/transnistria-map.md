@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Transnistria map
+date: 2024-08-26T19:50:00.000Z
 image: /assets/map_transnistria.jpg
 description: Map of Transnistria, unrecognized state in Eastern Europe
 url: ""
