@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Socio-economic development in Poland
+date: 2024-04-10T20:04:00.000Z
 image: /assets/hdi_poland-01.png
 description: Map showing voivodeships of Poland by HDI
 type: map
