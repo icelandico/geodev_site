@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Map posters
+date: 2024-01-22T19:50:00.000Z
 image: /assets/map_poster_2_2.png
 description: Map poster with any region or city.
 type: map
