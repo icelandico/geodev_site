@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Street names in Poland
+date: 2024-06-23T20:01:00.000Z
 image: /assets/streets.png
 description: The most common street names in Poland
 type: map
