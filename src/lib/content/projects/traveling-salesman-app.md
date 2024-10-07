@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Traveling Salesman Problem Solver
+date: 2023-01-05T20:15:00.000Z
 image: /assets/code_traveling_salesman.png
 description: Application solves traveling salesman problem. Shows the shorter
   paths between given points with coordinates
