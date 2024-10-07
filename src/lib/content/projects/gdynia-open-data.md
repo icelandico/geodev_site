@@ -1,6 +1,7 @@
 ---
 templateKey: work-item
 title: Gdynia Open Data
+date: 2023-07-10T20:14:00.000Z
 image: /assets/gdynia_open_data.png
 description: Data viewer for public data of the city of Gdynia
 url: https://icelandico.github.io/gdynia-open-data/
