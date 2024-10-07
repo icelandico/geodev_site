@@ -7,6 +7,7 @@ export interface Project {
 	description: string;
 	type: 'map' | 'code';
 	selfUrl?: string;
+	date?: string;
 }
 
 type GlobEntry = {
@@ -21,4 +22,4 @@ export const projects = Object.entries(
 		...globEntry.metadata,
 		slug: parse(filepath).name
 	};
-});
+}).sort((a, b) => (a.date && b.date) ? new Date(b?.date).getTime() - new Date(a?.date).getTime() : 0);
