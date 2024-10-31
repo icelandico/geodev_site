@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Lazy loading images function
+title: Simple implementation of lazy loading images
 slug: Lazy loading images
 date: 2024-10-31T22:49:00.000Z
 category: JavaScript
