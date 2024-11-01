@@ -22,6 +22,7 @@
 	<meta name="twitter:title" content={$page.data.title} />
 	<meta name="twitter:image" content="https://geodev.me/assets/main_icon.png" />
 	<meta name="twitter:description" content={$page.data.description || DEFAULT_DESCRIPTION} />
+	<script data-goatcounter="https://geodev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </svelte:head>
 
 <div class="flex flex-col min-h-screen dark:bg-primaryDark">
@@ -48,7 +49,7 @@
 	</header>
 
 	<main class="pt-4">
-		<Analytics />
+		<!-- <Analytics /> -->
 		<slot />
 	</main>
 	<Footer />
