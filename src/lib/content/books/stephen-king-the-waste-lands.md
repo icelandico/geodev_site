@@ -4,7 +4,7 @@ title: "The Dark Tower III: The Waste Lands"
 author: Stephen King
 slug: stephen king the waste lands
 date: 2022-11-22T10:54:13.525Z
-link: https://www.goodreads.com/book/show/34084.The_Waste_Lands?ac=1&from_search=true&qid=kIf2bvQldW&rank=1
+link: https://bookwyrm.social/book/24371/s/the-waste-lands
 rating: "4.5"
 pages: 560
 ---

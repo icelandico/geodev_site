@@ -4,7 +4,7 @@ title: A short history of nearly everything
 author: Bill Bryson
 slug: bryson short history of nearly everything
 date: 2024-10-15T12:30:00.000Z
-link: https://www.goodreads.com/book/show/21.A_Short_History_of_Nearly_Everything
+link: https://bookwyrm.social/book/19955/s/a-short-history-of-nearly-everything
 rating: "5"
 pages: 490
 ---

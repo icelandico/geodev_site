@@ -4,7 +4,7 @@ title: The Institute
 author: Stephen King
 slug: stephen king the institute
 date: 2022-04-05T19:05:00.069Z
-link: https://www.goodreads.com/book/show/43798285-the-institute
+link: https://bookwyrm.social/book/169215/s/the-institute
 rating: "4.5"
 pages: 672
 ---

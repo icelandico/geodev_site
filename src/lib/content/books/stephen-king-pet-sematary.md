@@ -4,7 +4,7 @@ title: Pet Sematary
 author: Stephen King
 slug: stephen king pet sematary
 date: 2023-12-18T16:29:10.497Z
-link: https://www.goodreads.com/book/show/22047048
+link: https://bookwyrm.social/book/165172/s/pet-sematary
 rating: "4.5"
 pages: 424
 ---

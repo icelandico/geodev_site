@@ -1,7 +1,6 @@
 <script>
 	export let width = 24;
 	export let height = 26;
-	export let color = '#3E3E3E';
 </script>
 
 <svg fill="none" height="24" width="24" class="stroke-primaryBlack dark:stroke-white">

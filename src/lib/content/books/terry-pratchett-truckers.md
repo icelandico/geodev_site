@@ -4,7 +4,7 @@ title: Truckers, Bromeliad Trilogy 1
 author: Terry Pratchett
 slug: terry pratchett truckers
 date: 2024-02-14T18:24:00.000Z
-link: https://www.goodreads.com/book/show/23346759-truckers?ac=1&from_search=true&qid=pF8UfdG10B&rank=1
+link: https://bookwyrm.social/book/43298/s/truckers
 rating: "3.5"
 pages: 214
 ---
