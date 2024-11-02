@@ -59,6 +59,7 @@ html {
 .dynamic-content ul {
 	list-style-type: disc;
 	padding-left: 32px;
+	word-wrap: break-word;
 }
 
 .dark .dynamic-content :is(h1, h2, h3, h4, h5, h6, h7, p, td, th) {
