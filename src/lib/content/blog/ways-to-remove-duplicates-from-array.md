@@ -71,7 +71,7 @@ The main advantage of this approach over the Set version is it's more explicit a
 
 ```typescript
 const filterByKey = <T, K extends keyof T>(list: T[], key: K) => {
-	  return list.filter((element, idx, arr) => arr.findIndex(item => item[key] === element[key]) === idx);
+  return list.filter((element, idx, arr) => arr.findIndex(item => item[key] === element[key]) === idx);
 };
 ```
 
