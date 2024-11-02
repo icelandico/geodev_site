@@ -8,7 +8,7 @@
 	export let data: PageData;
 </script>
 
-<Wrapper>
+<Wrapper contentStyle="m-auto">
 	<article>
 		<div class="mb-12">
 			<h1 class="mb-2 text-3xl dark:text-white">{data.meta.title}</h1>
