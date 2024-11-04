@@ -6,7 +6,6 @@
 	import Footer from '$components/Footer.svelte';
 	import DarkmodeIcon from '$components/DarkmodeIcon.svelte';
 	import { page } from '$app/stores';
-	import Analytics from '$components/Analytics.svelte';
 
 	const DEFAULT_DESCRIPTION = 'Programming and Cartography';
 </script>
@@ -49,7 +48,6 @@
 	</header>
 
 	<main class="pt-4">
-		<!-- <Analytics /> -->
 		<slot />
 	</main>
 	<Footer />
