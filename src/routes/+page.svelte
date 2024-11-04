@@ -28,7 +28,7 @@
 		<h2 class="text-primaryBlack dark:text-white text-4xl">Reading</h2>
 		<div class="mt-8">
 			{#each data.books as book}
-				<a href={`books/${book.slug}`} role="button">
+				<a href={`books/${book.slug}`} role="button" title="book review">
 					<BookItem
 						title={book.title}
 						author={book.author}
