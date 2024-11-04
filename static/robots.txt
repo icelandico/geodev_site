@@ -1,0 +1,19 @@
+# Global rules
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*.js$
+
+# Prevent crawling of error pages
+Disallow: /404
+Disallow: /500
+Disallow: /error
+
+User-agent: GoogleBot-Image
+Allow: /assets/images/
+Allow: /images/
+Disallow: /
+
+# Add your sitemap location
+Sitemap: https://geodev.me/sitemap.xml
