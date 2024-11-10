@@ -22,7 +22,7 @@ Zonal Statistics tool is very simple to use. Just select the input layer (your p
 
 ![Mean_elev_table](/assets/mean_elev_table.png)
 
-That's basically it. You have a polygon with calculated data. But I want to also show how to style this layer using 2.5D technique. In the layer options choose **Symbology -> 2.5D**. Depending of your raster extent - set the __Height__ value as an expression which should be calculated basing on the column with a mean elevation value. In my scenario the elevation values are quite low (because Lithuania is mostly flat country) so my factor to calculate the height of polygons is low:
+That's basically it. You have a polygon with calculated data. But I want to also show how to style this layer using 2.5D technique. In the layer options choose **Symbology -> 2.5D**. Depending of your raster extent - set the __Height__ value as an expression which should be calculated basing on the column with a mean elevation value. But you don't have to do it. You can type any value you want and we will change it later while styling the layer. In my scenario the elevation values are quite low (because Lithuania is mostly flat country) so my factor to calculate the height of polygons is low:
 
 ![Mean_elev_height_calculation](/assets/mean_elev_height_calculation.png)
 
@@ -31,11 +31,12 @@ More adjustments to the appearance might be done we check the Symbol Settings. D
 
 ![Mean_elev_symbol_settings](/assets/mean_elev_symbol_settings.png)
 
-Double click the Fill under the Geometry Generator option. Click the expression builder icon to show the expression. Here is my value in that box after adding the height factor right after the `qgis_25d_height` part:
+Double click the **Geometry Generator** option. Click the expression builder icon to show the expression. Here is my value in that box after adding the height factor right after the `qgis_25d_height` part:
 ```
 order_parts(   extrude(    segments_to_lines( $geometry ),    cos( radians( eval( @qgis_25d_angle ) ) ) * eval( @qgis_25d_height ) * 0.5,    sin( radians( eval( @qgis_25d_angle ) ) ) * eval( @qgis_25d_height ) * 0.5  ),  'distance(  $geometry,  translate(    @map_extent_center,    1000 * @map_extent_width * cos( radians( @qgis_25d_angle + 180 ) ),    1000 * @map_extent_width * sin( radians( @qgis_25d_angle + 180 ) )  ))',  False)
 ```
 
+To make it consistent you have to change for both **Geometry Generator** layers.
 I've added `0.5` because this value fits for my dataset. In your case, other values might be better. One more thing we can do is to adjust the color of the "walls" of the 2.5D. In my case the simple black looks good. To change it double click "Simple Fill" under the Geometry Generator. In the Fill color section change it to black. 
 
 After completing these steps, your polygons should look similar to what I presented at the beginning of this post. Of course, this is not a perfect effect. QGIS gives you many possibilities for styling and obtaining interesting effects for presenting our work with spatial data. This is my first attempt at presenting data this way. I hope that future maps using this technique will be better.
