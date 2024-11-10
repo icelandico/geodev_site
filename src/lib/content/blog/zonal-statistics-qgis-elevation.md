@@ -22,9 +22,11 @@ Zonal Statistics tool is very simple to use. Just select the input layer (your p
 
 ![Mean_elev_table](/assets/mean_elev_table.png)
 
-That's basically it. You have a polygon with calculated data. But I want to also show how to style this layer using 2.5D technique. In the layer options choose **Symbology -> 2.5D**. Depending of your raster extent - set the __Height__ value as an expression which should be calculated basing on the column with a mean elevation value. But you don't have to do it. You can type any value you want and we will change it later while styling the layer. In my scenario the elevation values are quite low (because Lithuania is mostly flat country) so my factor to calculate the height of polygons is low:
+That's basically it. You have a polygon with calculated data. But I want to also show how to style this layer using 2.5D technique. In the layer options choose **Symbology -> 2.5D**. Depending of your raster extent - set the __Height__ value as an expression which should be calculated basing on the column with a mean elevation value. In my scenario the elevation values are quite low (because Lithuania is mostly flat country) so my factor to calculate the height of polygons is low:
 
 ![Mean_elev_height_calculation](/assets/mean_elev_height_calculation.png)
+
+Also - turn of the shadow option. Won't be needed and causes a lot of additional resources to be calculated.
 
 When you set the 2.5D option, choose the **Graduated** symbology and in the __Value__ section choose the column with the mean elevation data. To create a ramp with values I used Equal Count mode and added quite a lot classes. For me 17 classes seemed to be optimal. 
 More adjustments to the appearance might be done we check the Symbol Settings. Double-click on Symbol in the Layer properties. This window will show up:
@@ -39,4 +41,4 @@ order_parts(   extrude(    segments_to_lines( $geometry ),    cos( radians( eval
 To make it consistent you have to change for both **Geometry Generator** layers.
 I've added `0.5` because this value fits for my dataset. In your case, other values might be better. One more thing we can do is to adjust the color of the "walls" of the 2.5D. In my case the simple black looks good. To change it double click "Simple Fill" under the Geometry Generator. In the Fill color section change it to black. 
 
-After completing these steps, your polygons should look similar to what I presented at the beginning of this post. Of course, this is not a perfect effect. Applying 2.5D shading in QGIS can cause the illusion that some polygons have higher values ​​than surrounding ones (which actually have lower values). QGIS gives you many possibilities for styling and obtaining interesting effects for presenting our work with spatial data. This is my first attempt at presenting data this way. I hope that future maps using this technique will be better.
+After completing these steps, your polygons should look similar to what I presented at the beginning of this post. Of course, this is not a perfect effect. Applying 2.5D styling in QGIS can cause the illusion that some polygons have higher values ​​than surrounding ones (which actually have lower values). QGIS gives you many possibilities for styling and obtaining interesting effects for presenting our work with spatial data. This is my first attempt at presenting data this way. I hope that future maps using this technique will be better.
