@@ -1,6 +1,6 @@
 ---
 templateKey: work-item
-title: Bornholm in 1901
+title: Map - Bornholm in 1901
 date: 2024-08-07T19:49:00.000Z
 image: /assets/map_bornholm_.jpg
 description: Bornholm island in 1901
