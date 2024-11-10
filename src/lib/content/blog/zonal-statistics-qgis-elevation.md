@@ -8,7 +8,7 @@ tag:
   - gis
   - geography
 ---
-The Zonal Statistics is one of a many processing algorithms available in QGIS. It's simple and powerful feature that allows to calculate statistics for raster datasets based on zones defined by vector polygons. Recently I've made a map using this technique to depict the mean elevation of each municipality (**savivaldybės**) in Lithuania.
+The Zonal Statistics is one of a many processing algorithms available in QGIS. It's simple and powerful feature that allows to calculate statistics for raster datasets based on zones defined by vector polygons. Recently I've made a map using this technique to depict the mean elevation of each municipality (**savivaldybės**) in Lithuania. 
 
 ![Mean_Elev_Lithuania](/assets/mean_elev_lit.png)
 
