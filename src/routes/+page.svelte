@@ -9,18 +9,23 @@
 
 <div class="flex flex-col items-center w-100 md:mt-8 ">
 	<div class="flex items-center">
-		<h1 class="text-primaryBlue dark:text-white text-5xl">GEO</h1>
-		<div class="mx-4">
-			<Globe width={120} style="stroke-primaryBlue dark:stroke-white" />
-		</div>
-		<h1 class="text-primaryBlue dark:text-white text-5xl">DEV</h1>
+		<h1 
+			class="text-primaryBlue dark:text-white text-5xl flex items-center gap-4"
+			aria-label="GEODEV"
+		>
+			GEO
+			<span class="mx-4" aria-hidden="true">
+				<Globe width={75} style="stroke-primaryBlue dark:stroke-white" />
+			</span>
+			DEV
+		</h1>
 	</div>
 	<div class="mt-4">
 		<p class="text-primaryBlue dark:text-white">programming & cartography</p>
 	</div>
 	<Wrapper contentStyle="flex-col mt-12">
 		<h2 class="text-primaryBlack dark:text-white text-4xl">Recent posts</h2>
-		<div class="mt-8 mb-4">
+		<div class="mt-8 mb-8">
 			{#each data.posts as post}
 				<PostItem {post} withYear />
 			{/each}
