@@ -1,6 +1,6 @@
 ---
 templateKey: work-item
-title: East Prussia in 1810
+title: Map - East Prussia in 1810
 date: 2024-07-22T19:49:00.000Z
 image: /assets/konigsberg_1810.jpg
 description: Former province of Kingdom of Prussia.
