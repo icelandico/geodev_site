@@ -32,7 +32,7 @@ export const transitMaps = Object.entries(
 		...globEntry.metadata,
 		slug: parse(filepath).name
 	};
-});
+}).sort((a: string, b: string) => new Date(b.created) - new Date(a.created));
 
 export const pageText =  Object.entries(
 	import.meta.glob<GlobEntryPages>('./../content/pages/index.md', { eager: true })
