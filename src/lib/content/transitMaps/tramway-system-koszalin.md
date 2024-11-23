@@ -1,5 +1,5 @@
 ---
-title: Hypotethical tramway system of Koszalin
+title: Hypothetical tramway system of Koszalin
 slug: tramway system Koszalin
 created: 2024-10-06T20:08:00.000Z
 image: /assets/koszalin_tramway.png
