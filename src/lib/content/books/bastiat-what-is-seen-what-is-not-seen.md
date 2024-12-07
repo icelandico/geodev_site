@@ -1,6 +1,6 @@
 ---
 templateKey: book-item
-title: "What is "
+title: What Is Seen and What Is Not Seen
 author: Frédéric Bastiat
 slug: bastiat what is seen what is not seen
 date: 2024-10-10T13:34:00.000Z
