@@ -8,7 +8,7 @@ tag:
   - typescript
   - javascript
 ---
-Writing conditions in our code is one of the most utilized functions of the programming languages we are writing in. Even though I've been using Typescript for several years now I did not realize that it allows me to write conditional types. I find it one of the most unique features of the Typescript so far.
+Writing conditions in our code is one of the most utilized functionalities of the programming languages we are writing in. Even though I've been using Typescript for several years now I did not realize that it allows me to write conditional types. I find it one of the most unique features of the Typescript so far.
 
 For some use cases in our code we cannot declare the particular type yet (like `string` or `number`). This is a situation where conditional types comes in handy.
 Thanks to this feature we can write instructions like:
@@ -58,4 +58,4 @@ const secondArray: B_1 = [1,2,3, "2"] // Ts error
 
 If we use conditional type in the second example, Typescript creates two different branches of possible types. 
 
-Conditional types It's not something you come across often. I find it to be another useful tool to solve our daily problems when writing code.
+Conditional types is not something you come across often. I find it to be another useful tool to solve our daily problems when writing code.
