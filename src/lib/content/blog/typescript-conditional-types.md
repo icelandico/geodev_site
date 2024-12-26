@@ -43,7 +43,7 @@ Let's go a step further. There is a difference in how Typescript distribute unio
 type ToArray<T> = T[];
 
 type A_1 = ToArray<number>;
-type B_2 = ToArray<string | number>; // (number | string)[]
+type B_1 = ToArray<string | number>; // (number | string)[]
 
 const firstArray: B = [1,2,3, "2"];
 
