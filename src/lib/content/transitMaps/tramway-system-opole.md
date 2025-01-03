@@ -11,13 +11,13 @@ In 1910, in Opole, a city with 34,000 inhabitants, the idea of ​​building a 
 Here is my proposal for what the city's tram system could look like.
 
 ### Line 1
-Number of stops: 16
+Number of stops: 16  
 Length: 7.2 km
 
 ### Line 2
-Number of stops: 22
+Number of stops: 22  
 Length: 11 km
 
 ### Line 3
-Number of stops: 19
+Number of stops: 19  
 Length: 8.5 km
