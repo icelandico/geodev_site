@@ -2,7 +2,7 @@ import { posts, type Post } from '$lib/server/blogPosts';
 import { PAGE_DESCRIPTION } from '$utils/constants';
 
 const siteURL = 'https://www.geodev.me';
-const siteTitle = 'Geodev | Michal Muszynski';
+const siteTitle = 'Michal Muszynski | RSS Feed';
 const siteDescription = PAGE_DESCRIPTION;
 
 export const prerender = true;
