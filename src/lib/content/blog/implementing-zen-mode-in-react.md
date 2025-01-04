@@ -18,7 +18,7 @@ First we need a markup to create our layout. I've decided to copy some of the Li
 ![React Zen Mode layout](/assets/zen_mode_layout.png)
 
 To achieve this I used css grid.
-```react
+```javascript
 import './App.css'
 
 function App() {
@@ -94,7 +94,7 @@ In this example, enabling zen mode will hide all containers except the center on
 
 To turn on the Zen Mode we need a interaction handler. I decided to turn this feature on/off with the "Z" key. To handle this I created a hook which can be reused in any other components in the application.
 
-```react
+```javascript
 import { useCallback, useEffect } from "react";
 
 export const useKeyboardShortcut = (keyShortcut: string, callback: (event: KeyboardEvent) => void) => {
@@ -117,7 +117,7 @@ export const useKeyboardShortcut = (keyShortcut: string, callback: (event: Keybo
 
 I deliberately left this hook very simple. It can take a single key as an argument and callback to trigger after the key is pressed. In modern web applications you can use many more complex keyboard shortcuts, but that is beyond the scope of this article. All we need here is to listen for a keydown event and react to it. Next, we have to use this hook in `App.tsx`.
 
-```react
+```javascript
 import './App.css'
 
 function App() {
@@ -147,7 +147,7 @@ To do it I created another hook. It gets the search parameters from the URL and 
 
 I know that `react-router` is a standard library to support this type of operations. I believe that sometimes it is worth taking a step back and checking how to use the basic tools provided by the browser API.
 
-```react
+```javascript
 import { useEffect, useState } from "react"
 
 export const useUrlParams = () => {
@@ -186,7 +186,7 @@ To make this hook useful we need another hook (the last one) for toggling the ze
 
 The `useZenMode` hook is a react hook designed to manage a Zen Mode state using URL query parameters. It builds upon the `useUrlParams` hook to dynamically toggle and reflect the Zen Mode state in the browser's URL. If you want to store this information in other way (localStorage, sessionStorage, etc.), you have to change the `handleSwitchZenMode` function implementation.
 
-```react
+```javascript
 import { useUrlParams } from "./useUrlParams";
 
 export const useZenMode = (paramName = 'zenMode') => {
@@ -216,7 +216,7 @@ The last part is to join the hooks together in the main component.
 
 Here's the final version of the `App.tsx` component that combines `useZenMode` and `useKeyboardShortcut` hooks. Also I've added conditional css classes to reflect the changes in the UI.
 
-```react
+```javascript
 import './App.css'
 import { useKeyboardShortcut } from './hooks/useKeyboardShortcut'
 import { useZenMode } from './hooks/useZenMode';
