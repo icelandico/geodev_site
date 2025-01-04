@@ -8,7 +8,8 @@ tag:
   - components
   - react
 ---
-Zen mode is a popular UX pattern that creates a distraction-free experience for application users. It's a simple approach where part of application interface is hidden on user's demand. I have encountered this mode in applications where the main functions are based on focus and tranquility. One of them is <a href="https://lichess.org" target="_blank">Lichess</a>, the second chess platform in the World. I am a chess enthusiast and I am trying (with poor results) to develop my skills in this direction. Lichess has a Zen mode, and I thought I'd write a post about how you can implement it in your own React app.
+Zen mode is a popular UX pattern that creates a distraction-free experience for application users. It's a simple approach where part of application interface is hidden on user's demand. I have encountered this mode in applications where the main functions are based on focus and tranquility. One of them is <a href="https://lichess.org" target="_blank">Lichess</a>, the second chess platform in the World. I am a chess enthusiast and I am trying (with poor results) to develop my skills in this direction. If you're a chess enthusiast too, feel free to <a href="https://lichess.org/@/icelandico">challenge me to a game</a>.
+Lichess has a Zen mode, and I thought I'd write a post about how you can implement it in your own React app.
 
 ## Setup
 
