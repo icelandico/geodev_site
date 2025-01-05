@@ -21,7 +21,12 @@
 	<meta name="twitter:title" content={$page.data.title} />
 	<meta name="twitter:image" content="https://geodev.me/assets/main_icon.png" />
 	<meta name="twitter:description" content={$page.data.description || DEFAULT_DESCRIPTION} />
-	<script data-goatcounter="https://geodev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+	<script
+		src="https://beamanalytics.b-cdn.net/beam.min.js"
+		data-token="aca7aac2-3750-4037-90dc-46e2d947ef15"
+		async
+	>
+</script>
 </svelte:head>
 
 <div class="flex flex-col min-h-screen dark:bg-primaryDark">
