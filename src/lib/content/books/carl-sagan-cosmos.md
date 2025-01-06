@@ -7,6 +7,8 @@ date: 2024-11-30T18:58:00.000Z
 link: https://www.goodreads.com/book/show/55030.Cosmos
 rating: "5"
 pages: 464
+genre:
+  - popular science
 ---
 This is a well-written popular science book. Full of specialist content from astronomy and physics but written in a very accessible language. It should be taken into account that the author wrote it in 1980 shortly after the launch of the Voyager 1 and 2 space probes, on the construction of which Carl Sagan worked. (these probes are currently located on the outskirts of the solar system).
 
