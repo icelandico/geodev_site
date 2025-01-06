@@ -7,6 +7,8 @@ date: 2024-12-11T23:31:00.000Z
 link: https://bookwyrm.social/book/249361/s/solar-lottery-a-collier-nucleus-science-fiction-classic
 rating: "3.5"
 pages: 256
+genre:
+  - science-fiction
 ---
 A grim version of the future created by one of my favorite writers. In the introduction, we learn that the novel was inspired by game theory, which Dick was interested in the 50's.
 
