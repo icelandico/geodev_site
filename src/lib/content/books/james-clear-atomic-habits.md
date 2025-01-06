@@ -7,6 +7,8 @@ date: 2023-03-23T10:17:32.783Z
 link: https://www.goodreads.com/book/show/40121378-atomic-habits?from_search=true&from_srp=true&qid=bXGHa1KFzT&rank=1
 rating: "4.5"
 pages: 319
+genre:
+  - non-fiction
 ---
 I﻿ don't read books like "Make you life better in 10 steps" or "Smile and become a millionaire". When I first heard about this book I thought it was another guidebook in this style. It's not.
 
