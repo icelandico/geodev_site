@@ -7,6 +7,9 @@ date: 2024-12-07T21:56:00.000Z
 link: https://www.goodreads.com/book/show/3013816-the-haunted-and-the-haunters
 rating: "4"
 pages: 47
+genre:
+  - horror
+  - short stories
 ---
 Another old-school horror novel. I used to read more books in this genre. I really like the way of narration and the mood created in old horror novels and Gothic literature. This novel is no different.
 
