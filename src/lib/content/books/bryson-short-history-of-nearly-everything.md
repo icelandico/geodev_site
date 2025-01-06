@@ -7,6 +7,8 @@ date: 2024-10-15T12:30:00.000Z
 link: https://bookwyrm.social/book/19955/s/a-short-history-of-nearly-everything
 rating: "5"
 pages: 490
+genre:
+  - non-fiction
 ---
 Great popular science book about the natural history.
 
