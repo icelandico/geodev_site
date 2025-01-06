@@ -7,6 +7,8 @@ date: 2024-12-26T15:38:00.000Z
 link: https://www.goodreads.com/book/show/10891914-lalande-21185
 rating: "3.5"
 pages: 246
+genre:
+  - science-fiction
 ---
 This is the first novel by a well-known (at least in my country) science fiction author, published in 1966.
 
