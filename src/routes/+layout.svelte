@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import { PUBLIC_BEAM_ANALYTICS_ID } from '$env/static/public';
 	import '@fontsource-variable/aleo';
 	import NavLink from '$components/NavLink.svelte';
 	import NavLinklMobile from '$components/NavLinklMobile.svelte';
@@ -23,7 +24,7 @@
 	<meta name="twitter:description" content={$page.data.description || DEFAULT_DESCRIPTION} />
 	<script
 		src="https://beamanalytics.b-cdn.net/beam.min.js"
-		data-token="aca7aac2-3750-4037-90dc-46e2d947ef15"
+		data-token={`${PUBLIC_BEAM_ANALYTICS_ID}`}
 		async
 	>
 	</script>

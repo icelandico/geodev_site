@@ -20,7 +20,7 @@ export interface Book {
 	link: string;
 	rating: string;
 	pages: number;
-	genres: string[];
+	genre: string[];
 }
 
 export const books = Object.entries(

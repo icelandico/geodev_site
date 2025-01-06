@@ -24,9 +24,11 @@
 			<div class="flex space-between items-center gap-4 mt-4">
 				<Rating rating={data.meta.rating} />
 				{#if bookGenres}
-					{#each data.meta.genre as genre}
-						<GenreTag tag={genre} />
-					{/each}
+					<div class="flex gap-2">
+						{#each data.meta.genre as genre}
+							<GenreTag tag={genre} />
+						{/each}
+					</div>
 				{/if}
 			</div>
 		</div>
