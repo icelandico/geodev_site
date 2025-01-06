@@ -7,6 +7,8 @@ date: 2023-07-27T19:17:58.825Z
 link: https://www.goodreads.com/book/show/23692271-sapiens?from_search=true&from_srp=true&qid=JNmCneG8xG&rank=1
 rating: "4.5"
 pages: 544
+genre:
+  - non-fiction
 ---
 I like books that combine popular science literature and general knowledge. This book is very well known and, in addition, has caused controversy in certain circles.
 
