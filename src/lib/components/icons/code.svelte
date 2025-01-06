@@ -10,7 +10,7 @@
 	{height}
 	viewBox="0 0 24 24"
 	fill="none"
-	stroke={stroke}
+	{stroke}
 	stroke-width="1"
 	stroke-linecap="round"
 	stroke-linejoin="round"

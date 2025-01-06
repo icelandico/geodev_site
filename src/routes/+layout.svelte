@@ -26,7 +26,7 @@
 		data-token="aca7aac2-3750-4037-90dc-46e2d947ef15"
 		async
 	>
-</script>
+	</script>
 </svelte:head>
 
 <div class="flex flex-col min-h-screen dark:bg-primaryDark">

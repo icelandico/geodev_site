@@ -1,11 +1,13 @@
 <script lang="ts">
+	import GenreTag from '$components/GenreTag.svelte';
 	import ExternalLink from '$components/icons/externalLink.svelte';
 	import Rating from '$components/Rating.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
 	import { formatDate } from '$utils/formatDate';
 	import type { PageData } from './$types';
-
 	export let data: PageData;
+
+	const bookGenres = data.meta.genre;
 </script>
 
 <Wrapper>
@@ -16,10 +18,17 @@
 			<div class="flex gap-6 items-center">
 				<h3 class="my-1 text-1xl dark:text-white">{formatDate(data.meta.date)}</h3>
 				<a href={data.meta.link} class="flex" aria-label="external books library" target="_blank">
-					<ExternalLink/>
+					<ExternalLink />
 				</a>
 			</div>
-			<Rating rating={data.meta.rating} style="mt-4" />
+			<div class="flex space-between items-center gap-4 mt-4">
+				<Rating rating={data.meta.rating} />
+				{#if bookGenres}
+					{#each data.meta.genre as genre}
+						<GenreTag tag={genre} />
+					{/each}
+				{/if}
+			</div>
 		</div>
 
 		<div class="dynamic-content">

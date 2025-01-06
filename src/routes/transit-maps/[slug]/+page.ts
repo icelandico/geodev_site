@@ -9,7 +9,7 @@ export async function load({ params }) {
 			date: transitMap.metadata.created,
 			content: transitMap.default,
 			meta: transitMap.metadata,
-			img: transitMap.metadata.image,
+			img: transitMap.metadata.image
 		};
 	} catch (e) {
 		throw error(404, `Could not find ${params.slug}`);

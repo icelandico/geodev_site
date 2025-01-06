@@ -102,6 +102,15 @@ collections:
           options: ['1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5']
         }
       - { label: Pages, name: 'pages', widget: 'number' }
+      - {
+          label: Genre,
+          name: 'genre',
+          widget: 'relation',
+          multiple: true,
+          collection: 'bookGenre',
+          valueField: 'name',
+          searchFields: ['name']
+        }
   - label: 'Transit Maps'
     name: 'transitMaps'
     folder: 'src/lib/content/transitMaps'
@@ -129,5 +138,11 @@ collections:
     name: 'tags'
     create: true
     folder: 'src/lib/content/tags'
+    fields:
+      - { label: Name, name: 'name', widget: string }
+  - label: 'Book genres'
+    name: 'bookGenre'
+    create: true
+    folder: 'src/lib/content/genres'
     fields:
       - { label: Name, name: 'name', widget: string }

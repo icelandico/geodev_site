@@ -5,6 +5,6 @@ export const load: PageServerLoad = async () => {
 	return {
 		title: `Transit Maps`,
 		maps: transitMaps,
-		introduction: pageText[0],
+		introduction: pageText[0]
 	};
 };

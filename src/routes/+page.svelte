@@ -7,9 +7,9 @@
 	export let data;
 </script>
 
-<div class="flex flex-col items-center w-100 md:mt-8 ">
+<div class="flex flex-col items-center w-100 md:mt-8">
 	<div class="flex items-center">
-		<h1 
+		<h1
 			class="text-primaryBlue dark:text-white text-5xl flex items-center gap-4"
 			aria-label="GEODEV"
 		>
@@ -29,7 +29,7 @@
 			{#each data.posts as post}
 				<PostItem {post} withYear />
 			{/each}
-		</div>	
+		</div>
 		<h2 class="text-primaryBlack dark:text-white text-4xl">Reading</h2>
 		<div class="mt-8">
 			{#each data.books as book}
@@ -44,5 +44,4 @@
 			{/each}
 		</div>
 	</Wrapper>
-	
 </div>

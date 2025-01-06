@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SvelteMarkdown from 'svelte-markdown'
+	import SvelteMarkdown from 'svelte-markdown';
 	import TitleBar from '$components/TitleBar.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
 	import { formatDate } from '$utils/formatDate';
@@ -12,7 +12,7 @@
 <Wrapper>
 	<div class="flex flex-col justify-between pt-4 overflow-auto w-full">
 		<div class="dynamic-content">
-			<SvelteMarkdown {source}/>
+			<SvelteMarkdown {source} />
 		</div>
 		<div>
 			{#each data.maps as map}

@@ -21,23 +21,25 @@ type GlobEntry = {
 };
 
 type GlobEntryPages = {
-	metadata: {transitDiagrams: string};
+	metadata: { transitDiagrams: string };
 	default: unknown;
 };
 
 export const transitMaps = Object.entries(
 	import.meta.glob<GlobEntry>('./../content/transitMaps/**/*.md', { eager: true })
-).map(([filepath, globEntry]) => {
-	return {
-		...globEntry.metadata,
-		slug: parse(filepath).name
-	};
-}).sort((a: string, b: string) => new Date(b.created) - new Date(a.created));
+)
+	.map(([filepath, globEntry]) => {
+		return {
+			...globEntry.metadata,
+			slug: parse(filepath).name
+		};
+	})
+	.sort((a: string, b: string) => new Date(b.created) - new Date(a.created));
 
-export const pageText =  Object.entries(
+export const pageText = Object.entries(
 	import.meta.glob<GlobEntryPages>('./../content/pages/index.md', { eager: true })
 ).map(([filepath, globEntry]) => {
 	return {
-		...globEntry.metadata,
+		...globEntry.metadata
 	};
 });

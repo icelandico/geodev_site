@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { Project } from "$lib/server/projects";
-	import { lazyLoad } from "$utils/lazyLoad";
-  export let data: Project;
+	import type { Project } from '$lib/server/projects';
+	import { lazyLoad } from '$utils/lazyLoad';
+	export let data: Project;
 </script>
 
 <div class="h-64 group relative mb-6 flex justify-center items-center cursor-pointer">

@@ -9,7 +9,7 @@ interface BookStatsReturnType {
 	year: number;
 	books: number;
 	pages: number;
-};
+}
 
 export interface Book {
 	templateKey: string;
@@ -20,6 +20,7 @@ export interface Book {
 	link: string;
 	rating: string;
 	pages: number;
+	genres: string[];
 }
 
 export const books = Object.entries(

@@ -17,9 +17,13 @@ type GlobEntry = {
 
 export const projects = Object.entries(
 	import.meta.glob<GlobEntry>('./../content/projects/**/*.md', { eager: true })
-).map(([filepath, globEntry]) => {
-	return {
-		...globEntry.metadata,
-		slug: parse(filepath).name
-	};
-}).sort((a, b) => (a.date && b.date) ? new Date(b?.date).getTime() - new Date(a?.date).getTime() : 0);
+)
+	.map(([filepath, globEntry]) => {
+		return {
+			...globEntry.metadata,
+			slug: parse(filepath).name
+		};
+	})
+	.sort((a, b) =>
+		a.date && b.date ? new Date(b?.date).getTime() - new Date(a?.date).getTime() : 0
+	);

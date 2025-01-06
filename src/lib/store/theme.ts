@@ -13,9 +13,9 @@ theme.subscribe((value) => {
 		window.localStorage.setItem('theme', value);
 
 		if (localStorage.getItem('theme') === 'dark') {
-			document.documentElement.classList.add('dark')
+			document.documentElement.classList.add('dark');
 		} else {
-			document.documentElement.classList.remove('dark')
+			document.documentElement.classList.remove('dark');
 		}
 	}
 });
