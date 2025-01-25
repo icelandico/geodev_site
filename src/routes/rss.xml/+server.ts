@@ -2,7 +2,7 @@ import { posts } from '$lib/server/blogPosts';
 import { books } from '$lib/server/books';
 import { PAGE_DESCRIPTION } from '$utils/constants';
 
-type RSSContent = { title: string; date: string; slug: string };
+type RSSContent = { title: string; date: string; slug: string; templateKey: string };
 
 const siteURL = 'https://www.geodev.me';
 const siteTitle = 'Michal Muszynski | RSS Feed';
@@ -38,7 +38,9 @@ const render = (content: RSSContent[]) =>
 			${content
 				.map(
 					(entry) => `<item>
-			<guid isPermaLink="true">${siteURL}/blog/${entry.slug}</guid>
+			<guid isPermaLink="true">${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${
+				entry.slug
+			}</guid>
 			<title>${entry.title}</title>
 			<link>${siteURL}/blog/${entry.slug}</link>
 			<description>${entry.title}</description>
