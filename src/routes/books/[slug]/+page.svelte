@@ -6,7 +6,6 @@
 	import { formatDate } from '$utils/formatDate';
 	import type { PageData } from './$types';
 	export let data: PageData;
-
 	const bookGenres = data.meta.genre;
 </script>
 
@@ -20,6 +19,9 @@
 				<a href={data.meta.link} class="flex" aria-label="external books library" target="_blank">
 					<ExternalLink />
 				</a>
+				{#if data.meta.polishOnly}
+					<p class="dark:text-white">Polish only</p>
+				{/if}
 			</div>
 			<div class="flex space-between items-center gap-4 mt-4">
 				<Rating rating={data.meta.rating} />

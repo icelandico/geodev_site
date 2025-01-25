@@ -111,6 +111,7 @@ collections:
           valueField: 'name',
           searchFields: ['name']
         }
+      - { label: 'Polish only', name: 'polishOnly', widget: 'boolean', default: false }
   - label: 'Transit Maps'
     name: 'transitMaps'
     folder: 'src/lib/content/transitMaps'

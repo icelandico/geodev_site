@@ -21,6 +21,7 @@ export interface Book {
 	rating: string;
 	pages: number;
 	genre: string[];
+	polishOnly: boolean;
 }
 
 export const books = Object.entries(
