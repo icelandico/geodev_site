@@ -9,6 +9,7 @@ rating: "5"
 pages: 480
 genre:
   - non-fiction
+  - finance
 ---
 Investing is something that every person should try. Regardless of your feelings after contact with the stock market or other financial instruments - it is valuable experience and knowledge. By most people in my country it is perceived as reserved for the rich or a handful of initiated people.
 
