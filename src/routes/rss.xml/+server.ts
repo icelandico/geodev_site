@@ -1,5 +1,8 @@
-import { posts, type Post } from '$lib/server/blogPosts';
+import { posts } from '$lib/server/blogPosts';
+import { books } from '$lib/server/books';
 import { PAGE_DESCRIPTION } from '$utils/constants';
+
+type RSSContent = { title: string; date: string; slug: string };
 
 const siteURL = 'https://www.geodev.me';
 const siteTitle = 'Michal Muszynski | RSS Feed';
@@ -9,8 +12,11 @@ export const prerender = true;
 
 export const GET = async () => {
 	const allPosts = await posts;
+	const allBooks = await books;
 
-	const body = render(allPosts);
+	const content = [...allPosts, ...allBooks];
+
+	const body = render(content as RSSContent[]);
 	const options = {
 		headers: {
 			'Cache-Control': 'max-age=0, s-maxage=3600',
@@ -21,7 +27,7 @@ export const GET = async () => {
 	return new Response(body, options);
 };
 
-const render = (posts: Post[]) =>
+const render = (content: RSSContent[]) =>
 	`<?xml version="1.0" encoding="UTF-8" ?>
 	<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 		<channel>
@@ -29,17 +35,17 @@ const render = (posts: Post[]) =>
 			<description>${siteDescription}</description>
 			<link>${siteURL}</link>
 			<atom:link href="${siteURL}/rss.xml" rel="self" type="application/rss+xml"/>
-			${posts
+			${content
 				.map(
-					(post) => `<item>
-			<guid isPermaLink="true">${siteURL}/blog/${post.slug}</guid>
-			<title>${post.title}</title>
-			<link>${siteURL}/blog/${post.slug}</link>
-			<description>${post.title}</description>
-			<pubDate>${new Date(post.date).toUTCString()}</pubDate>
+					(entry) => `<item>
+			<guid isPermaLink="true">${siteURL}/blog/${entry.slug}</guid>
+			<title>${entry.title}</title>
+			<link>${siteURL}/blog/${entry.slug}</link>
+			<description>${entry.title}</description>
+			<pubDate>${new Date(entry.date).toUTCString()}</pubDate>
 			</item>`
 				)
 				.join('')}
-			</channel>
+		</channel>
 	</rss>
 `;
