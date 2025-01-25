@@ -7,6 +7,9 @@ date: 2022-09-24T20:05:39.244Z
 link: https://www.goodreads.com/book/show/30062141-oblicza-propagandy-prl
 rating: "2"
 pages: 116
+genre:
+  - non-fiction
+polishOnly: true
 ---
 Short book regarding propaganda in Polish People's Republic.
 
