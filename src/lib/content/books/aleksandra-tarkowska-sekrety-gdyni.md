@@ -7,6 +7,9 @@ date: 2022-04-10T19:31:54.499Z
 link: https://www.goodreads.com/book/show/40574959-sekrety-gdyni
 rating: "2"
 pages: 136
+genre:
+  - non-fiction
+polishOnly: true
 ---
 A collection of short stories and events related to city of <a href="https://en.wikipedia.org/wiki/Gdynia">Gdynia</a> (Poland).
 
