@@ -44,7 +44,7 @@ const render = (content: RSSContent[]) =>
 				entry.slug
 			}</guid>
 			<title>${entry.title}</title>
-			<link>${siteURL}/blog/${entry.slug}</link>
+			<link>${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${entry.slug}</link>
 			<description>${entry.title}</description>
 			<pubDate>${new Date(entry.date).toUTCString()}</pubDate>
 			</item>`
