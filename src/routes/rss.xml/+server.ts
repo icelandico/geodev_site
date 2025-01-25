@@ -14,7 +14,9 @@ export const GET = async () => {
 	const allPosts = await posts;
 	const allBooks = await books;
 
-	const content = [...allPosts, ...allBooks];
+	const content = [...allPosts, ...allBooks].sort(
+		(a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+	);
 
 	const body = render(content as RSSContent[]);
 	const options = {
