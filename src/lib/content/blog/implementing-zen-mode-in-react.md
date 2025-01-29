@@ -8,7 +8,7 @@ tag:
   - components
   - react
 ---
-Zen mode is a popular UX pattern that creates a distraction-free experience for application users. It's a simple approach where part of application interface is hidden on user's demand. I have encountered this mode in applications where the main functions are based on focus and tranquility. One of them is <a href="https://lichess.org" target="_blank">Lichess</a>, the second chess platform in the World. I am a chess enthusiast and I am trying (with poor results) to develop my skills in this direction. If you're a chess enthusiast too, feel free to <a href="https://lichess.org/@/icelandico">challenge me to a game</a>.
+Zen mode is a popular UX pattern that creates a distraction-free experience for application users. It's a simple approach where part of application interface is hidden on user's demand. I have encountered this mode in applications where the main functions are based on focus and tranquility. One of them is <a href="https://lichess.org" target="_blank">Lichess</a>, the second chess platform in the World. I am a chess enthusiast and I am trying (with poor results) to develop my skills in this direction. If you're a chess enthusiast too, feel free to <a href="https://lichess.org/@/muszynov">challenge me to a game</a>.
 Lichess has a Zen mode, and I thought I'd write a post about how you can implement it in your own React app.
 
 ## Setup
@@ -18,6 +18,7 @@ First we need a markup to create our layout. I've decided to copy some of the Li
 ![React Zen Mode layout](/assets/zen_mode_layout.png)
 
 To achieve this I used css grid.
+
 ```javascript
 import './App.css'
 
@@ -37,6 +38,7 @@ export default App
 ```
 
 And below is the css portion of this design (`App.css`).
+
 ```css
 .box {
   border: 1px solid #47a5bd;
@@ -90,6 +92,7 @@ And below is the css portion of this design (`App.css`).
 ```
 
 In this example, enabling zen mode will hide all containers except the center one with the class "main".
+
 ## User interaction
 
 To turn on the Zen Mode we need a interaction handler. I decided to turn this feature on/off with the "Z" key. To handle this I created a hook which can be reused in any other components in the application.
@@ -178,10 +181,12 @@ export const useUrlParams = () => {
 ```
 
 `useUrlParams` hook synchronizes the URL's search parameters with the component's state and provides a utility function for updating the URL programmatically. It returns two values:
-- `params`: The current URLSearchParams object, representing the query parameters,
-- `handleUpdateUrl`: A function to modify the URL's query parameters.
-  
+
+* `params`: The current URLSearchParams object, representing the query parameters,
+* `handleUpdateUrl`: A function to modify the URL's query parameters.
+
 To make this hook useful we need another hook (the last one) for toggling the zen mode.
+
 ## Toggle the zen mode
 
 The `useZenMode` hook is a react hook designed to manage a Zen Mode state using URL query parameters. It builds upon the `useUrlParams` hook to dynamically toggle and reflect the Zen Mode state in the browser's URL. If you want to store this information in other way (localStorage, sessionStorage, etc.), you have to change the `handleSwitchZenMode` function implementation.
