@@ -1,4 +1,5 @@
 import { parse } from 'path';
+import matter from 'gray-matter';
 
 type GlobEntry = {
 	metadata: Book;
@@ -25,12 +26,13 @@ export interface Book {
 }
 
 export const books = Object.entries(
-	import.meta.glob<GlobEntry>('./../content/books/**/*.md', { eager: true })
+	import.meta.glob('./../content/books/**/*.md', { eager: true, as: 'raw' })
 )
-	.map(([filepath, globEntry]) => {
+	.map(([filepath, rawMarkdown]) => {
+		const { data: metadata, content } = matter(rawMarkdown);
 		return {
-			...globEntry.metadata,
-
+			...(metadata as Book),
+			content,
 			slug: parse(filepath).name
 		};
 	})

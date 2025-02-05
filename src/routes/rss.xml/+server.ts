@@ -8,7 +8,7 @@ type RSSContent = {
 	slug: string;
 	templateKey: string;
 	author: string;
-	default?: string;
+	content?: string;
 };
 
 const siteURL = 'https://www.geodev.me';
@@ -46,9 +46,9 @@ const getTitle = (entry: RSSContent) => {
 	}
 };
 
-const getExcerpt = (content?: string, length: number = 200) => {
-	if (!content) return '';
-	const cleanContent = content.replace(/\s+/g, ' ').trim();
+const getExcerpt = (type: string, content?: string, length: number = 200) => {
+	if (!content || type === 'blog-post') return '';
+	const cleanContent = content.trim().replace(/\s+/g, ' ').trim();
 	return cleanContent.length > length ? cleanContent.slice(0, length) + '...' : cleanContent;
 };
 
@@ -72,7 +72,7 @@ const render = (content: RSSContent[]) =>
 							}</guid>
 							<title>${getTitle(entry)}</title>
 							<link>${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${entry.slug}</link>
-							<description>${getExcerpt(entry.default)}</description>
+							<description>${getExcerpt(entry.templateKey, entry.content)}</description>
 							<pubDate>${new Date(entry.date).toUTCString()}</pubDate>
 					</item>`
 				)
