@@ -29,25 +29,39 @@ export const GET = async () => {
 	return new Response(body, options);
 };
 
+const getTitle = (entry: RSSContent) => {
+	const { templateKey, title } = entry;
+	if (templateKey === 'blog-post') {
+		return title;
+	}
+	if (templateKey === 'books') {
+		return `Book note: ${title}`;
+	}
+};
+
 const render = (content: RSSContent[]) =>
 	`<?xml version="1.0" encoding="UTF-8" ?>
-	<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+		<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 		<channel>
 			<title>${siteTitle}</title>
+			<author>
+      	<name>Michal Muszynski</name>
+    	</author>
 			<description>${siteDescription}</description>
 			<link>${siteURL}</link>
 			<atom:link href="${siteURL}/rss.xml" rel="self" type="application/rss+xml"/>
 			${content
 				.map(
-					(entry) => `<item>
-			<guid isPermaLink="true">${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${
-				entry.slug
-			}</guid>
-			<title>${entry.title}</title>
-			<link>${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${entry.slug}</link>
-			<description>${entry.title}</description>
-			<pubDate>${new Date(entry.date).toUTCString()}</pubDate>
-			</item>`
+					(entry) =>
+						`<item>
+							<guid isPermaLink="true">${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${
+								entry.slug
+							}</guid>
+							<title>${getTitle(entry)}</title>
+							<link>${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${entry.slug}</link>
+							<description>${getTitle(entry)}</description>
+							<pubDate>${new Date(entry.date).toUTCString()}</pubDate>
+					</item>`
 				)
 				.join('')}
 		</channel>
