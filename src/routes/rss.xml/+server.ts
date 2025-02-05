@@ -2,7 +2,13 @@ import { posts } from '$lib/server/blogPosts';
 import { books } from '$lib/server/books';
 import { PAGE_DESCRIPTION } from '$utils/constants';
 
-type RSSContent = { title: string; date: string; slug: string; templateKey: string };
+type RSSContent = {
+	title: string;
+	date: string;
+	slug: string;
+	templateKey: string;
+	author: string;
+};
 
 const siteURL = 'https://www.geodev.me';
 const siteTitle = 'Michal Muszynski | RSS Feed';
@@ -30,12 +36,12 @@ export const GET = async () => {
 };
 
 const getTitle = (entry: RSSContent) => {
-	const { templateKey, title } = entry;
+	const { templateKey, title, author } = entry;
 	if (templateKey === 'blog-post') {
 		return title;
 	}
-	if (templateKey === 'books') {
-		return `Book note: ${title}`;
+	if (templateKey === 'book-item') {
+		return `Book note: ${title}, by ${author}`;
 	}
 };
 
