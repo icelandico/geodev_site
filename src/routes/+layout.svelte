@@ -13,6 +13,7 @@
 
 <svelte:head>
 	<title>{$page.data.title || DEFAULT_DESCRIPTION}</title>
+	<meta name="title" content={$page.data.title || DEFAULT_DESCRIPTION} />
 	<meta name="description" content={$page.data.description || DEFAULT_DESCRIPTION} />
 	<meta name="og:title" content={$page.data.title || DEFAULT_DESCRIPTION} />
 	<meta name="og:description" content={$page.data.description || DEFAULT_DESCRIPTION} />

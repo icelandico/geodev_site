@@ -8,16 +8,15 @@
 </script>
 
 <div class="flex flex-col items-center w-100 md:mt-8">
-	<div class="flex items-center">
+	<div class="flex items-center justify-between">
 		<h1
 			class="text-primaryBlue dark:text-white text-5xl flex items-center gap-4"
 			aria-label="GEODEV"
 		>
-			GEO
-			<span class="mx-4" aria-hidden="true">
-				<Globe width={75} style="stroke-primaryBlue dark:stroke-white" />
-			</span>
-			DEV
+		<span aria-hidden="true">
+			<Globe width={75} style="stroke-primaryBlue dark:stroke-white" />
+		</span>
+			geodev
 		</h1>
 	</div>
 	<div class="mt-4">
