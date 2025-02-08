@@ -8,7 +8,7 @@ link: https://www.goodreads.com/book/show/4987.Jailbird?from_search=true&from_sr
 rating: "4"
 pages: 375
 genre:
-  - popular science
+  - American literature
 polishOnly: false
 ---
 
