@@ -1,3 +1,3 @@
 ---
-name: Novel
+name: American literature
 ---
