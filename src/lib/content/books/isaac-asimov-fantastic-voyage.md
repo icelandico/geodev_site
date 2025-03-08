@@ -8,7 +8,7 @@ link: https://www.goodreads.com/book/show/83539.Fantastic_Voyage
 rating: "4"
 pages: 283
 genre:
-  - science-fiction
+  - adventure
 polishOnly: false
 ---
 This is a rare case of a book written based on a movie (Fantastic Voyage, 1966). It is also the first book by a legendary science-fiction author that I have read.
