@@ -1,4 +1,5 @@
 <script>
+	import Bluesky from './icons/bluesky.svelte';
 	import Github from './icons/github.svelte';
 	import Kofi from './icons/kofi.svelte';
 	import Mail from './icons/mail.svelte';
@@ -12,6 +13,9 @@
 		</a>
 		<a href="https://fosstodon.org/@muszynov" target="_blank" aria-label="Mastodon">
 			<Mastodon />
+		</a>
+		<a href="https://bsky.app/profile/muszynov.bsky.social" target="_blank" aria-label="Bluesky">
+			<Bluesky />
 		</a>
 		<a href="https://ko-fi.com/geodev" target="_blank" aria-label="Kofi">
 			<Kofi />
