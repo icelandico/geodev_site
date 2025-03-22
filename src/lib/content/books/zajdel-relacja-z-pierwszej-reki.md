@@ -29,7 +29,7 @@ In the compartment of a train, the main character meets a scientist who shares h
 
 Ever wondered what happens to things we put in one place and find them in another at an unexpected moment? The main character decides to conduct a series of experiments to prove what happens to these objects. We learn about the results of the protagonist's research in a rather unexpected way.
   
-*Dokąd jedzie ten tramwaj? (Where is the tram going)?
+*Dokąd jedzie ten tramwaj? (Where is the tram going)?*
 
 In the world depicted, every citizen has at least a high school education. There is a kind of rat race going on in pursuit of diplomas and more academic titles. Everyone has to educate themselves in order not to lose a job (even one that, by today's standards, does not require higher education). An entertaining polemic by the author against the vision of a system that places a premium on producing professors at any cost.
 
