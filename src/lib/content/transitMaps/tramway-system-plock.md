@@ -1,5 +1,5 @@
 ---
-title: Hypothetical tramway system of Koszalin
+title: Hypothetical tramway system of Płock
 slug: tramway-system-plock
 created: 2025-03-29T21:07:00.000Z
 image: /assets/plock_transit.png
