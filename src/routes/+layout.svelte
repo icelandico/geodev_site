@@ -29,6 +29,7 @@
 		async
 	>
 	</script>
+	<script src="https://analytics.ahrefs.com/analytics.js" data-key="X4ZWQwrYyKcAZ5xnTYKCAQ" async></script>
 </svelte:head>
 
 <div class="flex flex-col min-h-screen dark:bg-primaryDark">
