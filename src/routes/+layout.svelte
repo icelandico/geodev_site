@@ -30,6 +30,7 @@
 	>
 	</script>
 	<script src="https://analytics.ahrefs.com/analytics.js" data-key="X4ZWQwrYyKcAZ5xnTYKCAQ" async></script>
+	<meta name="ahrefs-site-verification" content="9b133c133f14d80c96ea7f78ec4aab60db9f434b9d252be2ceab1ad6fba5c452">
 </svelte:head>
 
 <div class="flex flex-col min-h-screen dark:bg-primaryDark">
