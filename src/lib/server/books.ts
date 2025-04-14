@@ -53,3 +53,25 @@ export const booksStats = Object.entries(
 		return acc;
 	}, [])
 	.sort((a, b) => b.year - a.year);
+
+	export function getSingleBook(slug: string) {
+		const files = import.meta.glob('./../content/books/**/*.md', {
+			as: 'raw',
+			eager: true
+		});
+	
+		const match = Object.entries(files).find(([path]) =>
+			path.endsWith(`${slug}.md`)
+		);
+	
+		if (!match) return null;
+	
+		const [filepath, rawMarkdown] = match;
+		const { data: metadata, content } = matter(rawMarkdown);
+	
+		return {
+			...(metadata as Book),
+			content,
+			slug
+		};
+	}
