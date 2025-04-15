@@ -3,18 +3,19 @@ templateKey: blog-post
 title: Convert object of objects to array of objects
 slug: Convert Object of objects to Array of Objects
 date: 2021-07-01T21:04:50.698Z
+description: Learn how to transform an object of objects into an array of
+  objects in JavaScript for easier data handling and rendering.
 category: JavaScript
 tag:
   - javascript
   - basics
 ---
-
-
 In some scenarios, we need data in a different format than we are given, for example from the API response. This is the situation when data transformation comes to play. In this short post, I'd like to show how to transform an object containing other objects, to a more developer-friendly format, like an array of objects.
 
 ## Input data
 
 Let's consider the following data collection.
+
 ```javascript
 const objectOfObjects = {
   1:
@@ -43,6 +44,7 @@ const objectOfObjects = {
     },
 }
 ```
+
 This data structure is something I've seen a few times in my (not too long) career. If we want to loop through such a collection and create some components from it, it's much easier to have an array and iterate over it.
 The simplest solution is to use `Object.entries()` method over it to convert this structure to an array.
 If we use only this method, that's the result:
@@ -56,8 +58,8 @@ const objectEntries = Object.entries(objectOfObjects)
   ['3', { countryName: 'Albania', hasSeaAccess: true, isInEU: false }],
   ['4', { countryName: 'Finland', hasSeaAccess: true, isInEU: true }]
 ]
-
 ```
+
 Close enough. To convert it only to an array of objects and keep the id we are given we have to use `Array.map()` over it.
 
 ```javascript
@@ -103,4 +105,3 @@ function convertCollection(obj) {
 ```
 
 This will return the same result as the solution with the `Object.entries()`.
-
