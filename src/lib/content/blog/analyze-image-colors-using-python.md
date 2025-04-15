@@ -3,21 +3,21 @@ templateKey: blog-post
 title: Analyze image colors using Python
 slug: Analyze image colors using Python
 date: 2023-03-26T17:15:55.042Z
+description: Analyzing flag colors using Python. Learn how to extract dominant
+  colors from images with Pillow and extcolors to build a simple dataset.
 category: Python
 tag:
   - python
   - various
 ---
-Recently, I got an idea to analyze a specific type of graphic. __Flags__. I wanted to create a simple dataset of what colors the flags are made up of and in what proportions (colors) they occur. It sounds like a data science task, so I did it using Python.
+Recently, I got an idea to analyze a specific type of graphic. **Flags**. I wanted to create a simple dataset of what colors the flags are made up of and in what proportions (colors) they occur. It sounds like a data science task, so I did it using Python.
 
 I wrote a program where you specify a directory, and it gives you a JSON with information about each image file found in this directory. In this post, I will focus only on the image analysis itself.
 
 To do it I needed two libraries:
 
-- <a href="https://pypi.org/project/extcolors/">extcolors</a>
-  
-- <a href="https://pypi.org/project/Pillow/">Pillow</a>
-  
+* <a href="https://pypi.org/project/extcolors/">extcolors</a>
+* <a href="https://pypi.org/project/Pillow/">Pillow</a>
 
 First, I had to get the images from the directory.
 
