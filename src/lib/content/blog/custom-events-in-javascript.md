@@ -3,6 +3,8 @@ templateKey: blog-post
 title: Custom events in JavaScript
 slug: Custom events in JavaScript
 date: 2021-01-10T15:04:57.611Z
+description: Learn how to create and dispatch custom events in JavaScript using
+  Event and CustomEvent constructors with practical examples.
 category: JavaScript
 tag:
   - basics
@@ -61,6 +63,7 @@ buttonEl.addEventListener('click', () => {
   inputEl.dispatchEvent(changeEvent)
 });
 ```
+
 Now, the `change` event will be triggered on the input.
 As mentioned above, the names of our events are not limited to names that are already built-in in JavaScript.
 This will work as long as we pass the same event name in the `Event()` constructor and `addEventListener`.
@@ -123,7 +126,6 @@ As you can see I passed two additional properties besides the `detail`. These ar
 Basically we haveto use `createEvent` and `initEvent`.
 
 ```javascript
-
 var element = document.getElementByClassName('.input');
 var customEvent = document.createEvent('Event');
 customEvent.initEvent('customEvent');
