@@ -7,22 +7,21 @@
 	import Footer from '$components/Footer.svelte';
 	import DarkmodeIcon from '$components/DarkmodeIcon.svelte';
 	import { page } from '$app/stores';
-
-	const DEFAULT_DESCRIPTION = 'A blog exploring the intersection of cartography and web development with insights on React, Svelte, TypeScript, and more.';
+	import { PAGE_DESCRIPTION } from '$utils/constants';
 </script>
 
 <svelte:head>
-	<title>{$page.data.title || DEFAULT_DESCRIPTION}</title>
-	<meta name="title" content={$page.data.title || DEFAULT_DESCRIPTION} />
-	<meta name="description" content={$page.data.description || DEFAULT_DESCRIPTION} />
-	<meta name="og:title" content={$page.data.title || DEFAULT_DESCRIPTION} />
-	<meta name="og:description" content={$page.data.description || DEFAULT_DESCRIPTION} />
+	<title>{$page.data.title || PAGE_DESCRIPTION}</title>
+	<meta name="title" content={$page.data.title || PAGE_DESCRIPTION} />
+	<meta name="description" content={$page.data.description || PAGE_DESCRIPTION} />
+	<meta name="og:title" content={$page.data.title || PAGE_DESCRIPTION} />
+	<meta name="og:description" content={$page.data.description || PAGE_DESCRIPTION} />
 	<meta name="og:type" content="website" />
 	<meta name="og:url" content={$page.url.href} />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content={$page.data.title} />
 	<meta name="twitter:image" content="https://geodev.me/assets/main_icon.png" />
-	<meta name="twitter:description" content={$page.data.description || DEFAULT_DESCRIPTION} />
+	<meta name="twitter:description" content={$page.data.description || PAGE_DESCRIPTION} />
 	<script
 		src="https://beamanalytics.b-cdn.net/beam.min.js"
 		data-token={`${PUBLIC_BEAM_ANALYTICS_ID}`}

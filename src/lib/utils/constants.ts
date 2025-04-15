@@ -1,3 +1,3 @@
 export const PAGE_TITLE = 'Programming and cartography';
 export const PAGE_DESCRIPTION =
-	'Software developer sharing insights on TypeScript, React, web development and cartography.';
+	'A blog exploring the intersection of cartography and web development with insights on React, Svelte, TypeScript, and more.';
