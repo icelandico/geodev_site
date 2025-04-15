@@ -8,7 +8,7 @@
 	import DarkmodeIcon from '$components/DarkmodeIcon.svelte';
 	import { page } from '$app/stores';
 
-	const DEFAULT_DESCRIPTION = 'Programming and Cartography';
+	const DEFAULT_DESCRIPTION = 'A blog exploring the intersection of cartography and web development with insights on React, Svelte, TypeScript, and more.';
 </script>
 
 <svelte:head>
