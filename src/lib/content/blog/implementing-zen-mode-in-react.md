@@ -3,6 +3,8 @@ templateKey: blog-post
 title: Implementing Zen Mode in React
 slug: implementing zen mode in react
 date: 2025-01-04T19:01:00.000Z
+description: Implement a clean, distraction-free Zen Mode in your React app.
+  Learn how to toggle UI elements for a focused user experience.
 category: React
 tag:
   - components
