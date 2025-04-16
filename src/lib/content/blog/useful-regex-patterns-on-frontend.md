@@ -2,8 +2,7 @@
 category: JavaScript
 date: 2023-04-10 11:46:23.923000+00:00
 description: Master essential regex patterns for frontend development. Learn how to
-  validate emails and other common tasks with practical examples. Boost your skills
-  and improve form validation today!
+  validate emails and other common tasks with practical examples.
 slug: Useful regex patterns on frontend
 tag:
 - javascript

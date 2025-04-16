@@ -3,7 +3,7 @@ category: Typescript
 date: 2023-04-20 19:34:30.921000+00:00
 description: Learn how to define and use enums in TypeScript for named constants.
   Discover how TypeScript automatically assigns numeric values and generates JavaScript
-  objects. Boost your TypeScript skills today!
+  objects.
 slug: Something about Enums
 tag:
 - typescript

@@ -3,7 +3,7 @@ category: React
 date: 2021-09-11 22:27:14.877000+00:00
 description: Learn how to create a reusable modal component in React to enhance user
   experience. This tutorial covers the basics and provides a code repository for easy
-  implementation. Boost your UI skills now!
+  implementation.
 slug: React Modal component
 tag:
 - components

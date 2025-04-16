@@ -3,7 +3,7 @@ category: CSS
 date: 2021-01-31 18:05:20.848000+00:00
 description: Master CSS selectors beyond classes for legacy projects. Learn how to
   use child combinators and more to handle unchangeable HTML and dynamically loaded
-  elements. Boost your CSS skills today!
+  elements.
 slug: Non standard CSS selectors
 tag:
 - css

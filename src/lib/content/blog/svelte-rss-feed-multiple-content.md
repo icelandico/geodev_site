@@ -3,7 +3,7 @@ category: JavaScript
 date: 2025-01-31 20:05:00+00:00
 description: Discover how to create an RSS feed for your Svelte website and aggregate
   data from multiple sources. Learn practical tips and examples to keep your content
-  accessible and up-to-date. Boost your SEO and user engagement today!
+  accessible and up-to-date.
 slug: svelte rss feed multiple content
 tag:
 - svelte

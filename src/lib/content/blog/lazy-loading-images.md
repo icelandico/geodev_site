@@ -1,9 +1,9 @@
 ---
 category: JavaScript
 date: 2024-10-31 22:49:00+00:00
-description: '"Discover how lazy loading with the Intersection Observer API can boost
-  your website''s performance. Learn the simple, framework-agnostic implementation
-  to enhance user experience and reduce load times. Improve your site''s speed today!"'
+description: Discover how lazy loading with the Intersection Observer API can boost
+  your website's performance. Learn the simple, framework-agnostic implementation
+  to enhance user experience and reduce load times.
 slug: Lazy loading images
 tag:
 - basics
