@@ -1,13 +1,17 @@
 ---
+category: Personal
+date: 2025-04-01 17:58:00+00:00
+description: 'Discover the world of scam emails and learn to spot the warning signs.
+  Read about my experiences with fraudulent messages and how to protect your domain
+  from phishing attempts. #ScamEmails #CyberSecurity'
+slug: My experience with scam emails
+tag:
+- various
 templateKey: blog-post
 title: My experience with scam emails
-slug: My experience with scam emails
-date: 2025-04-01T17:58:00.000Z
-category: Personal
-tag:
-  - various
 ---
- It's been five years since I created the blog you're reading now.
+
+It's been five years since I created the blog you're reading now.
 
 I'm providing my email address on this site - I hoped it would serve as an opportunity to contact people who liked (or didn't like ;-)) the posts I write here. Unfortunately, I have received only a few such messages from real readers in four years. Scam-type messages, on the other hand, I receive several a month. In this post, I would like to share some of these emails. Most of us are likely aware of the dangers and malicious intent behind these messages. Let this post serve as a small guide to the world of scam emails and other warning sign.
 ## Expiring domain

@@ -1,12 +1,15 @@
 ---
+category: Angular
+date: 2021-04-02 21:34:47.061000+00:00
+description: Learn how to create a reusable pagination component in Angular. This
+  tutorial guides you through building your own tool instead of relying on large npm
+  packages. Explore the live demo and GitHub repository for hands-on experience.
+slug: Pagination component in Angular
+tag:
+- angular
+- components
 templateKey: blog-post
 title: Pagination component in Angular
-slug: Pagination component in Angular
-date: 2021-04-02T21:34:47.061Z
-category: Angular
-tag:
-  - angular
-  - components
 ---
 
 Pagination is essential when it comes to displaying a lot of data. Usually, we prefer to divide our content into smaller parts instead of showing for example a long list of entries. There's a lot of libraries that offer fully featured components that are ready to use. I prefer to build my own tools. Mostly because I don't want to load a whole npm package if I need just a few (or one) elements from it. In this tutorial, I'd like to show how to implement a reusable pagination component using Angular.

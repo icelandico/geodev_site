@@ -1,13 +1,17 @@
 ---
+category: JavaScript
+date: 2023-08-16 15:37:02.628000+00:00
+description: Learn how to create a shallow copy of an object while omitting specific
+  keys using ES6. Discover a clean, efficient method to avoid unnecessary variables
+  and side effects. Perfect for JavaScript developers looking to optimize their code.
+slug: Spread object and omit keys
+tag:
+- javascript
+- es6
 templateKey: blog-post
 title: Spread object and omit keys
-slug: Spread object and omit keys
-date: 2023-08-16T15:37:02.628Z
-category: JavaScript
-tag:
-  - javascript
-  - es6
 ---
+
 Lastly I needed to create a shallow copy of an object but omit some keys. To make the code more compact I didn't want to use the `delete` operator. ES6 spread operator allows to do it.
 
 Below is an example original object. I want to copy it but omit the `city` and `country` keys.

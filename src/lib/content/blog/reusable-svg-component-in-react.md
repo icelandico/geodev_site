@@ -1,12 +1,16 @@
 ---
+category: React
+date: 2021-01-17 17:34:42.134000+00:00
+description: Learn how to efficiently handle SVG elements in React applications. Discover
+  best practices for integrating SVG, from inline code to component transformation,
+  to enhance your JavaScript projects.
+slug: Reusable SVG component in React
+tag:
+- react
 templateKey: blog-post
 title: Reusable SVG component in React
-slug: Reusable SVG component in React
-date: 2021-01-17T17:34:42.134Z
-category: React
-tag:
-  - react
 ---
+
 SVG is one of the image formats you want to use in JavaScript application. The question of why to choose SVG over other image formats is a separate topic to discuss. In this short tutorial, I would like to show how I handle SVG elements in React applications.
 
 React gives us few options to use SVG in components.
@@ -111,7 +115,3 @@ Before I add any SVG into the project I optimize its code. For now, I can achiev
 ## Conclusion
 
 Wrapping the SVG icon into a separate component is helpful when it comes to unifying the appearance of these elements across your application. Using this component along with the SVGR package or other SVG optimization tool will make your icons easily scalable and editable. This may also increase the performance and speed of your website.
-
-
-
-

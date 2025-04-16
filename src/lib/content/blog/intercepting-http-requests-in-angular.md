@@ -1,13 +1,15 @@
 ---
+category: Angular
+date: 2021-07-18 18:42:56.885000+00:00
+description: Learn how Angular's HttpInterceptor can standardize varied HTTP responses
+  in your app. Discover how to intercept and modify requests/responses using HttpClient.
+  Improve your app's data handling today!
+slug: Intercepting Http requests in Angular
+tag:
+- angular
 templateKey: blog-post
 title: Intercepting Http requests in Angular
-slug: Intercepting Http requests in Angular
-date: 2021-07-18T18:42:56.885Z
-category: Angular
-tag:
-  - angular
 ---
-
 
 In a perfect world, we have a standardized HTTP request and responses structure, which is applied in a whole app. A perfect world does not exist and often we have to handle multiple different responses from different sources which structure varies. Luckily, Angular provides a solution to solve this problem on the client side. 
 
@@ -164,7 +166,3 @@ In this example, I presented a simple way to transform a data fetched using the 
 implement much more complicated and sophisticated features, like error handling or adding default data to every *post* request. 
 Working app with the code is available <a href="https://github.com/icelandico/post-angular-http-incerceptor">in this repo</a>.
 If you are interested in the detailed information about *http interceptor* I suggest to visit the official <a href="https://angular.io/guide/http#intercepting-requests-and-responses">Angular docs website</a>.
-
-
-
-

@@ -1,13 +1,17 @@
 ---
-templateKey: blog-post
-title: "Typescript: Conditional types "
-slug: typescript conditional types
-date: 2024-12-26T14:50:00.000Z
 category: Typescript
+date: 2024-12-26 14:50:00+00:00
+description: Discover the power of conditional types in TypeScript. Learn how to declare
+  types based on conditions, making your code more flexible and dynamic. Enhance your
+  TypeScript skills with practical examples.
+slug: typescript conditional types
 tag:
-  - typescript
-  - javascript
+- typescript
+- javascript
+templateKey: blog-post
+title: 'Typescript: Conditional types '
 ---
+
 Writing conditions in our code is one of the most utilized functionalities of the programming languages we are writing in. Even though I've been using Typescript for several years now I did not realize that it allows me to write conditional types. I find it one of the most unique features of the Typescript so far.
 
 For some use cases in our code we cannot declare the particular type yet (like `string` or `number`). This is a situation where conditional types comes in handy.

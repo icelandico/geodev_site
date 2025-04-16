@@ -1,13 +1,18 @@
 ---
+category: Typescript
+date: 2023-06-25 16:12:30.441000+00:00
+description: Secure your React Native app data with `react-native-keychain`. Learn
+  how to create a TypeScript wrapper for enhanced maintainability and type safety.
+  Ensure data encryption and secure storage on iOS and Android. Boost your app's security
+  today!
+slug: typescript wrapper react native keychain
+tag:
+- react native
+- typescript
 templateKey: blog-post
 title: Building a TypeScript Wrapper for react-native-keychain
-slug: typescript wrapper react native keychain
-date: 2023-06-25T16:12:30.441Z
-category: Typescript
-tag:
-  - react native
-  - typescript
 ---
+
 In the world of React Native development, there are couple of methods for keeping your data safe on the device. One popular library that provides secure storage capabilities is `react-native-keychain`. It's important to note that the actual data stored using `react-native-keychain` is encrypted and protected by the underlying device's secure storage mechanisms, such as the Keychain on iOS and the Keystore on Android. This ensures that the stored data remains secure and inaccessible to unauthorized parties.
 
 While using this library directly in your codebase works fine, creating a wrapper with TypeScript can enhance code maintainability, readability, and type safety. In this article, I would like to show you how I created a TypeScript wrapper for `react-native-keychain` using an abstract class, making it easier to manage and use securely stored data in your React Native applications.

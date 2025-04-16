@@ -1,13 +1,17 @@
 ---
+category: Typescript
+date: 2023-07-08 17:50:19.562000+00:00
+description: Learn how to use discriminated unions in TypeScript for type-safe, concise
+  data modeling. Discover how to handle varying data types, API responses, and complex
+  structures with unique discriminant properties. Boost your TypeScript skills today!
+slug: Discriminated unions in Typescript
+tag:
+- typescript
+- basics
 templateKey: blog-post
 title: Discriminated unions in Typescript
-slug: Discriminated unions in Typescript
-date: 2023-07-08T17:50:19.562Z
-category: Typescript
-tag:
-  - typescript
-  - basics
 ---
+
 Discriminated unions, also known as tagged unions or algebraic data types, are a feature in TypeScript that enable developers to model and work with varying types of data in a concise and type-safe manner. They provide a way to define a type that can represent multiple alternatives, where each alternative has a unique discriminant property to differentiate it from the others. This discriminant property acts as a type guard, allowing the TypeScript compiler to narrow down the type and provide more accurate type inference.
 
 By using discriminated unions, developers can create expressive and self-describing types that accurately capture the possible states or variants of a value. This is particularly useful when dealing with scenarios such as handling different response types from API calls, representing different error conditions, or modeling complex data structures with varying shapes.

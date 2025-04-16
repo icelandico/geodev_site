@@ -1,14 +1,16 @@
 ---
+category: React
+date: 2021-03-21 18:30:30.733000+00:00
+description: Learn how to capture the current scroll position in React using custom
+  hooks. Enhance user interaction in your web applications by leveraging the scroll
+  event. See a practical example on my personal website.
+slug: React scroll handler hook
+tag:
+- react
+- gatsby
 templateKey: blog-post
 title: React scroll handler hook
-slug: React scroll handler hook
-date: 2021-03-21T18:30:30.733Z
-category: React
-tag:
-  - react
-  - gatsby
 ---
-
 
 The scroll event is probably one of the most used events on the webpages. Getting the scroll position of the browser might give you a lot of opportunities to handle user interaction in your web application. In this post, I'd like to show you how I use React `hooks` to get the current scroll position on the page. I use this solution for example on my personal <a href="https://michalmuszynski.com" target="_blank">website</a>.
 

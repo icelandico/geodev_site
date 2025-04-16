@@ -1,14 +1,16 @@
 ---
+category: Node
+date: 2021-10-28 18:29:21.850000+00:00
+description: Learn how to rename multiple files in a directory using JavaScript (Node.js).
+  This post builds on the previous Python tutorial, demonstrating the same task with
+  a different programming language. Perfect for handling bulk file renaming efficiently.
+slug: Renaming files with Nodejs
+tag:
+- javascript
+- node
 templateKey: blog-post
 title: Renaming files with Node.js
-slug: Renaming files with Nodejs
-date: 2021-10-28T18:29:21.850Z
-category: Node
-tag:
-  - javascript
-  - node
 ---
-
 
 In my last post, I presented how to change the names of files in a directory using Python. That's very useful if we have a lot of files and we want to rename every single one. Now I would like to show how to achieve the same goal using a different programming language. This time it's JavaScript (Node JS).
 
@@ -50,4 +52,3 @@ files.forEach((file, idx) => {
   });
 })
 ```
-

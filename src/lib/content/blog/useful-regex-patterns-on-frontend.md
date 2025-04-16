@@ -1,13 +1,17 @@
 ---
+category: JavaScript
+date: 2023-04-10 11:46:23.923000+00:00
+description: Master essential regex patterns for frontend development. Learn how to
+  validate emails and other common tasks with practical examples. Boost your skills
+  and improve form validation today!
+slug: Useful regex patterns on frontend
+tag:
+- javascript
+- basics
 templateKey: blog-post
 title: Useful regex patterns on frontend
-slug: Useful regex patterns on frontend
-date: 2023-04-10T11:46:23.923Z
-category: JavaScript
-tag:
-  - javascript
-  - basics
 ---
+
 I'm not good at regular expressions. I know some basic patterns and it's syntax, but I've never explored this topic too thoroughly. As a developer who is focused mostly on the frontend side, I didn't encounter them very often. But I realize how important and crucial it is, especially when it comes to validate things, like forms.
 
 Here's my list of regular expressions that I found useful and I use them on a daily basis to solve quite common problems.

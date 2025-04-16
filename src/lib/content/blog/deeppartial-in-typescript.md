@@ -1,12 +1,14 @@
 ---
+category: Typescript
+date: 2023-07-10 17:38:52.478000+00:00
+description: Discover how to use TypeScript's `Partial<T>` utility type to make all
+  properties optional, and learn how to handle nested objects for deeper type transformations.
+slug: DeepPartial in Typescript
+tag:
+- typescript
+- javascript
 templateKey: blog-post
 title: DeepPartial in Typescript
-slug: DeepPartial in Typescript
-date: 2023-07-10T17:38:52.478Z
-category: Typescript
-tag:
-  - typescript
-  - javascript
 ---
 
 `Partial` is a very useful utility type in Typescript. It allows you to make all properties of an existing type optional. However, by default, TypeScript's `Partial<T>` only performs a shallow partial type, meaning it makes the top-level properties optional, but it does not recurse into nested properties.

@@ -1,14 +1,16 @@
 ---
+category: React
+date: 2021-04-16 21:02:50.399000+00:00
+description: Learn how to create a pagination component in React, similar to the one
+  built with Angular. Explore the project on GitHub and see the live demo. This guide
+  covers essential functionalities like page navigation and content updates.
+slug: Pagination component in React
+tag:
+- components
+- react
 templateKey: blog-post
 title: Pagination component in React
-slug: Pagination component in React
-date: 2021-04-16T21:02:50.399Z
-category: React
-tag:
-  - components
-  - react
 ---
-
 
 Last time I presented how to create a <a href="https://michalmuszynski.com/blog/pagination-component-in-angular/" target="_blank">pagination component</a> using Angular. In this post, I'd like to show, how to get the same result using React.
 

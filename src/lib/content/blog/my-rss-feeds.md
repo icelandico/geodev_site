@@ -1,14 +1,18 @@
 ---
+category: Personal
+date: 2022-12-10 20:59:11.029000+00:00
+description: Discover the enduring value of RSS feeds for staying updated with your
+  favorite blogs. Learn about my setup with Newsblur and explore my curated list of
+  insightful feeds, including TinyProjects and 2ality.
+slug: RSS feeds I follow
+tag:
+- various
+- javascript
+- react
 templateKey: blog-post
 title: RSS feeds I follow
-slug: RSS feeds I follow
-date: 2022-12-10T20:59:11.029Z
-category: Personal
-tag:
-  - various
-  - javascript
-  - react
 ---
+
 Few weeks ago I've added a RSS feed to my site. If you still use this [ancient technology](https://en.wikipedia.org/wiki/RSS) and want to add it to your feed - you're welcome to do that. Yes - it's quite old but in my opinion it's one of the best options to keep up-to-date with your favorite blogs and websites. There are plenty of RSS readers available and I've chosen Newsblur. It's clear and simple. But to the point.
 
 Here's my list of feeds I'm subscribed to.

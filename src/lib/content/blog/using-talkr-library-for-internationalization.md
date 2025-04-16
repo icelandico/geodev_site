@@ -1,13 +1,17 @@
 ---
+category: React
+date: 2023-01-14 12:10:33.973000+00:00
+description: Explore my journey with internationalization in web apps using Gdynia
+  Open Data. Discover how I compared libraries like react-i18next, react-intl, and
+  linguiJS for a small project. Learn about bundle sizes and my experience.
+slug: Using Talkr library for internationalization
+tag:
+- typescript
+- react
 templateKey: blog-post
 title: Using Talkr library for internationalization
-slug: Using Talkr library for internationalization
-date: 2023-01-14T12:10:33.973Z
-category: React
-tag:
-  - typescript
-  - react
 ---
+
 Recently I returned to one of my older projects - [Gdynia Open Data](https://github.com/icelandico/gdynia-open-data). I've added few more functionalities, including internationalization. I don't expect that this project will be used by anyone other than me but I wanted to refresh my knowledge about the aspect of internationalization in web apps.
 
 So far I've used only one solution - [react-i18next](https://react.i18next.com/). The most popular among the developers, very mature and opinionated. However in this tiny project I wanted to try a new library. I had to translate around 30 phrases. Not much, probably not enough to use any additional tool.

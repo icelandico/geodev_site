@@ -1,13 +1,17 @@
 ---
+category: Cartography
+date: 2024-08-10 22:09:00+00:00
+description: Explore theoretical metro routes for Tricity, Poland. Discover geographic
+  conditions and potential subway lines to enhance the region's transport system.
+  Dive into cartography and urban planning.
+slug: tricity metro system
+tag:
+- geography
+- various
 templateKey: blog-post
 title: The (im)possible metro system in Tricity. Part 1
-slug: tricity metro system
-date: 2024-08-10T22:09:00.000Z
-category: Cartography
-tag:
-  - geography
-  - various
 ---
+
 If you visit this page you may notice that apart from programming I'm strongly interested in cartography. I decided to look at the issue of transport development in the area where I live (<a href="https://en.wikipedia.org/wiki/Tricity,_Poland">Tricity</a>) and prepare some maps regarding this topic. My main goal is to present a theoretical (and certainly impossible to build) possible routes of the metro system. I want to cover this topic in two articles. In the first one (which you are reading) I will briefly outline the geographic conditions of the region (demography, population density, terrain). In the next article, I would like to present how the region's current transportation system looks like and how potential subway lines can be designed to supplement the existing network. Of course, this is not a scientific work. I made maps, collected data and wanted to summarize my conclusions.
 ## Current situation
 

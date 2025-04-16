@@ -1,13 +1,17 @@
 ---
+category: JavaScript
+date: 2021-02-14 15:26:33.295000+00:00
+description: Discover the challenges of JavaScript compatibility across browsers.
+  Learn why supporting older browsers is crucial for long-term web applications and
+  how to ensure seamless user experiences.
+slug: JavaScript polyfills
+tag:
+- javascript
+- basics
 templateKey: blog-post
 title: JavaScript polyfills
-slug: JavaScript polyfills
-date: 2021-02-14T15:26:33.295Z
-category: JavaScript
-tag:
-  - javascript
-  - basics
 ---
+
 JavaScript environment is a very dynamic one. New features, properties, or methods come out pretty often. The problem is, that not every JavaScript environment (which is a web browser) keeps up with implementation and handling these changes. As a frontend developer, we often have to deal with the features compatibility and we have to test our solutions across multiple browsers in different (often considered as deprecated) versions. Each of the major browsers also has its own way when it comes to implementing the ECMAScript standards.
 
 ## Why support older browsers?

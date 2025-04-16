@@ -1,12 +1,17 @@
 ---
+category: Typescript
+date: 2024-10-08 19:46:00+00:00
+description: Discover how to reverse a string recursively in TypeScript with this
+  fun exercise. Learn about lesser-known TypeScript features and see the solution
+  from Typehero's AOT-2023 challenge. Dive into generic types and conditional types
+  for a deeper understanding.
+slug: reverse string typescript string literals
+tag:
+- typescript
 templateKey: blog-post
 title: Reverse string using Typescript string literals
-slug: reverse string typescript string literals
-date: 2024-10-08T19:46:00.000Z
-category: Typescript
-tag:
-  - typescript
 ---
+
 You are given a task: create the type definition that takes a string `S` and recursively reverses it. The result should be a new string type where the given input `S` is in reverse order. This is not something you may do on a daily basis work, but it's a fun thing to do and check lesser known Typescript features.
 This was one of the exercises from the <a href="https://typehero.dev/aot-2023" target="_blank">Typehero</a> site. And here's the solution:
 

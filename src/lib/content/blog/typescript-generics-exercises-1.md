@@ -1,13 +1,17 @@
 ---
+category: Typescript
+date: 2024-01-01 10:53:13.475000+00:00
+description: Master TypeScript generics with practical exercises. Learn to maintain
+  type safety and avoid code duplication. Explore tasks from Typehero and elevate
+  your skills.
+slug: typescript generics exercises 1
+tag:
+- javascript
+- typescript
 templateKey: blog-post
 title: Typescript generics exercises part 1.
-slug: typescript generics exercises 1
-date: 2024-01-01T10:53:13.475Z
-category: Typescript
-tag:
-  - javascript
-  - typescript
 ---
+
 Generics seems to be one of the hardest Typescript concepts. If you've ever found yourself duplicating code or struggling to maintain type safety across various data structures, TypeScript generics might just be the game-changer you've been looking for.
 One of the best thing you can do is to **practice by repetition**. Luckily there are tools you can use to elevate your skills in this area. I want to show exercises with my solutions to the tasks you can find on the site [Typehero](https://typehero.dev/). Tasks involve creating a type that takes a certain argument (so you have to use generics) and as a result, a new type is returned. Consider these tasks as a Codewars challenge but with types only.
 

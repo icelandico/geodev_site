@@ -1,15 +1,17 @@
 ---
+category: JavaScript
+date: 2021-06-18 22:21:35.758000+00:00
+description: Learn how to create a simple screensaver for your web app using JavaScript.
+  This beginner-friendly guide includes reusable code from my first npm package, js-screensaver.
+  Start building your own animations today!
+slug: Screensaver in JavaScript
+tag:
+- components
+- es6
+- javascript
 templateKey: blog-post
 title: Screensaver in JavaScript
-slug: Screensaver in JavaScript
-date: 2021-06-18T22:21:35.758Z
-category: JavaScript
-tag:
-  - components
-  - es6
-  - javascript
 ---
-
 
 All of us know very well the screensavers in our operating systems. In this post, I'd like to show how to implement such functionality in our web application using Javascript. The animation I present is not very sophisticated and complicated, but it's a place to start implementing your own, more complex solution here.
 
@@ -148,5 +150,3 @@ That's the final result, the screensaver with a custom HTML, styling, text insid
 ![Screensaver example](/assets/screensaver.gif)
 
 I did not show every line of code in this post. The whole project is available <a href="https://github.com/icelandico/js-screensaver" target="_blank">here</a>, so you can check every method and configuration. This package is very simple and not much customizable so far, but - it has potential ;-).
-
-

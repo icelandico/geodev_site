@@ -1,13 +1,17 @@
 ---
-templateKey: blog-post
-title: "Snippet: Generate a number with JavaScript Math.random()"
-slug: generate random number javascript
-date: 2024-02-17T21:48:41.935Z
 category: JavaScript
+date: 2024-02-17 21:48:41.935000+00:00
+description: Learn how to generate reliable random numbers in JavaScript using `Math.random()`.
+  Discover two functions to create random numbers within specific ranges, making your
+  code more predictable and effective.
+slug: generate random number javascript
 tag:
-  - snippet
-  - javascript
+- snippet
+- javascript
+templateKey: blog-post
+title: 'Snippet: Generate a number with JavaScript Math.random()'
 ---
+
 The `Math.random()` method which generates random number in JavaScript can be considered as unreliable. It returns only a number that's greater than or equal to 0 and less than 1. In most cases that's not what developer wants.
 
 Here are two functions that uses `Math.random()` which helps to generate random numbers in more controllable way.

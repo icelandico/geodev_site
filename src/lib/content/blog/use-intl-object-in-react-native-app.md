@@ -1,13 +1,17 @@
 ---
+category: Mobile
+date: 2023-03-12 13:39:26.158000+00:00
+description: 'Learn how to fix the "ReferenceError: Property ''Intl'' doesn''t exist"
+  in React Native apps. Simple steps to resolve this issue for Android applications
+  using React Native 0.60 and above.'
+slug: Use Intl object in React Native app
+tag:
+- android
+- react native
 templateKey: blog-post
 title: Use Intl object in React Native app
-slug: Use Intl object in React Native app
-date: 2023-03-12T13:39:26.158Z
-category: Mobile
-tag:
-  - android
-  - react native
 ---
+
 If you develop an app using React Native you may encounter some errors that you normally won't experience while developeing a web app.
 
 I recently came across one of these:

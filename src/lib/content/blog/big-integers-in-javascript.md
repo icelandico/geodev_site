@@ -1,12 +1,15 @@
 ---
+category: JavaScript
+date: 2022-03-24 11:18:43.330000+00:00
+description: '"Refresh your coding skills with Codewars katas! Learn how to handle
+  large number multiplication in JavaScript, avoiding common pitfalls like exponential
+  notation. Dive into the 4 kyu kata challenge and master string-based arithmetic."'
+slug: big integers in javascript
+tag:
+- javascript
+- basics
 templateKey: blog-post
 title: Handling big integers in JavaScript
-slug: big integers in javascript
-date: 2022-03-24T11:18:43.330Z
-category: JavaScript
-tag:
-  - javascript
-  - basics
 ---
 
 As a part of my training and to refresh myself on certain topics, I recently returned to solving katas from <a href="https://codewars.com">codewars</a>. After few easy ones I jumped to 4 kyu <a href="https://www.codewars.com/kata/55911ef14065454c75000062">kata</a> with the following instruction:
@@ -59,5 +62,3 @@ That was the first time I needed to use `BigInt` and probably I won't have many 
 In my opinion, however, it's important to know even less known features or obscure functionalities of the programming language in which we work every day.
 
 For more details I suggest to read <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt">the MDN documentation</a>
-
-

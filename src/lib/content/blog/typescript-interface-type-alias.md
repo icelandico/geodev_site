@@ -1,13 +1,17 @@
 ---
+category: Typescript
+date: 2023-11-19 15:08:49.203000+00:00
+description: Discover the differences between `types` and `interfaces` in TypeScript.
+  Learn when to use each, their pros and cons, and why `type` might be the better
+  option for defining object shapes and enforcing code contracts.
+slug: typescript interface type alias
+tag:
+- javascript
+- typescript
 templateKey: blog-post
 title: Interface vs Type alias
-slug: typescript interface type alias
-date: 2023-11-19T15:08:49.203Z
-category: Typescript
-tag:
-  - javascript
-  - typescript
 ---
+
 Probably the two most popular ways to declare type structures in Typescript. Both `types` and `interfaces` are used to define shapes for objects and provide a way to enforce contracts within your code. Can they be used interchangeably? Is one better than the other? What are the pros and cons of using them? I've chosen a few examples to show that `type` might be a better option.
 
 ## Interface describes object only

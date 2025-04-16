@@ -1,13 +1,17 @@
 ---
+category: React
+date: 2021-01-24 17:18:31.121000+00:00
+description: Learn how to create a reusable scroll indicator in React using hooks
+  and Styled Components. Enhance user experience by highlighting scrollable content.
+  See the final component in action and get the code.
+slug: Scroll indicator component in React
+tag:
+- react
+- components
 templateKey: blog-post
 title: Scroll indicator component in React
-slug: Scroll indicator component in React
-date: 2021-01-24T17:18:31.121Z
-category: React
-tag:
-  - react
-  - components
 ---
+
 Scrolling is probably one of the most used actions handled by website users. Several times I came across a situation in which I did not notice that there is still some content to read and discovered this just by accident. In this short tutorial, I want to show how to create a simple scroll indicator. This element might help to highlight that it is still content to scroll down if the user didn't reach the end of the article or just a container with the text.
 
 I will show how to implement such element using React (hooks) with <a href="https://styled-components.com/" target="_blank">Styled Components</a>.

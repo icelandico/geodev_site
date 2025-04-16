@@ -1,14 +1,18 @@
 ---
+category: JavaScript
+date: 2024-10-31 22:49:00+00:00
+description: '"Discover how lazy loading with the Intersection Observer API can boost
+  your website''s performance. Learn the simple, framework-agnostic implementation
+  to enhance user experience and reduce load times. Improve your site''s speed today!"'
+slug: Lazy loading images
+tag:
+- basics
+- javascript
+- svelte
 templateKey: blog-post
 title: Simple implementation of lazy loading images
-slug: Lazy loading images
-date: 2024-10-31T22:49:00.000Z
-category: JavaScript
-tag:
-  - basics
-  - javascript
-  - svelte
 ---
+
 In today's web-first world, image-heavy websites can significantly impact your users experience. Every millisecond counts (a few seconds could ruin your website's traffic), and loading all images at once can lead to slower page loads, increased bandwidth usage, and frustrated visitors. Enter lazy loading: a basic and smart technique that defers loading images until they're actually needed.
 
 In this short article, I would like to describe the simple function that shows the practical implementation of lazy loading using the Intersection Observer API. This solution is framework agnostic so you can use it in every JavaScript based project.

@@ -1,13 +1,17 @@
 ---
+category: JavaScript
+date: 2024-11-02 14:40:00+00:00
+description: Learn how to remove duplicates from an array of objects in TypeScript.
+  Discover three efficient functions using generics for type safety. Perfect for cleaning
+  user input, API responses, and maintaining unique values. Ideal for developers seeking
+  practical solutions.
+slug: Ways to remove duplicates from array
+tag:
+- javascript
+- basics
+- typescript
 templateKey: blog-post
 title: Ways to remove duplicates from array
-slug: Ways to remove duplicates from array
-date: 2024-11-02T14:40:00.000Z
-category: JavaScript
-tag:
-  - javascript
-  - basics
-  - typescript
 ---
 
 While working on the code recently, I had a simple problem to solve - remove duplicates from an array of objects. It's a common task that every developer encounters. Whether you're cleaning up user input, processing API responses, or just trying to maintain a unique set of values, having a solid grasp of such techniques is essential. I want to present three functions that will help you with it. The only drawback of this solution is the data input. It won't work if you want to filter objects by keys which are deeply nested.
@@ -80,4 +84,3 @@ This function does two operations:
 	- `idx`: Current position in the array
 	- `findIndex`: Position of first element with same key value
 This way, only the first occurrence of each unique key value remains in the final array.
-

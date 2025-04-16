@@ -1,12 +1,15 @@
 ---
+category: JavaScript
+date: 2025-01-31 20:05:00+00:00
+description: Discover how to create an RSS feed for your Svelte website and aggregate
+  data from multiple sources. Learn practical tips and examples to keep your content
+  accessible and up-to-date. Boost your SEO and user engagement today!
+slug: svelte rss feed multiple content
+tag:
+- svelte
+- basics
 templateKey: blog-post
 title: Creating RSS Feed from multiple content types in Svelte
-slug: svelte rss feed multiple content
-date: 2025-01-31T20:05:00.000Z
-category: JavaScript
-tag:
-  - svelte
-  - basics
 ---
 
 RSS is not dead. I think so. Most of blogs I regularly read have RSS feed. I can find topic related to RSS on other sources I visit, like Hacker News, <a href="https://www.reddit.com/r/rss/" target="_blank">rss subreddit</a> and other web development related communities. I can still find new articles on how to implement RSS feed on your own website. This makes me feel that people still use it. So do I. I encourage you to add my feed to your list, <a href="https://www.geodev.me/rss.xml" target="_blank">you're welcome</a>.

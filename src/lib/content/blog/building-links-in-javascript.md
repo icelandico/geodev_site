@@ -1,13 +1,17 @@
 ---
+category: JavaScript
+date: 2023-07-15 19:51:19.061000+00:00
+description: Discover how to enhance navigation in your React Native app by creating
+  a professional, reusable link generation class. Learn to navigate seamlessly from
+  your app to specific website pages like About, Privacy Policy, and Product Listings.
+slug: Building links in JavaScript
+tag:
+- javascript
+- react native
 templateKey: blog-post
 title: Building links in JavaScript
-slug: Building links in JavaScript
-date: 2023-07-15T19:51:19.061Z
-category: JavaScript
-tag:
-  - javascript
-  - react native
 ---
+
 In a mobile app that I'm working on there are places that navigates from the app to the website of the company. These links navigates to a different pages like: about page, privacy policy, some product pages or listings. 
 In a React Native to open an url we use `Linking`:
 ```typescript
@@ -85,4 +89,4 @@ console.log('User', LinkBuilderInstance.userPageLink(819));
 
 Note that for `subpageLink` there is additional guard. We can pass only values from the `POSSIBLE_LINKS` type so we can create a fixed collection of strings that can be passed as an argument here.
 
-This `LinkBuilder` class offers a simplified and flexible approach to links. By centralizing link construction logic and providing consistent APIs, the `LinkBuilder` class streamlines the process of generating links for different pages and subpages. 
+This `LinkBuilder` class offers a simplified and flexible approach to links. By centralizing link construction logic and providing consistent APIs, the `LinkBuilder` class streamlines the process of generating links for different pages and subpages.

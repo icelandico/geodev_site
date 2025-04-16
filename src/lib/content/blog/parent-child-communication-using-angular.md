@@ -1,12 +1,16 @@
 ---
+category: Angular
+date: 2021-05-14 21:17:29.813000+00:00
+description: Learn how to share data between parent and child components in modern
+  web development. Discover techniques for passing data down and handling bidirectional
+  communication. Optimize your Angular apps with these best practices.
+slug: Parent child communication using Angular
+tag:
+- angular
 templateKey: blog-post
 title: Parent child communication using Angular
-slug: Parent child communication using Angular
-date: 2021-05-14T21:17:29.813Z
-category: Angular
-tag:
-  - angular
 ---
+
 It's very common in modern web development to handle the communication between the nearest components. The most obvious data flow is a parent to child. In this post, I'd like to show how to share the data between such components in both directions.
 
 ## Passing data to children

@@ -1,13 +1,17 @@
 ---
+category: Personal
+date: 2024-02-22 12:44:26.928000+00:00
+description: Discover why I chose SvelteKit for my new website. Learn about its unique
+  approach to UI building, faster page loads, and improved SEO. Find out how this
+  framework helped me complete a project from scratch.
+slug: my website version 2
+tag:
+- various
+- svelte
 templateKey: blog-post
 title: My website version 2.0
-slug: my website version 2
-date: 2024-02-22T12:44:26.928Z
-category: Personal
-tag:
-  - various
-  - svelte
 ---
+
 My previous website, built with Gatsby, served me well for a few years. It was performant, SEO-friendly and had a design I liked. I wanted to build and finish a new project and I decided that creating my website from scratch will be a good idea. My main point was to focus on starting and finishing a project and to learn a new technology.  
 ## Based on SvelteKit
 

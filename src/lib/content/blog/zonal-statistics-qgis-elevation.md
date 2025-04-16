@@ -1,13 +1,17 @@
 ---
+category: Geography
+date: 2024-11-10 16:53:00+00:00
+description: Learn how to use QGIS's Zonal Statistics to calculate mean elevation
+  for each municipality in Lithuania. Discover free data sources and step-by-step
+  instructions for creating detailed elevation maps.
+slug: zonal statistics qgis elevation
+tag:
+- gis
+- geography
 templateKey: blog-post
 title: Visualizing Mean Elevation using Zonal Statistics in QGIS
-slug: zonal statistics qgis elevation
-date: 2024-11-10T16:53:00.000Z
-category: Geography
-tag:
-  - gis
-  - geography
 ---
+
 The Zonal Statistics is one of a many processing algorithms available in QGIS. It's simple and powerful feature that allows to calculate statistics for raster datasets based on zones defined by vector polygons. Recently I've made a map using this technique to depict the mean elevation of each municipality (**savivaldybės**) in Lithuania. 
 
 ![Mean_Elev_Lithuania](/assets/mean_elev_lit.png)

@@ -1,14 +1,16 @@
 ---
+category: CSS
+date: 2021-01-31 18:05:20.848000+00:00
+description: Master CSS selectors beyond classes for legacy projects. Learn how to
+  use child combinators and more to handle unchangeable HTML and dynamically loaded
+  elements. Boost your CSS skills today!
+slug: Non standard CSS selectors
+tag:
+- css
+- basics
 templateKey: blog-post
 title: Non standard CSS selectors
-slug: Non standard CSS selectors
-date: 2021-01-31T18:05:20.848Z
-category: CSS
-tag:
-  - css
-  - basics
 ---
-
 
 Most of the time you want to use class selector using CSS. That's the most obvious and recommended approach.
 If these selectors are properly combined with for example BEM methodology (or any other methodology), chances are high that your CSS is written in a clear and reusable way. 
@@ -233,17 +235,3 @@ p:not(.italic) {
 ## Conclusion
 
 This list is my personal choice of selectors that I used in different projects and I find them useful only in certain situations. CSS offers many other kinds of selectors. Most of them will make your CSS code more bloated and unclear, but there are situations when the use of these selectors is inevitable. I suggest to visit the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank">MDN docs page</a> with all the available selectors to get to know all available selectors and combinations.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

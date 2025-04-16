@@ -1,15 +1,17 @@
 ---
+category: Typescript
+date: 2022-06-27 19:12:34.689000+00:00
+description: Learn how to implement `Array.prototype.reduce` in TypeScript. Discover
+  my approach, including extending Array prototype types and the function definition.
+  Share your insights if you spot any issues!
+slug: Own reduce method using Typescript
+tag:
+- basics
+- typescript
+- javascript
 templateKey: blog-post
 title: Own reduce method using Typescript
-slug: Own reduce method using Typescript
-date: 2022-06-27T19:12:34.689Z
-category: Typescript
-tag:
-  - basics
-  - typescript
-  - javascript
 ---
-
 
 In my <a href="https://michalmuszynski.com/blog/own-higher-order-functions-implementation/" target="_blank">last post</a> I presented my approach to implement my own versions of some higher order functions in JavaScript. I covered three of them and one, a very powerful one was missing.
 The<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce">Array.prototype.reduce</a>.

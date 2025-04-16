@@ -1,13 +1,17 @@
 ---
+category: JavaScript
+date: 2022-05-10 19:40:49.451000+00:00
+description: Discover how to create a Wordle validation function. Learn the rules
+  and algorithm to validate user guesses, handle multiple same letters, and build
+  your own Wordle clone.
+slug: validating words in wordle
+tag:
+- javascript
+- basics
 templateKey: blog-post
 title: Validating words in Wordle
-slug: validating words in wordle
-date: 2022-05-10T19:40:49.451Z
-category: JavaScript
-tag:
-  - javascript
-  - basics
 ---
+
 # Wordle validation function
 
 Ever heard about the <a href="https://www.nytimes.com/games/wordle/index.html">wordle game</a>? It's an easy and pretty addictive word game.
@@ -60,4 +64,3 @@ getValidationArray('boozy', 'jaunt'); // output ['-', '-', '-', '-', '-']
 ```
 
 I covered this solution with a few tests and seems that it's validating letters correctly.
-

@@ -1,13 +1,17 @@
 ---
+category: Typescript
+date: 2023-04-20 19:34:30.921000+00:00
+description: Learn how to define and use enums in TypeScript for named constants.
+  Discover how TypeScript automatically assigns numeric values and generates JavaScript
+  objects. Boost your TypeScript skills today!
+slug: Something about Enums
+tag:
+- typescript
+- javascript
 templateKey: blog-post
 title: Something about Enums
-slug: Something about Enums
-date: 2023-04-20T19:34:30.921Z
-category: Typescript
-tag:
-  - typescript
-  - javascript
 ---
+
 Enums let us to define a set of named constants. It's essentially a set of key-value pairs, where the keys are string or numeric values that represent a set of related constants.
 
 The simpliest example is:

@@ -1,13 +1,17 @@
 ---
+category: Typescript
+date: 2023-01-13 18:22:26.831000+00:00
+description: '"Learn how to minimize typos and errors in your React app''s internationalization
+  with TypeScript. Discover best practices for handling translation keys and ensuring
+  smooth localization."'
+slug: type check translation keys
+tag:
+- react
+- typescript
 templateKey: blog-post
 title: Type-check react-i18next translation keys
-slug: type check translation keys
-date: 2023-01-13T18:22:26.831Z
-category: Typescript
-tag:
-  - react
-  - typescript
 ---
+
 So you probably use react-i18next library to handle internationalization in your application. It's a great tool and it provides the good way to solve this common problem. But this post is not about describing the pros and cons of this library.
 
 If you use Typescript in your project you would like to minimize the risk of such innocent bugs like typos, misspellings and all the hassle with looking for other minor bug which is not related with the code logic. This may happen quite often if you use internationalization library.

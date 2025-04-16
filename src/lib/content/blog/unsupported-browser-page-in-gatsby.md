@@ -1,12 +1,15 @@
 ---
+category: Gatsby
+date: 2021-05-02 20:14:16.460000+00:00
+description: '"Learn how to detect and block outdated browsers using Gatsby. Enhance
+  user experience by ensuring compatibility and encouraging updates. See it live on
+  this site!"'
+slug: Unsupported browser page in Gatsby
+tag:
+- gatsby
+- javascript
 templateKey: blog-post
 title: Unsupported browser page in Gatsby
-slug: Unsupported browser page in Gatsby
-date: 2021-05-02T20:14:16.460Z
-category: Gatsby
-tag:
-  - gatsby
-  - javascript
 ---
 
 It is pretty common nowadays to display a popup or special page if a user is using any of the unsupported browsers by the particular website. The purpose of this is to inform the user that the page may not display properly or he even won't be able to use some/all features on the website. Such information should also make the user stop using an outdated browser.
@@ -52,4 +55,3 @@ The last step here is to create a page you want to display on the IE11 browser.
 Now, if the user goes to any part of your page, not only the home page, he will be redirected to the `ie11.html` page.
 
 In the `gatsby-browser` I intentionally put `window.location.replace();` to make sure, that even if a user goes back using the browser history (for example the __back__ button), he will remain on the `ie11.html` page.
-

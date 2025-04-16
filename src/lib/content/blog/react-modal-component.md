@@ -1,12 +1,15 @@
 ---
+category: React
+date: 2021-09-11 22:27:14.877000+00:00
+description: Learn how to create a reusable modal component in React to enhance user
+  experience. This tutorial covers the basics and provides a code repository for easy
+  implementation. Boost your UI skills now!
+slug: React Modal component
+tag:
+- components
+- react
 templateKey: blog-post
 title: React Modal component
-slug: React Modal component
-date: 2021-09-11T22:27:14.877Z
-category: React
-tag:
-  - components
-  - react
 ---
 
 Modals are one of the most popular UI elements that enrich the user experience. Usually it informs about the errors, presents significant information, or provides a different way to show a form. In this tutorial, I will show how to create a simple reusable modal component using React. The repository with a code is available <a href="https://github.com/icelandico/react-modal">here</a>.
@@ -218,17 +221,3 @@ And the result will be:
 ## Conclusion
 
 This is a very simple modal implementation using React. However, it can be easily enhanced by adding configuration options, handling asynchronous actions inside the modal (useful when creating a form inside the modal), or creating the animations to make it look more dynamic. That's the big advantage of creating your own components or even libraries. You can adjust the code and features to your requirements.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

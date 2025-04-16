@@ -1,15 +1,17 @@
 ---
+category: Typescript
+date: 2022-06-19 17:41:49.728000+00:00
+description: Discover how to implement higher-order functions in TypeScript. Learn
+  to create custom versions of built-in functions, enhancing your JavaScript skills.
+  Explore the use of TypeScript generics for reusable and type-safe code.
+slug: Own higher order functions implementation
+tag:
+- javascript
+- basics
+- typescript
 templateKey: blog-post
 title: Own higher order functions implementation using TypeScript
-slug: Own higher order functions implementation
-date: 2022-06-19T17:41:49.728Z
-category: Typescript
-tag:
-  - javascript
-  - basics
-  - typescript
 ---
-
 
 JavaScript is mostly about functions. We can:
 1) assign them to variables,
@@ -75,9 +77,3 @@ JavaScript is mostly about functions. We can:
 ```
 
 That's it. I made it just for practice, to solidify my JavaScript/TypeScript skills. I don't encourage you to use your own implementations of methods that are already built into the language. These are well optimized and opinionated so let's stick to language base principles and tools.
-
-
-
-
-
-
