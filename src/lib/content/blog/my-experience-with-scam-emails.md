@@ -1,14 +1,14 @@
 ---
-category: Personal
-date: 2025-04-01 17:58:00+00:00
-description: 'Discover the world of scam emails and learn to spot the warning signs.
-  Read about my experiences with fraudulent messages and how to protect your domain
-  from phishing attempts. #ScamEmails #CyberSecurity'
-slug: My experience with scam emails
-tag:
-- various
 templateKey: blog-post
 title: My experience with scam emails
+slug: My experience with scam emails
+date: 2025-04-01 17:58:00+00:00
+description: Discover the world of scam emails and learn to spot the warning
+  signs. Read about my experiences with fraudulent messages and how to protect
+  your domain from phishing attempts.
+category: Personal
+tag:
+  - various
 ---
 
 It's been five years since I created the blog you're reading now.
