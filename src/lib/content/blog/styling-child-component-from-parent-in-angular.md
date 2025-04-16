@@ -2,10 +2,11 @@
 templateKey: blog-post
 slug: Styling child component from parent in Angular
 published: false
-date: 2021-03-01T20:13:54.848Z
 title: Styling child component from parent in Angular
+date: 2021-03-01T20:13:54.848Z
 tags: null
-description: null
+description: Learn how to style Angular child components from a parent using
+  ::ng-deep and ViewEncapsulation, with practical examples and best practices.
 category: Angular
 tag:
   - angular
@@ -82,6 +83,7 @@ The inner `div` should change the `background-color` property to `darkred` now. 
 ![code snippet](/assets/angular_encapsulation_2.png)
 
 ## The solution
+
 This is when the `encapsulation` of the property comes in. By default, all Angular components styles are encapsulated. This means that they apply **only** to the component itself. If we try to style the css classes that are outside the component, they won't be applied. 
 
 The simplest solution for this problem is to set the `encapsulation` property to `ViewEncapsulation.None` in the component.
@@ -116,6 +118,7 @@ Luckily, there's a better solution to this problem. Angular provides the `::ng-d
 Here's how to use it in our example:
 
 ### `parent.component.css`
+
 ```css
 ::ng-deep .parent__container {
   display: flex;
