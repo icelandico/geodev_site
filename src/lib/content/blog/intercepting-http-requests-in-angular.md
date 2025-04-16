@@ -1,16 +1,15 @@
 ---
-category: Angular
-date: 2021-07-18 18:42:56.885000+00:00
-description: Learn how Angular's HttpInterceptor can standardize varied HTTP responses
-  in your app. Discover how to intercept and modify requests/responses using HttpClient.
-  Improve your app's data handling today!
-slug: Intercepting Http requests in Angular
-tag:
-- angular
 templateKey: blog-post
 title: Intercepting Http requests in Angular
+slug: Intercepting Http requests in Angular
+date: 2021-07-18 18:42:56.885000+00:00
+description: Learn how Angular's HttpInterceptor can standardize varied HTTP
+  responses in your app. Discover how to intercept and modify requests/responses
+  using HttpClient.
+category: Angular
+tag:
+  - angular
 ---
-
 In a perfect world, we have a standardized HTTP request and responses structure, which is applied in a whole app. A perfect world does not exist and often we have to handle multiple different responses from different sources which structure varies. Luckily, Angular provides a solution to solve this problem on the client side. 
 
 ## Creating the interceptor
@@ -18,6 +17,7 @@ In a perfect world, we have a standardized HTTP request and responses structure,
 Angular provides an *HttpInterceptor* interface which helps us to intercept responses using *HttpClient*. Using it, we can modify the response or request, before it will be handled and consumed by the *HttpClient*. First, let's consume and display some data from <a href="https://jsonplaceholder.typicode.com/users">json placeholder</a>.
 
 #### `app.component.ts`
+
 ```javascript
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -45,7 +45,6 @@ export class AppComponent implements OnInit {
     this.httpClient.get('https://jsonplaceholder.typicode.com/users').subscribe(resp => this.users = resp);
   }
 }
-
 ```
 
 That gives us the example response:
@@ -75,9 +74,11 @@ That gives us the example response:
   }
 }
 ```
+
 To show how to use the interceptor, we will transform the data and add another key to this object. The code below shows the basic interceptor that transforms the response and adds a key to each element in the *users* array.
 
 #### `http.interceptor.ts`
+
 ```javascript
 import { HttpInterceptor, HttpHandler, HttpRequest, HttpEvent, HttpResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core'
@@ -101,12 +102,12 @@ export class HttpResponseInterceptor implements HttpInterceptor {
       }));
   }
 }
-
 ```
 
 To make it work we have to modify the `app.module.ts`.
 
 #### `app.module.ts`
+
 ```javascript
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -128,7 +129,6 @@ import { HttpResponseInterceptor } from './http.interceptor';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
 ```
 
 Now it's ready to work. After the data fetching and transformation in the interceptor, the example user will look like this:
