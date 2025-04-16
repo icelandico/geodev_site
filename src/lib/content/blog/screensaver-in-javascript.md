@@ -3,7 +3,6 @@ category: JavaScript
 date: 2021-06-18 22:21:35.758000+00:00
 description: Learn how to create a simple screensaver for your web app using JavaScript.
   This beginner-friendly guide includes reusable code from my first npm package, js-screensaver.
-  Start building your own animations today!
 slug: Screensaver in JavaScript
 tag:
 - components
