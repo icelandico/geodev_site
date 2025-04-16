@@ -2,8 +2,7 @@
 category: Typescript
 date: 2024-12-26 14:50:00+00:00
 description: Discover the power of conditional types in TypeScript. Learn how to declare
-  types based on conditions, making your code more flexible and dynamic. Enhance your
-  TypeScript skills with practical examples.
+  types based on conditions, making your code more flexible and dynamic.
 slug: typescript conditional types
 tag:
 - typescript

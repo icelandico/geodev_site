@@ -3,7 +3,6 @@ category: React
 date: 2021-01-24 17:18:31.121000+00:00
 description: Learn how to create a reusable scroll indicator in React using hooks
   and Styled Components. Enhance user experience by highlighting scrollable content.
-  See the final component in action and get the code.
 slug: Scroll indicator component in React
 tag:
 - react

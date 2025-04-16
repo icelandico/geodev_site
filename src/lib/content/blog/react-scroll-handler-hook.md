@@ -3,7 +3,7 @@ category: React
 date: 2021-03-21 18:30:30.733000+00:00
 description: Learn how to capture the current scroll position in React using custom
   hooks. Enhance user interaction in your web applications by leveraging the scroll
-  event. See a practical example on my personal website.
+  event.
 slug: React scroll handler hook
 tag:
 - react

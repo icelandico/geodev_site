@@ -1,9 +1,8 @@
 ---
 category: Gatsby
 date: 2021-05-02 20:14:16.460000+00:00
-description: '"Learn how to detect and block outdated browsers using Gatsby. Enhance
-  user experience by ensuring compatibility and encouraging updates. See it live on
-  this site!"'
+description: Learn how to detect and block outdated browsers using Gatsby. How to improve
+  user experience by ensuring compatibility and encouraging updates.
 slug: Unsupported browser page in Gatsby
 tag:
 - gatsby
