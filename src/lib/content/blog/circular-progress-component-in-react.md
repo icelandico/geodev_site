@@ -3,8 +3,7 @@ category: React
 date: 2024-07-21 20:05:00+00:00
 description: Create a custom progress component with SVG for better control and performance.
   Learn how to build a circular progress indicator for file downloads, package usage,
-  data loading, and more. Enhance your skills and gain full access to modify and extend
-  your component.
+  data loading, and more.
 featuredimage: ''
 slug: Circular Progress component in React
 tag:
