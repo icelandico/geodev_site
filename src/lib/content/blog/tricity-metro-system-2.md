@@ -1,15 +1,16 @@
 ---
-category: Cartography
-date: 2024-08-18 19:13:00+00:00
-description: Discover how an imaginary metro system could enhance Tricity's transport
-  network. Learn about the current railway system, operated by SKM, and its integration
-  with trams and buses. Explore potential improvements for urban mobility.
-slug: tricity metro system 2
-tag:
-- geography
-- various
 templateKey: blog-post
 title: The (im)possible metro system in Tricity. Part 2
+slug: tricity metro system 2
+date: 2024-08-18 19:13:00+00:00
+description: Discover how an imaginary metro system could enhance Tricity's
+  transport network. Learn about the current railway system, operated by SKM,
+  and its integration with trams and buses. My take on potential improvements
+  for urban mobility.
+category: Cartography
+tag:
+  - geography
+  - various
 ---
 
 That's the second and the last part of my take on creating an imaginary metro system in Tricity. Let's start by showing the current transport system in the Tricity region and how the imaginary metro system would fit into the existing net.
