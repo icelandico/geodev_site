@@ -4,7 +4,6 @@ slug: Styling child component from parent in Angular
 published: false
 title: Styling child component from parent in Angular
 date: 2021-03-01T20:13:54.848Z
-tags: null
 description: Learn how to style Angular child components from a parent using
   ::ng-deep and ViewEncapsulation, with practical examples and best practices.
 category: Angular
