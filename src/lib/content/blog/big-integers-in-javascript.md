@@ -1,17 +1,17 @@
 ---
-category: JavaScript
-date: 2022-03-24 11:18:43.330000+00:00
-description: '"Refresh your coding skills with Codewars katas! Learn how to handle
-  large number multiplication in JavaScript, avoiding common pitfalls like exponential
-  notation. Dive into the 4 kyu kata challenge and master string-based arithmetic."'
-slug: big integers in javascript
-tag:
-- javascript
-- basics
 templateKey: blog-post
 title: Handling big integers in JavaScript
+slug: big integers in javascript
+date: 2022-03-24 11:18:43.330000+00:00
+description: Refresh your coding skills with Codewars katas! Learn how to handle
+  large number multiplication in JavaScript, avoiding common pitfalls like
+  exponential notation. Dive into the 4 kyu kata challenge and master
+  string-based arithmetic.
+category: JavaScript
+tag:
+  - javascript
+  - basics
 ---
-
 As a part of my training and to refresh myself on certain topics, I recently returned to solving katas from <a href="https://codewars.com">codewars</a>. After few easy ones I jumped to 4 kyu <a href="https://www.codewars.com/kata/55911ef14065454c75000062">kata</a> with the following instruction:
 
 ```
@@ -44,6 +44,7 @@ function multiply(a, b) {
     return (BigInt(a) * BigInt(b)).toString();
 }
 ```
+
 That's it. Thanks to `BigInt` wrapper it's possible to represent every number which cannot be handler by the `number` primitive.
 
 Here's an example of how it works in the wild.
