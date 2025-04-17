@@ -16,7 +16,7 @@ From time to time, I review my site in search of elements that can be improved. 
 
 I started from the most visited pages on my website - articles in the posts section. In my CMS panel (I use Decap CMS), I already had a place to write a description. However, I have been lazy so far and have never even written a short summary of a post. Writing a short 120–160 character summary for each post on my site felt too time-consuming. AI is great at creating text content, so I decided to hand over this task to AI. I chose Mistral AI, which I have been using privately quite often for several months. They offer several models, and for this task I chose a free one - `mistral-small-latest`.
 
-To solve this task I've written a short python script. The procedure is very simple: for each file in a given folder, take its main content (omit the frontmatter metadata), send a request to Le Platforme API and execute the appropriate prompt on it: "Generate an SEO-friendly meta description (110-160 characters) for this blog post: {content}". After receiving the response from the API, place the obtained content as a new field in the file - "description".
+To solve this task I've written a short python script. The procedure is very simple: for each file in a given folder, take its main content (omit the frontmatter metadata), send a request to Le Platforme API and execute the appropriate prompt on it: "Generate an SEO-friendly meta description (110-160 characters) for this blog post: /content of the blog post/". After receiving the response from the API, place the obtained content as a new field in the file - "description".
 
 Here's my script:
 ```python
