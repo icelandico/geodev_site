@@ -1,14 +1,17 @@
 ---
+category: JavaScript
+date: 2024-10-07 19:43:00+00:00
+description: Learn how to fix Git errors caused by file name casing issues on case-insensitive
+  systems like Windows. Discover two effective solutions to resolve the "Already included
+  file name" error when pushing to a remote repository.
+slug: file casing error git
+tag:
+- git
+- various
 templateKey: blog-post
 title: Solving a file casing error in Git
-slug: file casing error git
-date: 2024-10-07T19:43:00.000Z
-description: ""
-category: JavaScript
-tag:
-  - git
-  - various
 ---
+
 Lastly I run across the following problem while trying to `push` to remote repository.
 
 ```git
