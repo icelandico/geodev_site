@@ -8,6 +8,7 @@ description: Learn how I automated SEO meta descriptions for blog posts using
 category: Personal
 tag:
   - python
+  - ai
 ---
 The title of this post may sound like clickbait. After all, it is about AI.
 
