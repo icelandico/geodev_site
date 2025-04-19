@@ -8,7 +8,7 @@ link: https://www.goodreads.com/book/show/61215351-the-fellowship-of-the-ring
 rating: "5"
 pages: 600
 genre:
-  - non-fiction
+  - fantasy
 polishOnly: false
 ---
 I am not an enthusiast of the fantasy genre. I haven't read too many books in this genre but the atmosphere of this type of novels just doesn't suit me. The exception, however, is J.R.R. Tolkien's trilogy. After about 20 years I decided to read it again.
