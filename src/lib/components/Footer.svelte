@@ -34,5 +34,5 @@
 		<Mail />
 		hi@geodev.me
 	</a>
-	<p class="flex justify-center items-center mt-4">Based in Gdynia, Poland</p>
+	<p class="flex justify-center items-center mt-4 dark:text-white text-primaryBlack">Based in Gdynia, Poland</p>
 </footer>
