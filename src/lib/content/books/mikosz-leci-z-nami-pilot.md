@@ -3,7 +3,7 @@ templateKey: book-item
 title: Leci z nami pilot
 author: Sebastian Mikosz
 slug: mikosz leci z nami pilot
-date: 2025-05-14T17:51:00.000Z
+date: 2025-05-10T19:51:00.000Z
 link: https://www.goodreads.com/book/show/12307908-leci-z-nami-pilot-kilka-prawd-o-liniach-lotniczych
 rating: "3.5"
 pages: 200
