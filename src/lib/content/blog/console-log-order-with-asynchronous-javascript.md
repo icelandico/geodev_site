@@ -43,7 +43,7 @@ Second
 Now the explanation. While one might intuitively expect the output to be "First", "Second", "Third", "Fourth" due to the sequential reading of the code, JavaScript's asynchronous nature dictates a different order. The `setTimeout` with a 0ms delay and the `Promise.then` callback are not executed immediately after they are encountered. Instead, they are placed into different queues and processed by the event loop at specific times. 
 First `console.log` is a synchronous operation and is pushed on the top of the Call stack and immediately executed.
 
-`setTimeout` is an asynchronouse Web API and these operations will execute after the synchronous top-level functions. It's scheduled to be placed in the **Callback Queue (Macrotask Queue)** after the timer expires (which is almost immediately, but still after the current synchronous execution finishes).
+`setTimeout` is an asynchronous Web API and these operations will execute after the synchronous top-level functions. It's scheduled to be placed in the **Callback Queue (Macrotask Queue)** after the timer expires (which is almost immediately, but still after the current synchronous execution finishes).
 
 `Promise` is a part of **Microtask Queue**. These are handled with higher priority than Macrotasks. Once the current synchronous code finishes and the promise is resolved (which it already is), we will get the 'Third' logged in the console.
 
