@@ -92,5 +92,6 @@ td {
 }
 
 ol {
+	padding-left: 1rem;
 	list-style: auto;
 }
