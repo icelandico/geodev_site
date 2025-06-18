@@ -90,3 +90,7 @@ td {
 	text-align: left;
 	color: #000;
 }
+
+ol {
+	list-style: auto;
+}
