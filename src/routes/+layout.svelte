@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import { PUBLIC_BEAM_ANALYTICS_ID } from '$env/static/public';
 	import '@fontsource-variable/aleo';
 	import NavLink from '$components/NavLink.svelte';
 	import NavLinklMobile from '$components/NavLinklMobile.svelte';
@@ -22,14 +21,9 @@
 	<meta name="twitter:title" content={$page.data.title} />
 	<meta name="twitter:image" content="https://geodev.me/assets/main_icon.png" />
 	<meta name="twitter:description" content={$page.data.meta?.description || PAGE_DESCRIPTION} />
-	<script
-		src="https://beamanalytics.b-cdn.net/beam.min.js"
-		data-token={`${PUBLIC_BEAM_ANALYTICS_ID}`}
-		async
-	>
-	</script>
 	<script src="https://analytics.ahrefs.com/analytics.js" data-key="X4ZWQwrYyKcAZ5xnTYKCAQ" async></script>
 	<meta name="ahrefs-site-verification" content="9b133c133f14d80c96ea7f78ec4aab60db9f434b9d252be2ceab1ad6fba5c452">
+	<script data-goatcounter="https://geodev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </svelte:head>
 
 <div class="flex flex-col min-h-screen dark:bg-primaryDark">
