@@ -31,11 +31,6 @@
 		content="9b133c133f14d80c96ea7f78ec4aab60db9f434b9d252be2ceab1ad6fba5c452"
 	/>
 	<script
-		data-goatcounter="https://geodev.goatcounter.com/count"
-		async
-		src="//gc.zgo.at/count.js"
-	></script>
-	<script
 		data-host="https://biasml.com"
 		data-dnt="false"
 		src="https://biasml.com/js/script.js"
