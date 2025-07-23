@@ -18,3 +18,5 @@ This simple application allows searching the places by their name. There are ove
 Tools used in this project: Angular, CartoJS. 
 
 __Update 29/04/2021__ - I've added the second layer - rivers. Now it's possible to search the phrases for both layers. Also, there was a need to change the site design.
+
+__Update 01/06/2025__ - Unfortunately my Carto account has been removed due inactivity on my account. Also Carto does not offer any free tier anymore. I need to check for open source alternatives. Currently, the project does not work correctly because spatial data is not displayed.
