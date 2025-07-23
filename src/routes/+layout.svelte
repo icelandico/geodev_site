@@ -30,7 +30,8 @@
 		name="ahrefs-site-verification"
 		content="9b133c133f14d80c96ea7f78ec4aab60db9f434b9d252be2ceab1ad6fba5c452"
 	/>
-	<script defer src="https://cdn.overtracking.com/t/tK5MsHXsoGFrFeomu/"></script>
+	<script data-goatcounter="https://geodev.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </svelte:head>
 
 <div class="flex flex-col min-h-screen dark:bg-primaryDark">
