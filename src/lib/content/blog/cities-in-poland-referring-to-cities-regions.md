@@ -13,7 +13,8 @@ Place names are a huge topic. A few years ago, I published an application that a
 
 In this mapping project, I will narrow down the scope of place names. I want to present cities in Poland whose names reference other cities or regions.
 
-To prepare the analysis, I used publicly available data from the Head Office of Geodesy and Cartography:  <a href="[https://dane.gov.pl/pl/dataset/780,panstwowy-rejestr-nazw-geograficznech-prng/resource/26773/table](link to resource)]">link to resource</a>. The maps and data analyses were done in QGis. Only cities were considered for analysis. As of July 26, 2025, 1,020 places in Poland have a city status.
+To prepare the analysis, I used publicly available data from the Head Office of Geodesy and Cartography: <a href="https://dane.gov.pl/pl/dataset/780,panstwowy-rejestr-nazw-geograficznech-prng" target="_blank">link to resource</a>
+The maps and data analyses were done in QGis. Only cities were considered for analysis. As of July 26, 2025, 1,020 places in Poland have a city status.
 Below is the main result of the analysis: the map. I have included a discussion of the details later in the post.
 
 ![cities map](/assets/cities_regions.png)
