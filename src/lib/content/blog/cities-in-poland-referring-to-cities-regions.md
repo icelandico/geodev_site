@@ -17,8 +17,7 @@ To prepare the analysis, I used publicly available data from the Head Office of 
 The maps and data analyses were done in QGis. Only cities were considered for analysis. As of July 26, 2025, 1,020 places in Poland have a city status.
 Below is the main result of the analysis: the map. I have included a discussion of the details later in the post.
 
-<img src="/assets/cities_regions.png" alt="cities map" />
-
+[![cities regions map](/assets/cities_regions.png)](/assets/cities_regions.png){:target="_blank"}
 ## Results
 
 Of the 82 cities included in the analysis, most of them have a reference to the region.
