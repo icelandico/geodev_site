@@ -42,10 +42,12 @@ The regions of Pomerania, West Pomerania, part of the Lubuskie Voivodship and Po
 
 There are several municipalities in Poland, which are completely devoid of forest areas. I will not mention everyone, I will indicate only two regions in which the most municipalities of deprived of forests occur.
 
-- Żuławy Wiślane - an area in the north of Poland, at the mouth of the Vistula River. It is a flat area, rising just above sea level and slightly raised up the river. In a few places, the area is located under sea level. 
-Gmina's: Suchy Dąb, Gronowo Elbląskie, Malbork.
-- Katowice Urban Area - an area with very high industrialization and urbanization. Many cities in this region have a very low forest cover level. 
-Gmina's: Świętochłowice, Czeladź.
+- Żuławy Wiślane - an area in the north of Poland, at the mouth of the Vistula River. It is a flat area, rising just above sea level and slightly raised up the river. In a few places, the area is located under sea level.
+
+Selected municipalities: Suchy Dąb, Gronowo Elbląskie, Malbork.
+- Katowice Urban Area - an area with very high industrialization and urbanization. Many cities in this region have a very low forest cover level.
+
+Selected municipalities: Świętochłowice, Czeladź.
 
 __Sources__:
  - https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Forests,_forestry_and_logging
