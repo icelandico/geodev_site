@@ -26,7 +26,7 @@ And the lowest forest coverage are in:
 What is worth noting the area of forests in Poland is systematically growing, according to the data of State Forests.
 Forests in Poland are not evenly located. To show their spatial distribution, I presented forest cover divided into the smallest administrative units in Poland - **gmina**. In the whole country, as of January 1, 2025, there are 2479 such units.
 
-[![cities regions map](/assets/Forest_Cover.png)](/assets/Forest_Cover.png)
+[![forest cover map](/assets/forest_cover.png)](/assets/forest_cover.png)
 
 ### The highest level of forest cover
 
