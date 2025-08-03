@@ -11,19 +11,19 @@ tag:
   - geography
   - gis
 ---
-Forest coverage in Poland can be described as average compared to other European countries. For the whole country, this ratio is about 30%.
+Forest cover in Poland can be described as average compared to other European countries. For the whole country, this ratio is about 30%.
 
 For comparison, the largest forest coverage in EU have:
 - Finland - 66%
 - Sweden - 62%
 - Slovenia - 58%
 
-And the lowest forest coverage are in:
+And the lowest forest coverage have:
 - Malta - 1.5%
 - Netherlands - 9.7%
 - Ireland - 11.5%
 
-What is worth noting the area of forests in Poland is systematically growing, according to the data of State Forests.
+What is worth noting the area of forests in Poland is systematically growing, according to the data of State Forests organization.
 Forests in Poland are not evenly located. To show their spatial distribution, I presented forest cover divided into the smallest administrative units in Poland - **gmina**. In the whole country, as of January 1, 2025, there are 2479 such units.
 
 [![forest cover map](/assets/forest_cover.png)](/assets/forest_cover.png)
