@@ -46,3 +46,8 @@ There are several municipalities in Poland, which are completely devoid of fores
 Gmina's: Suchy Dąb, Gronowo Elbląskie, Malbork.
 - Katowice Urban Area - an area with very high industrialization and urbanization. Many cities in this region have a very low forest cover level. 
 Gmina's: Świętochłowice, Czeladź.
+
+__Sources__:
+ - https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Forests,_forestry_and_logging
+ - https://en.wikipedia.org/wiki/Forests_of_Poland
+ - https://www.lasy.gov.pl/pl/nasze-lasy/mapa-lasow
