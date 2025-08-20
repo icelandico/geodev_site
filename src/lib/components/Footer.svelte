@@ -17,7 +17,7 @@
 		<a href="https://bsky.app/profile/muszynov.bsky.social" target="_blank" aria-label="Bluesky">
 			<Bluesky />
 		</a>
-		<a href="https://ko-fi.com/geodev" target="_blank" aria-label="Kofi">
+		<a href="https://buycoffee.to/geodev" target="_blank" aria-label="buycoffee link">
 			<Kofi />
 		</a>
 		<a
@@ -34,5 +34,7 @@
 		<Mail />
 		hi@geodev.me
 	</a>
-	<p class="flex justify-center items-center mt-4 dark:text-white text-primaryBlack">Based in Gdynia, Poland</p>
+	<p class="flex justify-center items-center mt-4 dark:text-white text-primaryBlack">
+		Based in Gdynia, Poland
+	</p>
 </footer>
