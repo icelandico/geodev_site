@@ -68,7 +68,7 @@
 				<a
 					class="flex justify-between items-center group gap-4 dark:text-white hover:outline-1 hover:outline-primaryBlue hover:dark:outline-primaryOrange hover:outline-dashed py-3 cursor-pointer
   gap-4 text-xl font-semibold hover:dark:text-primaryOrange hover:text-primaryBlue"
-					href={`projects/${project.slug}`}
+					href={`${project.selfUrl ? project.selfUrl : '/projects/' + project.slug}`}
 				>
 					{project.title} &#8226; {project.type}
 					<time class="text-sm text-right basis-3/12 ml-auto italic"
