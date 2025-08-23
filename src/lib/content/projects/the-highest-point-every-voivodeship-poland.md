@@ -35,7 +35,7 @@ The table with data:
 | 9   | Góra Kamieńska     | 406           | 1332           | Łódzkie             |
 | 10  | Altana             | 408           | 1338           | Mazowieckie         |
 | 11  | Łysica             | 612           | 2012           | Świętokrzyskie      |
-| 12  | Biskupska Kopa     | 889           | 2916           | Opolskie            |
+| 12  | Biskupia Kopa      | 889           | 2916           | Opolskie            |
 | 13  | Tarnica            | 1346          | 4416           | Podkarpackie        |
 | 14  | Góra Pięciu Kopców | 1534          | 5032           | Śląskie             |
 | 15  | Śnieżka            | 1603          | 5259           | Dolnośląskie        |
