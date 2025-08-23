@@ -21,6 +21,7 @@ The highest elevations are concentrated in southern Poland. The peaks in this re
 In contrast, the northern and central voivodeships feature much lower peaks, which are primarily hills or moraines left by glaciers. Examples include Dylewska Góra (Warmińsko-Mazurskie) and Wieżyca (Pomorskie), which are part of the post-glacial landscape. 
 
 The table with data:
+
 | #   | Name               | Elevation (m) | Elevation (ft) | Voivodeship         |
 | --- | ------------------ | ------------- | -------------- | ------------------- |
 | 1   | Czarna Góra        | 189           | 620            | Kujawsko-Pomorskie  |
