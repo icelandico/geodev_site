@@ -4,6 +4,7 @@ title: Transit Maps
 date: 2024-10-06T20:40:00.000Z
 image: /assets/koszalin_tramway.png
 description: My attempts at Transit Diagrams
+url: https://www.geodev.me/transit-maps
 type: map
 selfUrl: transit-maps
 ---
