@@ -36,6 +36,28 @@
 			{/each}
 		</div>
 
+		<a href="/projects/"
+			><h2
+				class="text-primaryBlack dark:text-white text-4xl text-primaryBlack dark:text-white text-4xl hover:dark:text-primaryOrange hover:text-primaryBlue"
+			>
+				Projects
+			</h2></a
+		>
+		<div class="mt-8 mb-8 border-b">
+			{#each data.projects as project}
+				<a
+					class="flex justify-between items-center group gap-4 dark:text-white hover:outline-1 hover:outline-primaryBlue hover:dark:outline-primaryOrange hover:outline-dashed py-3 cursor-pointer
+  					gap-4 text-xl font-semibold hover:dark:text-primaryOrange hover:text-primaryBlue"
+					href={`${project.selfUrl ? project.selfUrl : '/projects/' + project.slug}`}
+				>
+					{project.title} &#8226; {project.type}
+					<time class="text-sm text-right basis-3/12 ml-auto italic"
+						>{formatDate(project?.date, true)}</time
+					>
+				</a>
+			{/each}
+		</div>
+
 		<a href="/books/"
 			><h2
 				class="text-primaryBlack dark:text-white text-4xl hover:dark:text-primaryOrange hover:text-primaryBlue"
@@ -43,7 +65,7 @@
 				Reading
 			</h2></a
 		>
-		<div class="mt-8 mb-8 border-b">
+		<div class="mt-8 mb-8">
 			{#each data.books as book}
 				<a href={`books/${book.slug}`} role="button" title="book review">
 					<BookItem
@@ -52,28 +74,6 @@
 						date={formatDate(book.date)}
 						rating={book.rating}
 					/>
-				</a>
-			{/each}
-		</div>
-
-		<a href="/projects/"
-			><h2
-				class="text-primaryBlack dark:text-white text-4xl text-primaryBlack dark:text-white text-4xl hover:dark:text-primaryOrange hover:text-primaryBlue"
-			>
-				Projects
-			</h2></a
-		>
-		<div class="mt-8 mb-8">
-			{#each data.projects as project}
-				<a
-					class="flex justify-between items-center group gap-4 dark:text-white hover:outline-1 hover:outline-primaryBlue hover:dark:outline-primaryOrange hover:outline-dashed py-3 cursor-pointer
-  gap-4 text-xl font-semibold hover:dark:text-primaryOrange hover:text-primaryBlue"
-					href={`${project.selfUrl ? project.selfUrl : '/projects/' + project.slug}`}
-				>
-					{project.title} &#8226; {project.type}
-					<time class="text-sm text-right basis-3/12 ml-auto italic"
-						>{formatDate(project?.date, true)}</time
-					>
 				</a>
 			{/each}
 		</div>
