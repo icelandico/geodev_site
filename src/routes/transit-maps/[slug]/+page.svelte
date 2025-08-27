@@ -14,7 +14,11 @@
 			</div>
 		</div>
 		<a href={data.img} target="_blank" class="block my-8">
-			<img src={data.img} alt="project" class="grayscale mx-auto md:w-4/6 shadow-xl" />
+			<img
+				src={data.img}
+				alt="project"
+				class="grayscale hover:grayscale-0 mx-auto md:w-4/6 shadow-xl"
+			/>
 		</a>
 		<div class="dynamic-content">
 			<svelte:component this={data.content} />
