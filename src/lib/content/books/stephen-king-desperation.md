@@ -3,7 +3,7 @@ templateKey: book-item
 title: Desperation
 author: Stephen King
 slug: stephen king desperation
-date: 2025-08-01T20:42:00.000+02:00
+date: 2025-09-01T20:42:00.000+02:00
 link: https://www.goodreads.com/book/show/10584.Desperation?from_search=true&from_srp=true&qid=0YLdk2KgnH&rank=1
 rating: "4"
 pages: 544
