@@ -3,7 +3,7 @@ templateKey: book-item
 title: Trumpolacy
 author: Adam Sokołowski, Robert Kowalczyk
 slug: trumpolacy sokolowski kowalczyk
-date: 2025-09-09T20:19:00.000+02:00
+date: 2025-08-13T20:19:00.000+02:00
 link: https://www.goodreads.com/book/show/228198957-trumpolacy-kto-w-polsce-czeka-na-drug-ameryka-sk-rewolucj?from_search=true&from_srp=true&qid=bgYBIbeTcb&rank=1
 rating: "3.5"
 pages: 316
