@@ -11,7 +11,7 @@ genre:
   - horror
 polishOnly: false
 ---
-It's been over a year since I last read Stephen King. I finished the Dark Tower series back then. I returned to this author and read a book that has some connection to the world depicted in the iconic Roland series.
+It's been over a year since I last read Stephen King. I finished the Dark Tower series back then. I returned to this author and read a book that has some connection to the world depicted in the series with Roland Deschain.
 
 In the small, forgotten mining town of Desperation, Nevada, a kind of evil force appears. The main characters (of which there are quite a few) must confront it, even though they arrived there by accident.
 
