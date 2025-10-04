@@ -14,7 +14,7 @@ The western part of Gdańsk lies within the Kashubian Coast (pol. Pobrzeże Kasz
 
 Most of the "peaks" are unnamed, which is understandable. They have never been important points from a topographical point of view and have no historical value. Seven districts have their highest points at an elevation of no more than 10 meters. Heights above 100 meters are located within 10 districts.
 
-I marked these points based on an excellent series of articles by Tomasz Larczyński, who published them on a local portal. The author also used numerous archival maps and LIDAR measurements to discover the highest points. I made individual height corrections based on readings from topographic maps.
+I marked these points based on an excellent series of articles by Tomasz Larczyński, who published them on a local portal Trojamiasto.pl (link in the Sources section). The author also used numerous archival maps and LIDAR measurements to discover the highest points. I made individual height corrections based on readings from topographic maps.
 
 Sources:
 - Topographic map of Poland, 1: 10 000,
