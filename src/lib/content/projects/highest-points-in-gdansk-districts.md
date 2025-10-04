@@ -6,7 +6,7 @@ image: /assets/peaks_gdansk_en.png
 description: Highest points for every district in Gdańsk
 type: map
 ---
-Gdańsk, a city located on the Baltic Sea, is one of the lowest-lying cities in Poland. However, the terrain is very diverse, with elevation differences of almost 200 meters in various parts of the city.
+Gdańsk, a city located on the Baltic Sea, is one of the cities with lowest elevation in Poland. However, the terrain is very diverse, with elevation differences of almost 200 meters in various parts of the city.
 
 The eastern and southern parts are located in the Żuławy Wiślane region – the only region in Poland characterized by depressions. Elevations within the administrative boundaries of Gdańsk are 0 m or just slightly above 0 m.
 
