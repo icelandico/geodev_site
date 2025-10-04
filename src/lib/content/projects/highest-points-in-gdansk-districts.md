@@ -16,6 +16,7 @@ Most of the "peaks" are unnamed, which is understandable. They have never been i
 
 I marked these points based on an excellent series of articles by Tomasz Larczyński, who published them on a local portal. The author also used numerous archival maps and LIDAR measurements to discover the highest points. I made individual height corrections based on readings from topographic maps.
 
+
 Sources:
 - Topographic map of Poland, 1: 10 000,
 - https://www.trojmiasto.pl/wiadomosci/w,Korona-Trojmiasta-Najwyzsze-szczyty-dzielnic-Gdanska-Gdyni-i-Sopotu-5140.html.
