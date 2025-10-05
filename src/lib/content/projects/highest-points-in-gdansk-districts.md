@@ -1,7 +1,7 @@
 ---
 templateKey: work-item
 title: Highest points in Gdańsk districts
-date: 2025-10-04T15:47:00.000+02:00
+date: 2025-10-05T12:06:00.000+02:00
 image: /assets/peaks_gdansk_en.png
 description: Highest points for every district in Gdańsk
 type: map
