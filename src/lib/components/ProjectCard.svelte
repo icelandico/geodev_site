@@ -5,9 +5,12 @@
 	import { lazyLoad } from '$utils/lazyLoad';
 	export let data: Project;
 	export let type: 'map' | 'code';
+	export let containerClass = '';
 </script>
 
-<div class="h-64 group relative mb-6 flex justify-center items-center cursor-pointer">
+<div
+	class={`h-64 group relative flex justify-center items-center cursor-pointer ${containerClass}`}
+>
 	<img
 		src={data.image}
 		alt="map"
