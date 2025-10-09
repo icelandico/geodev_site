@@ -7,14 +7,14 @@
 	export let data;
 </script>
 
-<div class="flex flex-col items-center w-100 md:mt-8">
+<div class="flex flex-col items-center w-100 md:mt-4">
 	<div class="flex items-center justify-between">
 		<h1
-			class="text-primaryBlue dark:text-white text-5xl flex items-center gap-4"
+			class="text-primaryBlue dark:text-white text-3xl flex items-center gap-4"
 			aria-label="GEODEV"
 		>
 			<span aria-hidden="true">
-				<Globe width={75} style="stroke-primaryBlue dark:stroke-white" />
+				<Globe width={50} style="stroke-primaryBlue dark:stroke-white" />
 			</span>
 			geodev
 		</h1>
@@ -25,12 +25,12 @@
 	<Wrapper contentStyle="flex-col mt-12">
 		<a href="/blog/">
 			<h2
-				class="text-primaryBlack dark:text-white text-4xl text-primaryBlack dark:text-white text-4xl hover:dark:text-primaryOrange hover:text-primaryBlue"
+				class="text-primaryBlack dark:text-white text-2xl text-primaryBlack dark:text-white hover:dark:text-primaryOrange hover:text-primaryBlue font-bold"
 			>
 				Recent posts
 			</h2></a
 		>
-		<div class="mt-8 mb-8 border-b">
+		<div class="mt-4 mb-8 border-b">
 			{#each data.posts as post}
 				<PostItem {post} withYear />
 			{/each}
@@ -38,12 +38,12 @@
 
 		<a href="/projects/"
 			><h2
-				class="text-primaryBlack dark:text-white text-4xl text-primaryBlack dark:text-white text-4xl hover:dark:text-primaryOrange hover:text-primaryBlue"
+				class="text-primaryBlack dark:text-white text-2xl text-primaryBlack dark:text-white hover:dark:text-primaryOrange hover:text-primaryBlue font-bold"
 			>
 				Projects
 			</h2></a
 		>
-		<div class="mt-8 mb-8 border-b">
+		<div class="mt-4 mb-8 border-b">
 			{#each data.projects as project}
 				<a
 					class="flex justify-between items-center group gap-4 dark:text-white hover:outline-1 hover:outline-primaryBlue hover:dark:outline-primaryOrange hover:outline-dashed py-3 cursor-pointer
@@ -60,12 +60,12 @@
 
 		<a href="/books/"
 			><h2
-				class="text-primaryBlack dark:text-white text-4xl hover:dark:text-primaryOrange hover:text-primaryBlue"
+				class="text-primaryBlack dark:text-white text-2xl hover:dark:text-primaryOrange hover:text-primaryBlue font-bold"
 			>
 				Reading
 			</h2></a
 		>
-		<div class="mt-8 mb-8">
+		<div class="mt-4 mb-8">
 			{#each data.books as book}
 				<a href={`books/${book.slug}`} role="button" title="book review">
 					<BookItem

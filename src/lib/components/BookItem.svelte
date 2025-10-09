@@ -32,5 +32,5 @@
 			{date}
 		</p>
 	</div>
-	<Rating {rating} style="grow justify-start md:justify-end mt-4 md:mt-0" {isHovered} />
+	<Rating {rating} style="grow justify-start md:justify-end mt-2 md:mt-0" {isHovered} />
 </div>
