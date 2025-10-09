@@ -7,7 +7,7 @@ export interface Project {
 	description: string;
 	type: 'map' | 'code';
 	selfUrl?: string;
-	date?: string;
+	date: string;
 }
 
 type GlobEntry = {

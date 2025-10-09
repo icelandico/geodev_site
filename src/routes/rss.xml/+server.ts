@@ -1,5 +1,6 @@
 import { posts } from '$lib/server/blogPosts';
 import { books } from '$lib/server/books';
+import { projects } from '$lib/server/projects';
 import { PAGE_DESCRIPTION } from '$utils/constants';
 
 type RSSContent = {
@@ -9,6 +10,7 @@ type RSSContent = {
 	templateKey: string;
 	author: string;
 	content?: string;
+	description?: string;
 };
 
 const siteURL = 'https://www.geodev.me';
@@ -20,8 +22,9 @@ export const prerender = true;
 export const GET = async () => {
 	const allPosts = await posts;
 	const allBooks = await books;
+	const allProjects = await projects;
 
-	const content = [...allPosts, ...allBooks].sort(
+	const content = [...allPosts, ...allBooks, ...allProjects].sort(
 		(a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
 	);
 
@@ -44,12 +47,33 @@ const getTitle = (entry: RSSContent) => {
 	if (templateKey === 'book-item') {
 		return `Book note: ${title}, by ${author}`;
 	}
+
+	if (templateKey === 'work-item') {
+		return `Project: ${title}`;
+	}
 };
 
-const getExcerpt = (type: string, content?: string, length: number = 200) => {
-	if (!content || type === 'blog-post') return '';
-	const cleanContent = content.trim().replace(/\s+/g, ' ').trim();
-	return cleanContent.length > length ? cleanContent.slice(0, length) + '...' : cleanContent;
+const getExcerpt = (type: string, entry: RSSContent, length: number = 200) => {
+	if (type === 'work-item') return entry.description;
+	if (!entry.content || type === 'blog-post') return '';
+
+	if (entry.content) {
+		const cleanContent = entry.content.trim().replace(/\s+/g, ' ').trim();
+		return cleanContent.length > length ? cleanContent.slice(0, length) + '...' : cleanContent;
+	}
+};
+
+const getSlug = (key: string) => {
+	switch (key) {
+		case 'blog-post':
+			return 'blog';
+		case 'book-item':
+			return 'books';
+		case 'work-item':
+			return 'projects';
+		default:
+			return '';
+	}
 };
 
 const render = (content: RSSContent[]) =>
@@ -67,12 +91,10 @@ const render = (content: RSSContent[]) =>
 				.map(
 					(entry) =>
 						`<item>
-							<guid isPermaLink="true">${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${
-								entry.slug
-							}</guid>
+							<guid isPermaLink="true">${siteURL}/${getSlug(entry.templateKey)}/${entry.slug}</guid>
 							<title>${getTitle(entry)}</title>
-							<link>${siteURL}/${entry.templateKey === 'blog-post' ? 'blog' : 'books'}/${entry.slug}</link>
-							<description>${getExcerpt(entry.templateKey, entry.content)}</description>
+							<link>${siteURL}/${getSlug(entry.templateKey)}/${entry.slug}</link>
+							<description>${getExcerpt(entry.templateKey, entry)}</description>
 							<pubDate>${new Date(entry.date).toUTCString()}</pubDate>
 					</item>`
 				)
