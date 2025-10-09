@@ -62,7 +62,7 @@ const getExcerpt = (type: string, entry: RSSContent, length: number = 200) => {
 		return cleanContent.length > length ? cleanContent.slice(0, length) + '...' : cleanContent;
 	}
 
-	if (!entry.content || !entry.description) return '';
+	if (!entry.content && !entry.description) return '';
 
 	return '';
 };
