@@ -4,8 +4,7 @@ title: The highest point in every voivodeship in Poland
 date: 2025-08-23T22:13:00.000+02:00
 image: /assets/peaks_pl.webp
 description: Map showing the highest point in every voivodeship in Poland
-type:
-  - map
+type: map
 ---
 This map presents the highest peak of every voivodeship in Poland (województwo - highest-level administrative division of Poland).
 
