@@ -3,7 +3,9 @@ templateKey: work-item
 title: Forest cover in Poland
 date: 2025-08-14T20:21:00.000+02:00
 image: /assets/forest_cover.png
-description: Map showing forest cover by municipalities (powiats) in Poland
+description: Poland’s forests cover about 30% of the country and keep growing.
+  Some areas are packed with woods like Bieszczady, while others, like Żuławy or
+  Katowice, have barely any.
 type: map
 ---
 Map prepared based on data published by Statistics Poland. Forest cover presented by powiat - second-level unit of local government and administration in Poland.\
