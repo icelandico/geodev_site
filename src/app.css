@@ -8,6 +8,11 @@ html {
 	color: theme('colors.primaryBlack');
 }
 
+::selection {
+	color: theme('colors.white');
+	background: theme('colors.primaryBlue');
+}
+
 .dark ::selection {
 	color: theme('colors.white');
 	background: theme('colors.primaryOrange');
