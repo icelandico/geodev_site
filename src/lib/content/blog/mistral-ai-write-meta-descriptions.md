@@ -3,8 +3,8 @@ templateKey: blog-post
 title: Using Mistral AI to write meta descriptions for my blog posts
 slug: mistral ai write meta descriptions
 date: 2025-04-17T19:59:00.000Z
-description: Learn how I automated SEO meta descriptions for blog posts using
-  Mistral AI, Python, and a simple script to save time and boost visibility.
+description: I've manage to create the script for generating meta descriptions.
+  I use it for my blog posts using Mistral AI and Python.
 category: Personal
 tag:
   - python
