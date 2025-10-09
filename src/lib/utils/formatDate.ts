@@ -15,3 +15,10 @@ const getDay = (date: string) => {
 	const day = dateObject.getDate();
 	return day <= 9 ? `0${day}` : day;
 };
+
+export const getMonthWithYear = (date: string) => {
+	const dateObject = new Date(date);
+	const monthName = dateObject.toLocaleString('default', { month: 'long' });
+	const year = dateObject.getFullYear();
+	return `${monthName} ${year}`;
+};

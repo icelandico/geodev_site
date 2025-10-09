@@ -1,6 +1,7 @@
 <script>
 	import TitleBar from '$components/TitleBar.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
+	import { getMonthWithYear } from '$utils/formatDate';
 
 	export let data;
 </script>
@@ -8,7 +9,8 @@
 <TitleBar title={data.meta.title} />
 
 <Wrapper contentStyle="md:w-4/6">
-	<div class="gap-8 w-full">
+	<div class="gap-8 w-full mt-4">
+		<p class="text-white italic">Published: {getMonthWithYear(data.date)}</p>
 		<article>
 			<div class="dynamic-content">
 				<svelte:component this={data.content} />

@@ -8,7 +8,8 @@ export async function load({ params }) {
 			title: project.metadata.title,
 			description: project.metadata.description,
 			content: project.default,
-			meta: project.metadata
+			meta: project.metadata,
+			date: project.metadata.date
 		};
 	} catch (e) {
 		throw error(404, `Could not find ${params.slug}`);
