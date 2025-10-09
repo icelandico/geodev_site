@@ -3,9 +3,9 @@ templateKey: blog-post
 title: Forest cover in Poland
 slug: forest cover in poland
 date: 2025-08-03T16:08:00.000+02:00
-description: Explore Poland's forest distribution across 2,479 municipalities.
-  Discover which regions have the highest and lowest forest coverage in the
-  country.
+description: Poland’s forests cover about 30% of the country and keep growing.
+  Some areas are packed with woods like Bieszczady, while others, like Żuławy or
+  Katowice, have barely any.
 category: Geography
 tag:
   - geography
