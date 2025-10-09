@@ -3,13 +3,14 @@ templateKey: blog-post
 title: Using Mistral AI to write meta descriptions for my blog posts
 slug: mistral ai write meta descriptions
 date: 2025-04-17T19:59:00.000Z
-description: I've manage to create the script for generating meta descriptions.
+description: I've managed to create the script for generating meta descriptions.
   I use it for my blog posts using Mistral AI and Python.
 category: Personal
 tag:
   - python
   - ai
 ---
+
 The title of this post may sound like clickbait. After all, it is about AI.
 
 From time to time, I review my site in search of elements that can be improved. This time, I wanted to focus on one aspect related to SEO. I noticed that every sub-page had exactly the same content in the `meta name="description"` tag. I decided to change this and add unique content for each sub-page, which might at least slightly improve their positioning in search results.
@@ -19,6 +20,7 @@ I started from the most visited pages on my website - articles in the posts sect
 To solve this task I've written a short python script. The procedure is very simple: for each file in a given folder, take its main content (omit the frontmatter metadata), send a request to Le Platforme API and execute the appropriate prompt on it: "Generate an SEO-friendly meta description (110-160 characters) for this blog post: /content of the blog post/". After receiving the response from the API, place the obtained content as a new field in the file - "description".
 
 Here's my script:
+
 ```python
 import frontmatter
 import os
@@ -80,7 +82,7 @@ You may notice that I use `time.sleep(3)` after each request is completed. This 
 
 ![script execution errors](/assets/script_error.png)
 
-I added a 3 second break after each response,  which may be too much, but thanks to this the entire process completed correctly for all 54 files.
+I added a 3 second break after each response, which may be too much, but thanks to this the entire process completed correctly for all 54 files.
 
 ![script execution success](/assets/script_success.png)
 
@@ -90,13 +92,14 @@ That's it. Each article file now has a `description` metadata field with the app
 category: React
 date: 2021-01-24 17:18:31.121000+00:00
 description: Learn how to create a reusable scroll indicator in React using hooks
-  and Styled Components. Enhance user experience by highlighting scrollable content.
+and Styled Components. Enhance user experience by highlighting scrollable content.
 slug: Scroll indicator component in React
 tag:
+
 - react
 - components
-templateKey: blog-post
-title: Scroll indicator component in React
+  templateKey: blog-post
+  title: Scroll indicator component in React
 ```
 
 Now after writing the next post I just need to execute this script.
