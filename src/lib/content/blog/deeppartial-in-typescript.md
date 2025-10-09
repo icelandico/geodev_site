@@ -1,12 +1,12 @@
 ---
 category: Typescript
 date: 2023-07-10 17:38:52.478000+00:00
-description: Discover how to use TypeScript's `Partial<T>` utility type to make all
+description: Discover how to use TypeScript's Partial utility type to make all
   properties optional, and learn how to handle nested objects for deeper type transformations.
 slug: DeepPartial in Typescript
 tag:
-- typescript
-- javascript
+  - typescript
+  - javascript
 templateKey: blog-post
 title: DeepPartial in Typescript
 ---

@@ -1,13 +1,13 @@
 ---
 category: Typescript
 date: 2023-01-13 18:22:26.831000+00:00
-description: '"Learn how to minimize typos and errors in your React app''s internationalization
+description: Learn how to minimize typos and errors in your React app''s internationalization
   with TypeScript. Discover best practices for handling translation keys and ensuring
-  smooth localization."'
+  smooth localization.
 slug: type check translation keys
 tag:
-- react
-- typescript
+  - react
+  - typescript
 templateKey: blog-post
 title: Type-check react-i18next translation keys
 ---
@@ -28,35 +28,39 @@ In more complex applications the translation phrases, built for a long time, may
 <Header>{t('main.header.welcometext')}</Header>
 ```
 
-This will show the key in your app, not the translated phrase, which you store somewhere in a JSON file. It would be great if our IDE suggest us the correct phrase while we put the translation in the code. Here's how to do that. I assume that you have already setup project with configured __react-i18next__.
+This will show the key in your app, not the translated phrase, which you store somewhere in a JSON file. It would be great if our IDE suggest us the correct phrase while we put the translation in the code. Here's how to do that. I assume that you have already setup project with configured **react-i18next**.
 
-Create a file in the __src__ directory and put this code below.
+Create a file in the **src** directory and put this code below.
+
 #### `src/i18next.d.ts`
+
 ```typescript
 import 'react-i18next';
 import en from './i18n/en.json';
 
 declare module 'i18next' {
-    interface CustomTypeOptions {
-        defaultNS: 'en';
-        resources: {
-            en: typeof en;
-            // any other languages you would like to type
-        };
-    }
+	interface CustomTypeOptions {
+		defaultNS: 'en';
+		resources: {
+			en: typeof en;
+			// any other languages you would like to type
+		};
+	}
 }
 ```
 
 Let's check how does it work. We have a file with translations:
+
 #### `src/i18n/en.json`
+
 ```json
 {
-    "main": {
-        "header": {
-            "farewellText": "Farewell, User",
-            "welcomeText": "Welcome, User"
-        }
-    }
+	"main": {
+		"header": {
+			"farewellText": "Farewell, User",
+			"welcomeText": "Welcome, User"
+		}
+	}
 }
 ```
 
@@ -66,4 +70,4 @@ Now you IDE will suggest you the correct keys from this file.
 
 Even if you type the wrong key, you will get prompted and code will not compile.
 
-That was the simplest solution for type-check your translations using __react-i18next__.
+That was the simplest solution for type-check your translations using **react-i18next**.

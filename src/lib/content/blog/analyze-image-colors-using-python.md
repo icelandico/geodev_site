@@ -10,14 +10,15 @@ tag:
   - python
   - various
 ---
+
 Recently, I got an idea to analyze a specific type of graphic. **Flags**. I wanted to create a simple dataset of what colors the flags are made up of and in what proportions (colors) they occur. It sounds like a data science task, so I did it using Python.
 
 I wrote a program where you specify a directory, and it gives you a JSON with information about each image file found in this directory. In this post, I will focus only on the image analysis itself.
 
 To do it I needed two libraries:
 
-* <a href="https://pypi.org/project/extcolors/">extcolors</a>
-* <a href="https://pypi.org/project/Pillow/">Pillow</a>
+- <a href="https://pypi.org/project/extcolors/">extcolors</a>
+- <a href="https://pypi.org/project/Pillow/">Pillow</a>
 
 First, I had to get the images from the directory.
 
@@ -74,12 +75,13 @@ The latter is an array of objects, and each of them has a color code in RGB form
 
 ```json
 [
-  {
-    "file_name": "fi.png",
-    "img_colors": [
-      {"colorCode": "(255, 255, 255)", "percent": 61},
-      {"colorCode": "(0, 53, 128)", "percent": 39}]
-  }
+	{
+		"file_name": "fi.png",
+		"img_colors": [
+			{ "colorCode": "(255, 255, 255)", "percent": 61 },
+			{ "colorCode": "(0, 53, 128)", "percent": 39 }
+		]
+	}
 ]
 ```
 
