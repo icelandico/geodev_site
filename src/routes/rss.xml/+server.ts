@@ -56,12 +56,14 @@ const getTitle = (entry: RSSContent) => {
 const getExcerpt = (type: string, entry: RSSContent, length: number = 200) => {
 	if (type === 'blog-post' && entry.description) return entry.description;
 	if (type === 'work-item' && entry.description) return entry.description;
-	if (!entry.content || !entry.description) return '';
 
 	if (entry.content) {
 		const cleanContent = entry.content.trim().replace(/\s+/g, ' ').trim();
 		return cleanContent.length > length ? cleanContent.slice(0, length) + '...' : cleanContent;
 	}
+
+	if (!entry.content || !entry.description) return '';
+
 	return '';
 };
 
