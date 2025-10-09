@@ -30,10 +30,14 @@
 		name="ahrefs-site-verification"
 		content="9b133c133f14d80c96ea7f78ec4aab60db9f434b9d252be2ceab1ad6fba5c452"
 	/>
-<script defer src="https://cloud.umami.is/script.js" data-website-id="d6b0beb0-422c-4518-bace-575349801abf"></script>
+	<script
+		defer
+		src="https://cloud.umami.is/script.js"
+		data-website-id="d6b0beb0-422c-4518-bace-575349801abf"
+	></script>
 </svelte:head>
 
-<div class="flex flex-col min-h-screen dark:bg-primaryDark">
+<div class="flex flex-col min-h-screen bg-[#F5F5F5] dark:bg-primaryDark">
 	<header>
 		<nav class="hidden md:block">
 			<div class="flex flex-wrap items-center gap-4 px-6 h-16">

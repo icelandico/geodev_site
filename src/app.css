@@ -81,6 +81,17 @@ html {
 
 .dynamic-content table {
 	border-collapse: collapse;
+	width: auto;
+	min-width: 100%;
+	display: block;
+	overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+	.dynamic-content table {
+		display: table;
+		overflow-x: hidden;
+	}
 }
 
 .dynamic-content th,
