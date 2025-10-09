@@ -1,35 +1,19 @@
 <script>
 	import TitleBar from '$components/TitleBar.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
-	import Code from '$components/icons/code.svelte';
 	import ProjectCard from '$components/ProjectCard.svelte';
-	import Globe from '$components/icons/globe.svelte';
 
 	export let data;
 </script>
 
 <TitleBar title="Projects" />
 
-<Wrapper>
-	<div class="flex flex-col md:flex-row justify-between w-full gap-6">
-		<div class="flex flex-1 flex-col">
-			<div class="my-4 flex justify-center" title="Cartography">
-				<Globe width={44} style={'stroke-primaryBlack dark:stroke-white'} />
-			</div>
-			{#each data.mapProjects as project}
+<Wrapper contentStyle="lg:w-7/12">
+	<div class="flex md:flex-row justify-between w-full mt-8">
+		<div class="grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-8">
+			{#each data.projects as project}
 				<a href={project.selfUrl ? project.selfUrl : `/projects/${project.slug}`}>
-					<ProjectCard data={project} />
-				</a>
-			{/each}
-		</div>
-
-		<div class="flex flex-1 flex-col" title="Programming">
-			<div class="my-4 flex justify-center">
-				<Code width={44} height={44} />
-			</div>
-			{#each data.programmingProjects as project}
-				<a href={`/projects/${project.slug}`}>
-					<ProjectCard data={project} />
+					<ProjectCard data={project} type={project.type} />
 				</a>
 			{/each}
 		</div>
