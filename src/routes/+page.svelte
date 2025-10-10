@@ -30,7 +30,7 @@
 				Recent posts
 			</h2></a
 		>
-		<div class="mt-4 mb-8 border-b border-primaryBlue">
+		<div class="mt-4 mb-8 border-b border-primaryBlue dark:border-secondaryBlack">
 			{#each data.posts as post}
 				<PostItem {post} withYear />
 			{/each}
@@ -43,7 +43,7 @@
 				Projects
 			</h2></a
 		>
-		<div class="mt-4 mb-8 border-b border-primaryBlue">
+		<div class="mt-4 mb-8 border-b border-primaryBlue dark:border-secondaryBlack">
 			{#each data.projects as project}
 				<a
 					class="flex justify-between items-center group gap-4 dark:text-white hover:outline-1 hover:outline-primaryBlue hover:dark:outline-primaryOrange hover:outline-dashed py-3 cursor-pointer
