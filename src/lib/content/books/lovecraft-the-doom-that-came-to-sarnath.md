@@ -31,5 +31,6 @@ One of my favorite stories by the author. The action takes place in a remote cor
 
 In this case, Lovecraft must have been inspired by "Frankenstein." However, it lacks the romanticism of Mary Shelley's work. The titular character, Herber West, is a medical student completely consumed by his attempts to experiment on human corpses in an attempt to bring them back to life. The mad doctor gradually descends into the depths of madness to perfect his experiments.
 
-**"The Color Out of Space"**\
+**"The Color Out of Space"**
+
 A cosmic horror in a very literal sense. A mysterious meteorite crashes onto a New England farm. Soon, strange things begin to happen to the nearby plants, animals, and people. Although there are no elements from the Cthulhu Mythos, the familiar motifs of madness and fear of the unknown are present. Once again, a wonderful, mysterious New England atmosphere. A glimpse into something unknown to humanity that may initially spark interest but ultimately leads to fear and madness.
