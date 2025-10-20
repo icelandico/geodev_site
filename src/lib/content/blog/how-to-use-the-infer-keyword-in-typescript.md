@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: How to use the infer keyword in Typescript
-slug: How to use the infer keyword in Typescript
+slug: how to use the infer keyword in Typescript
 date: 2025-10-20T20:09:00.000+02:00
 description: infer is used exclusively within conditional types to extract a
   type from another type. It allows you to introduce a type variable that can be
