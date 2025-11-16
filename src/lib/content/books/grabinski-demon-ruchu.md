@@ -3,7 +3,7 @@ templateKey: book-item
 title: Demon Ruchu (Motion Demon)
 author: Stefan Grabiński
 slug: grabinski demon ruchu
-date: 2025-11-16T18:23:00.000+01:00
+date: 2025-10-31T18:23:00.000+01:00
 link: https://www.goodreads.com/book/show/3484674-the-motion-demon?from_search=true&from_srp=true&qid=p1l2W2Sukd&rank=1
 rating: "5"
 pages: 265
