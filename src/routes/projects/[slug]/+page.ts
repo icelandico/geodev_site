@@ -9,7 +9,8 @@ export async function load({ params }) {
 			description: project.metadata.description,
 			content: project.default,
 			meta: project.metadata,
-			date: project.metadata.date
+			date: project.metadata.date,
+			created: project.metadata.created
 		};
 	} catch (e) {
 		throw error(404, `Could not find ${params.slug}`);
