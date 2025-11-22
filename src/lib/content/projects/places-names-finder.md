@@ -2,6 +2,7 @@
 templateKey: work-item
 title: Places Names Finder
 date: 2024-09-18T20:15:00.000Z
+created: 2021-04-06T15:07:00.000+02:00
 image: /assets/places_names_finder.png
 description: >
   See how the places in Poland are distributed in terms of nomenclature. Search
@@ -10,13 +11,14 @@ url: https://icelandico.github.io/places-names-finder/
 repoUrl: https://github.com/icelandico/places-names-finder
 type: code
 ---
+
 As a cartography enthusiast, I was wondering how places in Poland are distributed taking into account the name of the place. While I was studying different maps over the years and reading articles I noticed some differences in places names distribution.
-I was looking for a tool to search the places by its endings and beginnings (prefixes, suffixes). I didn't find one so I decided to create my own. 
+I was looking for a tool to search the places by its endings and beginnings (prefixes, suffixes). I didn't find one so I decided to create my own.
 
-This simple application allows searching the places by their name. There are over 56 000 points in the database. Points are downloaded from the Polish Office of Geodesy and Cartography resources and processed. I removed some types of places which wouldn't have much impact on results like city districts and village parts. Every country has its own administration and settlement system so I don't want to be specific on this topic. 
+This simple application allows searching the places by their name. There are over 56 000 points in the database. Points are downloaded from the Polish Office of Geodesy and Cartography resources and processed. I removed some types of places which wouldn't have much impact on results like city districts and village parts. Every country has its own administration and settlement system so I don't want to be specific on this topic.
 
-Tools used in this project: Angular, CartoJS. 
+Tools used in this project: Angular, CartoJS.
 
-__Update 29/04/2021__ - I've added the second layer - rivers. Now it's possible to search the phrases for both layers. Also, there was a need to change the site design.
+**Update 29/04/2021** - I've added the second layer - rivers. Now it's possible to search the phrases for both layers. Also, there was a need to change the site design.
 
-__Update 01/06/2025__ - Unfortunately my Carto account has been removed due inactivity on my account. Also Carto does not offer any free tier anymore. I need to check for open source alternatives. Currently, the project does not work correctly because spatial data is not displayed.
+**Update 01/06/2025** - Unfortunately my Carto account has been removed due inactivity on my account. Also Carto does not offer any free tier anymore. I need to check for open source alternatives. Currently, the project does not work correctly because spatial data is not displayed.

@@ -8,6 +8,7 @@ export interface Project {
 	type: 'map' | 'code';
 	selfUrl?: string;
 	date: string;
+	created: string;
 }
 
 type GlobEntry = {
@@ -25,5 +26,5 @@ export const projects = Object.entries(
 		};
 	})
 	.sort((a, b) =>
-		a.date && b.date ? new Date(b?.date).getTime() - new Date(a?.date).getTime() : 0
+		a.created && b.created ? new Date(b?.created).getTime() - new Date(a?.created).getTime() : 0
 	);
