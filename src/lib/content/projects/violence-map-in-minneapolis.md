@@ -3,6 +3,7 @@ templateKey: work-item
 title: Violence map in Minneapolis
 date: 2023-06-06T20:14:00.000Z
 image: /assets/project-violence-map-screenshot.jpg
+created: 2019-04-23T15:07:00.000+02:00
 description: Map shows police incidents with heatmap layer generated for each
   year to present spatial distribution of the incidents. Used official
   MinneapolisGIS data.
@@ -10,9 +11,10 @@ url: https://icelandico.github.io/incidents-map/
 repoUrl: https://github.com/icelandico/incidents-map
 type: code
 ---
+
 App was created to show the crimes distribution in Minneapolis by the type and year of occurence.
 
-I used Leaflet to parse markers with appriopriate information and display data on the map. 
+I used Leaflet to parse markers with appriopriate information and display data on the map.
 There is an option to generate the heatmap which shows clearly how the violence incidents are distributed over the city.
 
 To generate the heatmap I used leaflet plugin - leaflet-heatmap.js.

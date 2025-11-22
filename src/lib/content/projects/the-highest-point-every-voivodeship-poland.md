@@ -2,10 +2,12 @@
 templateKey: work-item
 title: The highest point in every voivodeship in Poland
 date: 2025-08-23T22:13:00.000+02:00
+created: 2025-09-01T15:07:00.000+02:00
 image: /assets/peaks_pl.webp
 description: Map showing the highest point in every voivodeship in Poland
 type: map
 ---
+
 This map presents the highest peak of every voivodeship in Poland (województwo - highest-level administrative division of Poland).
 
 The peaks are diverse, ranging from the low-lying hills of northern and central Poland to the towering mountains in the south. The lowest highest point is Czarna Góra in the Kuyavian-Pomeranian Voivodeship, at a 189 meters, while the highest is Rysy in the Małopolskie Voivodeship, reaching 2,499 meters.
@@ -17,7 +19,7 @@ The highest elevations are concentrated in southern Poland. The peaks in this re
 - Góra Pięciu Kopców (Śląskie) is in the Silesian Beskids.
 - Tarnica (Podkarpackie) is in the Bieszczady Mountains.
 
-In contrast, the northern and central voivodeships feature much lower peaks, which are primarily hills or moraines left by glaciers. Examples include Dylewska Góra (Warmińsko-Mazurskie) and Wieżyca (Pomorskie), which are part of the post-glacial landscape. 
+In contrast, the northern and central voivodeships feature much lower peaks, which are primarily hills or moraines left by glaciers. Examples include Dylewska Góra (Warmińsko-Mazurskie) and Wieżyca (Pomorskie), which are part of the post-glacial landscape.
 
 The table with data:
 
@@ -39,6 +41,5 @@ The table with data:
 | 14  | Góra Pięciu Kopców | 1534          | 5032           | Śląskie             |
 | 15  | Śnieżka            | 1603          | 5259           | Dolnośląskie        |
 | 16  | Rysy               | 2499          | 8197           | Małopolskie         |
-
 
 Made with QGis 3.

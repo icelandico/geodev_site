@@ -2,10 +2,12 @@
 templateKey: work-item
 title: Voivodeships centroids
 date: 2024-09-28T19:50:00.000Z
+created: 2018-01-24T15:07:00.000+02:00
 image: /assets/map_centroids.png
 description: Spatial analysis showing relation between region centroid and capital city
 type: map
 ---
+
 This map is a part of my simple spatial analysis maps collection.
 
 The centroid is also known as geographical centre. It's the points upon which the shape would balance. It's easy to calculate this point for regular shape like circle or rectangle but it's getting complicated when it comes to determine it for irregular shape. The example is most of administrative division.

@@ -2,21 +2,26 @@
 templateKey: work-item
 title: Socio-economic development in Poland
 date: 2024-04-10T20:04:00.000Z
+created: 2023-01-11T15:07:00.000+02:00
 image: /assets/hdi_poland-01.png
 description: Map showing voivodeships of Poland by HDI
 type: map
 ---
+
 HDI (Human Development Index) is a statistic index which considers number of years of schooling, GDP and life expentancy. The index for a whole country (0.876) puts it on a 34th place out of 196. Countries with similar score are:
+
 - Bahrain, Lithuania, Saudi Arabia (0.875)
 - Greece (0.887)
 - Czech Republic (0.889)
 
 The highest HDI in Poland have these voivodeships:
+
 - Mazovian (including the capital Warsaw) - 0.926
 - Lower Silesian - 0.889
 - Lesser Poland, Pomeranian - 0.888
 
 The lowest HDI in Poland have following voivodeships:
+
 - Warmian-Masurian - 0.844
 - Lubusz, Kuyavian-Pomeranian - 0.858
 

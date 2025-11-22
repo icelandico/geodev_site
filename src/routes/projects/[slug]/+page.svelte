@@ -10,7 +10,7 @@
 
 <Wrapper contentStyle="md:w-4/6">
 	<div class="gap-8 w-full mt-4">
-		<p class="text-white italic">Published: {getMonthWithYear(data.date)}</p>
+		<p class="text-white italic">Published: {getMonthWithYear(data.created)}</p>
 		<article>
 			<div class="dynamic-content">
 				<svelte:component this={data.content} />
