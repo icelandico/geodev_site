@@ -2,6 +2,7 @@
 templateKey: work-item
 title: Map - Bornholm in 1901
 date: 2024-08-07T19:49:00.000Z
+created: 2019-09-22T15:07:00.000+02:00
 image: /assets/map_bornholm_.jpg
 description: Bornholm island in 1901
 type: map
