@@ -1,6 +1,6 @@
 ---
 templateKey: book-item
-title: The Cosmic Puppeys
+title: The Cosmic Puppets
 author: Philip K. Dick
 slug: philip k dick cosmic puppets
 date: 2025-12-13T19:06:00.000+01:00
