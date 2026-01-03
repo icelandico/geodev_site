@@ -1,6 +1,6 @@
 ---
 templateKey: book-item
-title: https://www.goodreads.com/book/show/43181987-turysta-polski-w-zsrr?ac=1&from_search=true&qid=VKe6vB20IO&rank=1
+title: Turysta polski w ZSRR
 author: Juliusz Strachota
 slug: strachota turysta polski w zsrr
 date: 2026-01-03T20:16:00.000+01:00
