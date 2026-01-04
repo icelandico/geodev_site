@@ -23,7 +23,9 @@ The application displays a large portion of towns and cities in Poland (approxim
 - settlements,
 - hamlets
 
-Below are some interesting patterns I noticed using this application. - Towns ending in "jmy," such as Kiekskiejmy, Żytkiejmy, Skaliszkiejmy, are found almost exclusively in the northeastern part of the country.
+Below are some interesting patterns I noticed using this application.
+
+- Towns ending in "jmy," such as Kiekskiejmy, Żytkiejmy, Skaliszkiejmy, are found almost exclusively in the northeastern part of the country.
 - Towns ending in "szew" (e.g., Łukaszew, Hruszew) are located exclusively in the center of the country.
 - Towns ending in "ów" (e.g., Chrzanów, Rzeszów) are largely located in southern Poland. They also occur in other regions of the country, but their number in the Lesser Poland, Subcarpathian, and Silesian voivodeships is enormous.
 
