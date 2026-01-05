@@ -25,7 +25,7 @@ Instead of rendering each element individually as an HTML element, the applicati
 
 In the MapTiler panel, go to the **Tiles** tab. With the free plan, you can load one dataset. For a hobby project, this is sufficient. You can also add files in the **Data** tab, but there are limitations on the uploaded file size (maximum 10,000 points or a file size of 10 MB). For my needs, this was too small. It's also worth noting that loading data in GeoJSON format opens up other possibilities for data manipulation using the SDK.
 
-Spatial data is usually available in the shapefile format. MapTiler accepts data in the GeoPackage format. Format conversion can be performed in the open-source QGis program. Other way is to find a website which can transform these formats for example <a href="https://mygeodata.cloud/converter/shp-to-geopackage" target=_"blank">here</a>. Therefore, our GeoPackage file should be loaded in the **Tiles** tab in the MapTiler panel. Here, we can also preview our data. It's crucial to generate an API key in the **API Keys** tab. 
+Spatial data is usually available in the shapefile format. MapTiler accepts data in the GeoPackage format. Format conversion can be performed in the open-source QGis program. Other way is to find a website which can transform these formats for example <a href="https://mygeodata.cloud/converter/shp-to-geopackage" target="_blank">here</a>. Therefore, our GeoPackage file should be loaded in the **Tiles** tab in the MapTiler panel. Here, we can also preview our data. It's crucial to generate an API key in the **API Keys** tab. 
 In the image below I have highlighted the important options that are needed in this tutorial.
 
 ![Map Tiler dashboard](/assets/maptiler_1.png)
