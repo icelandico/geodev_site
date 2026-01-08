@@ -2,6 +2,6 @@ name = 'geodev'
 compatibility_date = "2026-01-08"
 
 [assets]
-directory = "./dist/"
+directory = "./build"
 not_found_handling = "404-page"
 html_handling = "auto-trailing-slash"
