@@ -1,4 +1,4 @@
-name = "my-worker"
+name = 'geodev'
 compatibility_date = "2026-01-08"
 
 [assets]
