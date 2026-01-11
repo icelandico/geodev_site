@@ -5,7 +5,3 @@ compatibility_date = "2026-01-08"
 directory = "./build"
 not_found_handling = "single-page-application"
 html_handling = "auto-trailing-slash"
-
-[vars]
-GITHUB_CLIENT_ID = "Ov23lib6WrKpQI5NJpZc"
-GITHUB_CLIENT_SECRET = "d7bec08832a18aa28650e0e8fe60e2a8d1041f80"
