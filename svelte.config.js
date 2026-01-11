@@ -12,6 +12,9 @@ const config = {
 	],
 	extensions: ['.svelte', '.md'],
 	kit: {
+		paths: {
+			relative: false
+		},
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
