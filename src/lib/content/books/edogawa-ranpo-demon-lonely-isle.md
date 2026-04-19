@@ -8,7 +8,7 @@ link: https://www.goodreads.com/book/show/61365884-the-demon-of-the-lonely-isle?
 rating: "4.5"
 pages: 320
 genre:
-  - horror
+  - mystery
 polishOnly: false
 ---
 This book was my first encounter with Japanese literature. I don't think I'd ever even read a book by an Asian author before.
