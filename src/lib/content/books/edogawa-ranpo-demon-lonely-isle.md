@@ -9,6 +9,7 @@ rating: "4.5"
 pages: 320
 genre:
   - mystery
+  - crime
 polishOnly: false
 ---
 This book was my first encounter with Japanese literature. I don't think I'd ever even read a book by an Asian author before.
