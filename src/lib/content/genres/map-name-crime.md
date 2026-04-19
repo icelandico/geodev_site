@@ -1,3 +1,3 @@
 ---
-name: crime
+name: mystery
 ---
