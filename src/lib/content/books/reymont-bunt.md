@@ -8,7 +8,7 @@ link: https://www.goodreads.com/book/show/13562086-bunt?from_search=true&from_sr
 rating: "4"
 pages: 200
 genre:
-  - history
+  - dystopia
 polishOnly: false
 ---
 When Orwell's "Animal Farm" was published, a book on the subject of animal rebellion already existed, written in 1924 by Polish writer Władysław Reymont, author of the Nobel Prize in Literature for his novel "The Peasants." In his book, Orwell wanted to warn against totalitarianism, drawing on his fresh experiences with World War II. Reymont, however, was horrified by the scale, brutality, and effects of the Bolshevik Revolution, and this inspired him to write "Rebellion."
