@@ -1,3 +1,3 @@
 ---
-name: Dystopia
+name: dystopia
 ---
