@@ -37,7 +37,7 @@
 	<p class="flex justify-center items-center mt-4 dark:text-white text-primaryBlack">
 		Based in Gdynia, Poland
 	</p>
-	<a class="mt-4 w-[150px] mx-auto" href="https://512kb.club"
-		>a proud member of the orange team of 512KB club</a
+	<a class="mt-4 w-[300px] mx-auto text-amber-500 text-center text-xs" href="https://512kb.club"
+		>member of the orange team of 512KB club</a
 	>
 </footer>
