@@ -38,9 +38,6 @@
 		Based in Gdynia, Poland
 	</p>
 	<a class="mt-4 w-[150px] mx-auto" href="https://512kb.club"
-		><img
-			src="https://512kb.club/assets/images/orange-team.svg"
-			alt="a proud member of the orange team of 512KB club"
-		/></a
+		>a proud member of the orange team of 512KB club</a
 	>
 </footer>
