@@ -31,9 +31,9 @@
 		content="9b133c133f14d80c96ea7f78ec4aab60db9f434b9d252be2ceab1ad6fba5c452"
 	/>
 	<script
-		defer
-		src="https://cloud.umami.is/script.js"
-		data-website-id="d6b0beb0-422c-4518-bace-575349801abf"
+		type="module"
+		src="https://static.cloudflareinsights.com/beacon.min.js"
+		data-cf-beacon={JSON.stringify({ token: '2316054ecf964b088dab88c54b1521fd' })}
 	></script>
 </svelte:head>
 
