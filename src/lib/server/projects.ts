@@ -9,6 +9,7 @@ export interface Project {
 	selfUrl?: string;
 	date: string;
 	created: string;
+	published: boolean;
 }
 
 type GlobEntry = {
@@ -25,6 +26,7 @@ export const projects = Object.entries(
 			slug: parse(filepath).name
 		};
 	})
+	.filter((project) => project.published)
 	.sort((a, b) =>
 		a.created && b.created ? new Date(b?.created).getTime() - new Date(a?.created).getTime() : 0
 	);
