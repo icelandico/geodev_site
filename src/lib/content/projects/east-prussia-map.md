@@ -6,6 +6,7 @@ image: /assets/konigsberg_1810.jpg
 description: Former province of Kingdom of Prussia.
 created: 2018-11-15T15:07:00.000+02:00
 type: map
+published: true
 ---
 
 East Prussia (Ostpreußen) was a province of the Kingdom of Prussia and later of the Weimar Republic. Now, this region is divided between Lithuania, Russian Federation, and Poland.

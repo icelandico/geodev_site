@@ -6,6 +6,7 @@ created: 2018-01-24T15:07:00.000+02:00
 image: /assets/map_centroids.png
 description: Spatial analysis showing relation between region centroid and capital city
 type: map
+published: true
 ---
 
 This map is a part of my simple spatial analysis maps collection.

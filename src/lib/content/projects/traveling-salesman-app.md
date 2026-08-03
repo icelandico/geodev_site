@@ -9,6 +9,7 @@ description: Application solves traveling salesman problem. Shows the shorter
 url: https://icelandico.github.io/traveling-salesman/
 repoUrl: https://github.com/icelandico/traveling-salesman
 type: code
+published: true
 ---
 
 There's an old problem - "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?"

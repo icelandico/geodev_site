@@ -6,6 +6,7 @@ created: 2019-09-18T15:07:00.000+02:00
 image: /assets/map_insubrica_historica.png
 description: Historical map for Swiss Museum publication
 type: map
+published: true
 ---
 
 This year I started to prepare maps on behalf of duo historians, publications written by [Insubrica historica](https://insubricahistorica.ch/).

@@ -6,6 +6,7 @@ created: 2019-09-22T15:07:00.000+02:00
 image: /assets/map_bornholm_.jpg
 description: Bornholm island in 1901
 type: map
+published: true
 ---
 One of my first map created without vector graphics editor. Only GIMP was used here. It wasn't a good choice because almost every line here is traced by hand (or rather with mouse). It was just before I discovered how to use geospatial data in vector graphics editors which helps a lot with already traced and georeferenced data.
 

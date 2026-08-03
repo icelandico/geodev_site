@@ -8,6 +8,7 @@ description: Data viewer for public data of the city of Gdynia
 url: https://icelandico.github.io/gdynia-open-data/
 repoUrl: https://github.com/icelandico/gdynia-open-data
 type: code
+published: true
 ---
 
 Last years, more and more data provided by public administration is easily available on the web. The city of Gdynia have a website with open data that covers different categories of city management like public transport, education or health service.

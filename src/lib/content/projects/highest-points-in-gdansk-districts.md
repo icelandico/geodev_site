@@ -6,6 +6,7 @@ created: 2025-10-22T15:07:00.000+02:00
 image: /assets/peaks_gdansk_en.png
 description: Highest points for every district in Gdańsk
 type: map
+published: true
 ---
 
 Gdańsk, a city located on the Baltic Sea, is one of the cities with lowest elevation in Poland. However, the terrain is very diverse, with elevation differences of almost 200 meters in various parts of the city.

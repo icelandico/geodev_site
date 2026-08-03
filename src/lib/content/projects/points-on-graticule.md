@@ -8,6 +8,7 @@ description: Just showing parallels and meridians for a chosen point
 url: https://icelandico.github.io/cities-graticule-front/
 repoUrl: https://github.com/icelandico/cities-graticule-front
 type: code
+published: true
 ---
 
 Tiny cartography-related project. I wanted to display meridian and parallel for a given points. Why? To see that some points (cities) are not so north (or south) compared to others. To have a better view on what is places on similar latitude.

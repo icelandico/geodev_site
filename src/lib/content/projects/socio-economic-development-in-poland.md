@@ -6,6 +6,7 @@ created: 2023-01-11T15:07:00.000+02:00
 image: /assets/hdi_poland-01.png
 description: Map showing voivodeships of Poland by HDI
 type: map
+published: true
 ---
 
 HDI (Human Development Index) is a statistic index which considers number of years of schooling, GDP and life expentancy. The index for a whole country (0.876) puts it on a 34th place out of 196. Countries with similar score are:

@@ -10,6 +10,7 @@ description: Map shows police incidents with heatmap layer generated for each
 url: https://icelandico.github.io/incidents-map/
 repoUrl: https://github.com/icelandico/incidents-map
 type: code
+published: true
 ---
 
 App was created to show the crimes distribution in Minneapolis by the type and year of occurence.

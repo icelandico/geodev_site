@@ -10,6 +10,7 @@ description: >
 url: https://icelandico.github.io/places-names-finder/
 repoUrl: https://github.com/icelandico/places-names-finder
 type: code
+published: true
 ---
 
 As a cartography enthusiast, I was wondering how places in Poland are distributed taking into account the name of the place. While I was studying different maps over the years and reading articles I noticed some differences in places names distribution.

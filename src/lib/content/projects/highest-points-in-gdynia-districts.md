@@ -9,6 +9,7 @@ description: Gdynia, a port city located on the Baltic Sea in the Bay of Gdańsk
   Voivodeship (the largest is Gdańsk, for which an identical map was created in
   a previous project).
 type: map
+published: true
 ---
 Gdynia, a port city located on the Baltic Sea in the Bay of Gdańsk, is the second largest city in the Tricity Agglomeration and the Pomeranian Voivodeship (the largest is Gdańsk, for which an identical map was created in a previous project).
 

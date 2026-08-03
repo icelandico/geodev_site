@@ -6,5 +6,6 @@ created: 2023-07-22T15:07:00.000+02:00
 image: /assets/tallinn_web.png
 description: Tallinn map with relief
 type: map
+published: true
 ---
 Another example of a map that I make from time to time.

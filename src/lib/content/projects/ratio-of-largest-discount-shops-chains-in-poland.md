@@ -6,6 +6,7 @@ created: 2022-03-02T15:07:00.000+02:00
 image: /assets/markets_pl-01-01.png
 description: Difference in the ratio of the two largest discount shops chains in Poland
 type: map
+published: true
 ---
 
 Two biggest supermarket chains in Poland are Biedronka and Lidl. The first one has almost 3300 shops in the country, while the latter owns 850 shops. The advantage is very significant.

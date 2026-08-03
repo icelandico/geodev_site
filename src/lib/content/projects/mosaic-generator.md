@@ -8,6 +8,7 @@ created: 2023-02-19T15:07:00.000+02:00
 url: https://icelandico.github.io/mosaic-generator/
 repoUrl: https://github.com/icelandico/mosaic-generator
 type: code
+published: true
 ---
 
 T﻿iny and quick project. Generate mosaic in given container with columns and rows.

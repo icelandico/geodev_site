@@ -6,6 +6,7 @@ image: /assets/map_poster_2_2.png
 created: 2017-10-02T15:07:00.000+02:00
 description: Map poster with any region or city.
 type: map
+published: true
 ---
 
 Occasionally, I create map posters in various styles. I've had the opportunity to prepare dozens of similar ones.

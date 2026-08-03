@@ -8,6 +8,7 @@ description: Application showing which colours appear on flags and in what perce
 url: https://icelandico.github.io/flag-colors-front/
 repoUrl: https://github.com/icelandico/flag-colors-front
 type: code
+published: true
 ---
 
 I'm interested in vexillology (study of the history, symbolism and usage of flags). I was curious to know what colours each flag is made up of and what percentage of the total flag a particular colour occupies.

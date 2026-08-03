@@ -8,6 +8,7 @@ description: Poland’s forests cover about 30% of the country and keep growing.
   Some areas are packed with woods like Bieszczady, while others, like Żuławy or
   Katowice, have barely any.
 type: map
+published: true
 ---
 
 Map prepared based on data published by Statistics Poland. Forest cover presented by powiat - second-level unit of local government and administration in Poland.\

@@ -7,6 +7,7 @@ image: /assets/map_transnistria.jpg
 description: Map of Transnistria, unrecognized state in Eastern Europe
 url: ''
 type: map
+published: true
 ---
 
 The country that doesn't exist. Or rather exists only in small group of people minds.

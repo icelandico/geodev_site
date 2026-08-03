@@ -6,6 +6,7 @@ created: 2019-04-22T15:08:00.000+02:00
 image: /assets/streets.png
 description: The most common street names in Poland
 type: map
+published: true
 ---
 This map was simple to create but it was more difficult to obtain the data for it.
 

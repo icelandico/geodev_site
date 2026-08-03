@@ -11,6 +11,7 @@ description: >-
   Map is a part of the website https://www.tapsafe.org/ .
 url: https://www.tapsafe.org/
 type: code
+published: true
 ---
 
 Tap Safe is a non-profit project. The main purpose of it is to provide valuable information about tap water.

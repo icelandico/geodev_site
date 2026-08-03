@@ -7,6 +7,7 @@ image: /assets/mennonites_website.png
 description: An exhibition in the form of a website
 url: https://www.mennoniciwpolsce.pl/
 type: code
+published: true
 ---
 Virtual exhibition and presentation about Mennonites in Poland. Thanks to this website you can learn about the history of the Mennonites in Poland. Content is divided into four separate chapters. Each of them includes images, explanations, and videos regarding the topic. The website is available in three languages: Polish, English, and German.
 

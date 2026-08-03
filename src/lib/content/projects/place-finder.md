@@ -11,6 +11,7 @@ url: https://icelandico.github.io/name-map-pl/
 repoUrl: https://github.com/icelandico/name-map-pl
 type: code
 selfUrl: ""
+published: true
 ---
 This is the second version of a project I completed several years ago.
 The previous application is no longer available due to the new level of service from the spatial data provider I previously used (carto.com). I reviewed the list of available solutions, and my needs are currently met by <a href="https://www.maptiler.com/" target="_blank">MapTiler</a>, where I can host the spatial data necessary for this project for free. In addition to the previous versions I added
