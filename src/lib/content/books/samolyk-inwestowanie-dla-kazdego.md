@@ -5,19 +5,19 @@ author: Mateusz Samołyk
 slug: samolyk inwestowanie dla kazdego
 date: 2025-01-08T18:56:00.000Z
 link: https://www.goodreads.com/book/show/198546081-inwestowanie-dla-ka-dego
-rating: "5"
+rating: "2.5"
 pages: 480
 genre:
   - non-fiction
   - finance
 polishOnly: true
 ---
-Investing is something that every person should try. Regardless of your feelings after contact with the stock market or other financial instruments - it is valuable experience and knowledge. By most people in my country it is perceived as reserved for the rich or a handful of initiated people.
+When your online popularity grows, you want to monetize it. I'm not an internet creator, so this is how I imagine the process based on my observations. This is also the case here.
 
-The author of this book is a quite popular <a href="https://inwestomat.eu">blogger</a> who writes about investing and saving. 
-I have been interested in the topic of investments for several years, but my knowledge has increased significantly thanks to the content on this blog.Fortunately, he is not one of those financial gurus who promises huge profits if you just buy his book or take a course. Rather, he introduces the reader to issues from the world of finance and shows how you can manage your money. What's more, the approach promoted in the book is passive investing. 
+The author is a popular finance blogger. I've been interested in investing for several years and am well-versed in the author's content. His posts contain a lot of useful analysis and data. Fortunately, it's not motivational, get-rich-quick content, and unfortunately, there's a lot of that material online.
 
-What I particularly like about this author's work is the large amount of analysis and charts. How did the instruments behave in specific periods of time, when their value increased, when it decreased? Can you see any correlations between them?
+I wasn't surprised when the author announced the release of a book on investing. The author decided to turn his existing blog content into a book. And so, I was "swayed" by a book by an internet celebrity in the field of finance.
 
-This is a great textbook, aimed mainly at people who are just starting out in investing. 
-However, for me, it is almost a complete book. Although I treat it as a "textbook", it took me only a three days to read it. After reading it, I took notes and made some decisions based on the advice and tips that the author provides. The amount of knowledge contained here means I will definitely read it again.
+It duplicates content from previously published posts. The book is long, but it didn't need to be. The author tends to write lengthy paragraphs on a given topic. A major plus is the numerous charts and illustrations that help "understand" the vast amount of content. It's a good resource for those who already have a basic understanding of investing.
+
+The idea behind writing this book is sound. Investing in Poland is a relatively small business, and the author wants to bring this topic to a wider audience. However, the trend of reposting existing content repeatedly discourages me from further exploration of such work.
