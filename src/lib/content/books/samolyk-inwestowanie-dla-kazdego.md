@@ -16,7 +16,7 @@ When your online popularity grows, you want to monetize it. I'm not an internet 
 
 The author is a popular finance blogger. I've been interested in investing for several years and am well-versed in the author's content. His posts contain a lot of useful analysis and data. Fortunately, it's not motivational, get-rich-quick content, and unfortunately, there's a lot of that material online.
 
-I wasn't surprised when the author announced the release of a book on investing. The author decided to turn his existing blog content into a book. And so, I was "swayed" by a book by an internet celebrity in the field of finance.
+I wasn't surprised when the author announced the release of a book on investing. The author decided to turn his existing blog content into a book. And unfortunately, I also succumbed to the illusion that it was worth buying a book by an internet celebrity.
 
 It duplicates content from previously published posts. The book is long, but it didn't need to be. The author tends to write lengthy paragraphs on a given topic. A major plus is the numerous charts and illustrations that help "understand" the vast amount of content. It's a good resource for those who already have a basic understanding of investing.
 
