@@ -16,3 +16,6 @@ This novella is set on the planet Werel, which is inhabited by several human tri
 All the human tribes inhabiting the planet must cooperate and set aside their disputes for a time in order to survive this difficult period. In addition to nature, their enemy is a tribe of wild Gauls, who migrate en masse from the north of the planet during this period, bringing destruction and chaos.
 
 In my opinion, this is a story about people’s fear of other cultures and other people. The two groups of people depicted in the book are very similar, but that is enough to make their relationships full of mistrust and sometimes even hostile. Although the planet is hostile and human resources are limited, the two groups rarely cooperate—only when faced with a greater threat.
+
+The interracial love story is a key element here. While I don’t find it particularly interesting, it does complement the themes of fear of the unknown and breaking social taboos.
+It’s a very short novella, but it fits right into my favorite genre: a blend of science fiction and social commentary.
