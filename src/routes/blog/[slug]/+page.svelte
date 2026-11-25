@@ -1,13 +1,13 @@
 <script>
-	import Wrapper from '$components/Wrapper.svelte';
+	import Comments from '$components/Comments.svelte';
+import Wrapper from '$components/Wrapper.svelte';
 	import { formatDate } from '$utils/formatDate';
-	import theme from '$lib/store/theme';
-	$: themeVariant = $theme === 'light' ? 'boxy-light' : 'gruvbox-dark';
+
 
 	export let data;
 </script>
 
-<Wrapper contentStyle="flex flex-col">
+<Wrapper>
 	<h1 class="mb-2 text-3xl md:text-5xl dark:text-white">{data.meta.title}</h1>
 	<div class="my-4 flex justify-between items-center dark:text-white">
 		<p>{formatDate(data.meta.date)}</p>
@@ -22,13 +22,5 @@
 			<svelte:component this={data.content} />
 		</div>
 	</article>
-	<section class="my-8">
-		<script src="https://utteranc.es/client.js"
-			repo="icelandico/geodev_site"
-			issue-term="pathname"
-			theme={themeVariant}
-			crossorigin="anonymous"
-			async>
-		</script>
-	</section>
+	<Comments />
 </Wrapper>

@@ -5,8 +5,21 @@
 	import DarkmodeOff from './icons/darkmodeOff.svelte';
 	$: isLightTheme = $theme === 'light';
 
+	function utterancesTheme() {
+		if (document.querySelector('.utterances-frame')) {
+			const theme = document.documentElement.className.includes('dark') ? 'gruvbox-dark' : 'boxy-light'
+			const message = {
+				type: 'set-theme',
+				theme: theme
+			};
+			const iframe = document.querySelector('.utterances-frame');
+			iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+		}
+	}
+
 	const handleToggleTheme = () => {
 		isLightTheme ? theme.set('dark') : theme.set('light');
+		utterancesTheme();
 	};
 </script>
 

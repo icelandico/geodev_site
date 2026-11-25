@@ -1,5 +1,6 @@
 <script lang="ts">
-	import GenreTag from '$components/GenreTag.svelte';
+	import Comments from '$components/Comments.svelte';
+import GenreTag from '$components/GenreTag.svelte';
 	import ExternalLink from '$components/icons/externalLink.svelte';
 	import Rating from '$components/Rating.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
@@ -9,7 +10,7 @@
 	const bookGenres = data.meta.genre;
 </script>
 
-<Wrapper>
+<Wrapper contentStyle="flex flex-col">
 	<article>
 		<div class="mb-12">
 			<h1 class="mb-2 text-3xl dark:text-white">{data.meta.title}</h1>
@@ -39,4 +40,5 @@
 			<svelte:component this={data.content} />
 		</div>
 	</article>
+	<Comments />
 </Wrapper>

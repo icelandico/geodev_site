@@ -1,4 +1,5 @@
 <script>
+	import Comments from '$components/Comments.svelte';
 	import TitleBar from '$components/TitleBar.svelte';
 	import Wrapper from '$components/Wrapper.svelte';
 	import { getMonthWithYear } from '$utils/formatDate';
@@ -47,4 +48,5 @@
 			<p class="text-center text-lg text-gray-700 dark:text-gray-200">Page not accessible</p>
 		{/if}
 	</div>
+	<Comments />
 </Wrapper>
